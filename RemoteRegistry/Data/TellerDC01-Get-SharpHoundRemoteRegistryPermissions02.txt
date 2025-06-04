@@ -1,0 +1,56 @@
+Run Host: MagicPC01
+Security Context: Standard User - jsykora
+Target Host: TellerDC01
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Services\Kdc\StrongCertificateBindingEnforcement - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\CertificateMappingMethods - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\ClientAllowedNTLMServers - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\NtlmMinClientSec - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\NtlmMinServerSec - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\RestrictReceivingNTLMTraffic - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\RestrictSendingNTLMTraffic - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\LMCompatibilityLevel - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\UseMachineId - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\EnableSecuritySignature - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\RequireSecuritySignature - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\System\CurrentControlSet\Control\ProductOptions\ProductSuite - ReadControl Error
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\System\CurrentControlSet\Control\Print\Printers\DefaultSpoolDirectory - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;CCDCLCSWRPSDRC;;;SO)(A;CIIOID;SDGWGR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)(A;ID;KR;;;AC)(A;CIIOID;GR;;;AC)
+-----------------------------------

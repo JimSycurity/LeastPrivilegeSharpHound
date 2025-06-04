@@ -1,0 +1,69 @@
+Run Host: TellerDC01
+Security Context: Domain Admin
+
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Services\Kdc\StrongCertificateBindingEnforcement - Standard User SubKey ACEs: (A;CI;KR;;;BU)
+Full SDDL: O:SYG:SYD:PAI(A;CIIO;KA;;;CO)(A;CI;KA;;;SY)(A;CI;KA;;;BA)(A;CI;KR;;;BU)(A;CI;KR;;;S-1-5-21-3520149094-1197618848-1674470492-2155)(A;CI;KR;;;AC)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\CertificateMappingMethods - Standard User SubKey ACEs: (A;CI;KR;;;BU)
+Full SDDL: O:SYG:SYD:PAI(A;CIIO;KA;;;CO)(A;CI;KA;;;SY)(A;CI;KA;;;BA)(A;CI;KR;;;BU)(A;;CC;;;S-1-5-21-3520149094-1197618848-1674470492-2155)(A;CI;KR;;;AC)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\ClientAllowedNTLMServers - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;KR;;;SO)(A;CIIOID;GR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\NtlmMinClientSec - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;KR;;;SO)(A;CIIOID;GR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\NtlmMinServerSec - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;KR;;;SO)(A;CIIOID;GR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\RestrictReceivingNTLMTraffic - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;KR;;;SO)(A;CIIOID;GR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0\RestrictSendingNTLMTraffic - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;KR;;;SO)(A;CIIOID;GR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\LMCompatibilityLevel - Standard User SubKey ACEs: (A;CIIO;GR;;;AU)(A;;KR;;;AU)
+Full SDDL: O:SYG:SYD:PAI(A;CIIO;GA;;;CO)(A;CIIO;GR;;;AU)(A;;KR;;;AU)(A;;KA;;;SY)(A;CIIO;GA;;;SY)(A;;KA;;;SY)(A;CIIO;GA;;;BA)(A;;KA;;;BA)(A;CIIO;GR;;;SO)(A;;KR;;;SO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\UseMachineId - Standard User SubKey ACEs: (A;CIIO;GR;;;AU)(A;;KR;;;AU)
+Full SDDL: O:SYG:SYD:PAI(A;CIIO;GA;;;CO)(A;CIIO;GR;;;AU)(A;;KR;;;AU)(A;;KA;;;SY)(A;CIIO;GA;;;SY)(A;;KA;;;SY)(A;CIIO;GA;;;BA)(A;;KA;;;BA)(A;CIIO;GR;;;SO)(A;;KR;;;SO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\EnableSecuritySignature - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;CCDCLCSWRPSDRC;;;SO)(A;CIIOID;SDGWGR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)(A;ID;KR;;;AC)(A;CIIOID;GR;;;AC)(A;ID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-323
+2135806-4053264122-3456934681)(A;CIIOID;GR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\RequireSecuritySignature - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;CCDCLCSWRPSDRC;;;SO)(A;CIIOID;SDGWGR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)(A;ID;KR;;;AC)(A;CIIOID;GR;;;AC)(A;ID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-323
+2135806-4053264122-3456934681)(A;CIIOID;GR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\System\CurrentControlSet\Control\ProductOptions\ProductSuite - Standard User SubKey ACEs: (A;CI;KR;;;AU)
+Full SDDL: O:BAG:S-1-5-21-397955417-626881126-188441444-513D:PAI(A;CI;KR;;;AU)(A;CI;KA;;;SY)(A;CI;KA;;;BA)(A;CI;KR;;;SO)
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\System\CurrentControlSet\Control\Print\Printers\DefaultSpoolDirectory - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
+Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;CCDCLCSWRPSDRC;;;SO)(A;CIIOID;SDGWGR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)(A;ID;KR;;;AC)(A;CIIOID;GR;;;AC)
