@@ -27,9 +27,9 @@ $ValueKeyPairs = [ordered]@{
     NtlmMinServerSec                              = 'SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0'
     RestrictReceivingNTLMTraffic                  = 'SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0'
     RestrictSendingNTLMTraffic                    = 'SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0'
+    EnableSecuritySignature                       = 'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
     LMCompatibilityLevel                          = 'SYSTEM\CurrentControlSet\Control\Lsa'
     UseMachineId                                  = 'SYSTEM\CurrentControlSet\Control\Lsa'
-    EnableSecuritySignature                       = 'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
     RequireSecuritySignature                      = 'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
     # Network access: Remotely accessible registry paths
     ProductSuite                                  = 'System\CurrentControlSet\Control\ProductOptions'
@@ -39,6 +39,17 @@ $ValueKeyPairs = [ordered]@{
     RequiredPrivileges                            = 'System\CurrentControlSet\Services\Eventlog'
     DoNotInstallCompatibleDriverFromWindowsUpdate = 'Software\Microsoft\Windows NT\CurrentVersion\Print'
     Spooler                                       = 'Software\Microsoft\Windows NT\CurrentVersion\Windows'
+    # Other sensitive or potentially sensitive paths:
+    Secrets                                       = 'SECURITY\Policy\Secrets'
+    AEPolicy                                      = 'SOFTWARE\Policies\Microsoft\Cryptography\AutoEnrollment'
+    Sam                                           = 'SAM\SAM\Domains\Account\Users'
+    C                                             = 'SAM\SAM\Domains\Builtin\Aliases\00000220'
+    Winlogon                                      = 'SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon'
+    Security                                      = 'SYSTEM\CurrentControlSet\Services\Kdc\Security'
+    SocketAddressList                             = 'SYSTEM\CurrentControlSet\Services\Netlogon\Private'
+    Blob                                          = 'SOFTWARE\Policies\Microsoft\SystemCertificates\Root\Certificates\F0796D513217181A3C5A9372E56952634A16B6E7'
+    OSManagedAuthLevel                            = 'SOFTWARE\Policies\Microsoft\TPM'
+    FriendlyTypeName                              = 'SOFTWARE\Classes\.symlink'
 }
 
 $SubKeyPath = ''
