@@ -33,10 +33,10 @@ $ValueKeyPairs = [ordered]@{
     EnableSecuritySignature             = 'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
     RequireSecuritySignature            = 'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
     # Network access: Remotely accessible registry paths
-     ProductSuite = 'System\CurrentControlSet\Control\ProductOptions' # Control Subkey
+    ProductSuite                        = 'System\CurrentControlSet\Control\ProductOptions' # Control Subkey
     # ProductName = 'Software\Microsoft\Windows NT\CurrentVersion'
     # Network access: Remotely accessible registry paths and subpaths
-     DefaultSpoolDirectory = 'System\CurrentControlSet\Control\Print\Printers' # Control Subkey
+    DefaultSpoolDirectory               = 'System\CurrentControlSet\Control\Print\Printers' # Control Subkey
     # RequiredPrivileges = 'System\CurrentControlSet\Services\Eventlog'
     # DoNotInstallCompatibleDriverFromWindowsUpdate = 'Software\Microsoft\Windows NT\CurrentVersion\Print'
     # Spooler = 'Software\Microsoft\Windows NT\CurrentVersion\Windows'
@@ -112,21 +112,23 @@ foreach ($value in $ValueKeyPairs.Keys) {
 
     Write-Host "`r`n-----------------------------------"
 
+    $fullpath = 'HKLM\' + $SubKeyPath + '\' + $value
     try {
         $RegSubKey = $Reg.OpenSubKey($SubKeyPath)
     }
     catch {
         $state = 'OpenSubKey Error'
     }
-    try {
-        $RegSD = $RegSubKey.GetAccessControl()
-        $RegSDDL = $RegSD.Sddl
+    if ($RegSubKey) {
+        try {
+            $RegSD = $RegSubKey.GetAccessControl()
+            $RegSDDL = $RegSD.Sddl
+        }
+        catch {
+            $state = 'ReadControl Error'
+        }
+        $MatchedACEs = Select-String -InputObject $RegSDDL -Pattern $SDDLRegex -AllMatches
     }
-    catch {
-        $state = 'ReadControl Error'
-    }
-    $fullpath = 'HKLM\' + $SubKeyPath + '\' + $value
-    $MatchedACEs = Select-String -InputObject $RegSDDL -Pattern $SDDLRegex -AllMatches
     if ($MatchedACEs) {
         $ParsedACEs = $MatchedACEs.Matches.Value -join ''
         Write-Host "Path: $fullpath - Standard User SubKey ACEs: $ParsedACEs"

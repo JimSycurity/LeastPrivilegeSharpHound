@@ -44,11 +44,13 @@ $ValueKeyPairs = [ordered]@{
 $SubKeyPath = ''
 
 foreach ($value in $ValueKeyPairs.Keys) {
+    $SubKeyPath = $null
     $RegSubKey = $null
     $state = $null
     $regval = $null
 
     $SubKeyPath = $ValueKeyPairs["$value"]
+    $fullpath = 'HKLM\' + $SubKeyPath + '\' + $value
 
     Write-Host "`r`n-----------------------------------"
 
@@ -59,16 +61,16 @@ foreach ($value in $ValueKeyPairs.Keys) {
         #Write-Warning "Error on $value OpenSubKey" $Error[0]
         $state = 'OpenSubKey Error'
     }
-    try {
-        $regval = $RegSubKey.GetValue($value)
+    if ($RegSubKey) {
+        try {
+            $regval = $RegSubKey.GetValue($value)
+        }
+        catch {
+            #Write-Warning "Error on $value GetValue" $Error[0]
+            $state = 'GetValue Error'
+        }
     }
-    catch {
-        #Write-Warning "Error on $value GetValue" $Error[0]
-        $state = 'GetValue Error'
-    }
-    $fullpath = 'HKLM\' + $SubKeyPath + '\' + $value
-
-    if ($null -ne $regval) {
+    if ($regval) {
         Write-Host "Path: $fullpath  Data: $regval"
     }
     else {

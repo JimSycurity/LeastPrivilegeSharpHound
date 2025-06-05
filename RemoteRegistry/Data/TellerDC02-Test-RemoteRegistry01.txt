@@ -1,6 +1,8 @@
 Run Host: MagicPC01
 Security Context: Standard User - jsykora
 Target Host: TellerDC01
+GPO: Defaults
+
 
 -----------------------------------
 Path: HKLM\SYSTEM\CurrentControlSet\Services\Kdc\StrongCertificateBindingEnforcement - OpenSubKey Error
@@ -47,9 +49,25 @@ Path: HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\RequireSecu
 -----------------------------------
 
 -----------------------------------
-Path: HKLM\System\CurrentControlSet\Control\ProductOptions\ProductSuite - ReadControl Error
+Path: HKLM\System\CurrentControlSet\Control\ProductOptions\ProductSuite  Data: Terminal Server DataCenter
 -----------------------------------
 
 -----------------------------------
-Path: HKLM\System\CurrentControlSet\Control\Print\Printers\DefaultSpoolDirectory - Standard User SubKey ACEs: (A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)
-Full SDDL: O:SYG:SYD:AI(A;ID;KR;;;AU)(A;CIIOID;GR;;;AU)(A;ID;CCDCLCSWRPSDRC;;;SO)(A;CIIOID;SDGWGR;;;SO)(A;ID;KA;;;BA)(A;CIIOID;GA;;;BA)(A;ID;KA;;;SY)(A;CIIOID;GA;;;SY)(A;CIIOID;GA;;;CO)(A;ID;KR;;;AC)(A;CIIOID;GR;;;AC)
+Path: HKLM\Software\Microsoft\Windows NT\CurrentVersion\ProductName  Data: Windows Server 2012 R2 Datacenter
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\System\CurrentControlSet\Control\Print\Printers\DefaultSpoolDirectory -
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\System\CurrentControlSet\Services\Eventlog\RequiredPrivileges  Data: SeChangeNotifyPrivilege SeImpersonatePrivilege SeAuditPrivilege
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\Software\Microsoft\Windows NT\CurrentVersion\Print\DoNotInstallCompatibleDriverFromWindowsUpdate  Data: 1
+-----------------------------------
+
+-----------------------------------
+Path: HKLM\Software\Microsoft\Windows NT\CurrentVersion\Windows\Spooler  Data: yes
+-----------------------------------
