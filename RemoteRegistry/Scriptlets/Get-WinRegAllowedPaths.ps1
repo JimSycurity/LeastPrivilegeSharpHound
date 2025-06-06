@@ -10,9 +10,11 @@ function Get-WinRegAllowedPaths {
     #>
     param (
         [CmdletBinding()]
+        [Parameter(ValueFromPipelineByPropertyName)]
         [string]$Computer
     )
 
+    # TODO: Actually write this
     begin {
 
     }
