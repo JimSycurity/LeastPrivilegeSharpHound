@@ -1,7 +1,7 @@
 # Windows Server 2019
 
 Name                                                                                                                     Value
-----                                                                                                                     -----
+----
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\JD                                                               No Unprivileged Access
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\Skew1                                                            No Unprivileged Access
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\GBG                                                              No Unprivileged Access
