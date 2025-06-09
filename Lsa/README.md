@@ -4,11 +4,14 @@ SharpHound utilizes LSAOpenPolicy() and LSAEnumerateAccountsWithUserRight() to c
 
 # Questions:
 
-1. Does SharpHound attempt to collect anything form Domain Controllers via LSA?
+1. Does SharpHound attempt to collect anything from Domain Controllers via LSA?
 2. Could we create documentation for creating GPPs that are linked to appropriate scopes of management to add appropriate tier SH collector accounts to correlating tier hosts?
 3. Why is membership in Administrators required for this capability? Is there a DACL somewhere which only allows Administrators or is this hard-coded into the LSA server APIs?
+   a. Is Administrators membership required to enumerate this locally on host or is this only for remote enumeration?
 
 # Notes:
+
+Based on
 
 # References:
 
@@ -17,3 +20,4 @@ SharpHound utilizes LSAOpenPolicy() and LSAEnumerateAccountsWithUserRight() to c
 - https://learn.microsoft.com/en-us/windows/win32/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountrights
 - https://stackoverflow.com/questions/21252677/how-to-get-user-rights-and-privileges-of-a-windows-user-account
 - https://syfuhs.net/a-bit-about-the-local-security-authority
+- https://learn.microsoft.com/en-us/windows/win32/secmgmt/policy-object-access-rights
