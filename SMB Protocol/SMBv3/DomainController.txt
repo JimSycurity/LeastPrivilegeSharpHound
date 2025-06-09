@@ -1,0 +1,101 @@
+PS C:\Users\Administrator> $env:ComputerName
+INHERITANCEII
+PS C:\Users\Administrator> Get-NetIPAddress -InterfaceIndex 3
+
+
+IPAddress         : fe80::f7a6:59cb:9dc8:220%3
+InterfaceIndex    : 3
+InterfaceAlias    : Ethernet
+AddressFamily     : IPv6
+Type              : Unicast
+PrefixLength      : 64
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Preferred
+ValidLifetime     :
+PreferredLifetime :
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 10.10.15.200
+InterfaceIndex    : 3
+InterfaceAlias    : Ethernet
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 24
+PrefixOrigin      : Manual
+SuffixOrigin      : Manual
+AddressState      : Preferred
+ValidLifetime     :
+PreferredLifetime :
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+
+
+PS C:\Users\Administrator> Get-SmbServerConfiguration
+
+
+AnnounceComment                        :
+AnnounceServer                         : False
+AsynchronousCredits                    : 512
+AuditClientCertificateAccess           : False
+AuditClientDoesNotSupportEncryption    : False
+AuditClientDoesNotSupportSigning       : False
+AuditInsecureGuestLogon                : False
+AuditSmb1Access                        : False
+AutoDisconnectTimeoutInMinutesV1       : 15
+AutoDisconnectTimeoutInSecondsV2       : 900
+AutoShareServer                        : True
+AutoShareWorkstation                   : True
+CachedOpenLimit                        : 10
+DisableCompression                     : False
+DisableSmbEncryptionOnSecureConnection : True
+DurableHandleV2TimeoutInSeconds        : 180
+EnableAuthenticateUserSharing          : False
+EnableAuthRateLimiter                  : True
+EnableDirectoryHandleLeasing           : True
+EnableDownlevelTimewarp                : False
+EnableForcedLogoff                     : True
+EnableLeasing                          : True
+EnableMailslots                        : False
+EnableMultiChannel                     : True
+EnableOplocks                          : True
+EnableSecuritySignature                : True
+EnableSMB1Protocol                     : False
+EnableSMB2Protocol                     : True
+EnableSMBQUIC                          : True
+EnableStrictNameChecking               : True
+EncryptData                            : False
+EncryptionCiphers                      : AES_128_GCM, AES_128_CCM, AES_256_GCM, AES_256_CCM
+InvalidAuthenticationDelayTimeInMs     : 2000
+IrpStackSize                           : 15
+KeepAliveTime                          : 2
+MaxChannelPerSession                   : 32
+MaxMpxCount                            : 50
+MaxSessionPerConnection                : 16384
+MaxThreadsPerQueue                     : 20
+MaxWorkItems                           : 1
+NullSessionPipes                       : ,netlogon,samr,lsarpc
+NullSessionShares                      :
+OplockBreakWait                        : 35
+PendingClientTimeoutInSeconds          : 120
+RejectUnencryptedAccess                : True
+RequestCompression                     : False
+RequireSecuritySignature               : True
+RestrictNamedpipeAccessViaQuic         : True
+ServerHidden                           : True
+Smb2CreditsMax                         : 8192
+Smb2CreditsMin                         : 512
+Smb2DialectMax                         : SMB311
+Smb2DialectMin                         : SMB300
+SmbServerNameHardeningLevel            : 0
+TreatHostAsStableStorage               : False
+ValidateAliasNotCircular               : True
+ValidateShareScope                     : True
+ValidateShareScopeNotAliased           : True
+ValidateTargetName                     : True
+
+
+
+PS C:\Users\Administrator>

@@ -43,6 +43,106 @@ From [Deconstructing Logon Session Enumeration](https://posts.specterops.io/deco
 
 > As Microsoft documentation says: “This list includes interactive, service, and batch logons” and “Members of the Administrators, and the Server, System, and Print Operator local groups can also view information.” This API call has different permission requirements and returns a different set of information than the NetSessionEnum API call; however, just like NetSessionEnum, the RPC server is implemented only via the \PIPE\wkssvc named pipe. Again, this blog from Compass Security goes into more detail about the requirements.
 
+From [BloodHound Inner Workings Part 2](https://blog.compass-security.com/2022/05/bloodhound-inner-workings-part-2/):
+
+> A Wireshark trace of a successful SharpHound call allows us to highlight the steps involved:
+>
+> 1. Establish an SMB connection to the remote host (Kerberos authentication)
+> 2. Connect to the IPC$ share
+> 3. Open the wkssvc named pipe (this is similar to opening a file with that name)
+> 4. Bind to the wkssvc interface with UUID 6BFFD098-A112-3610-9833-46C3F87E345A using RPC over SMB
+> 5. Interact using the Workstation Service Remote Protocol, call NetWkstaUserEnum
+> 6. Close and logoff
+>
+> Authorization is performed at three different places in this trace:
+>
+> 1.  When we attempt to open the IPC$ share
+> 2.  When we attempt to open the wkssvc pipe
+> 3.  When we attempt to execute an RPC call via the pipe
+>     This last part fails with a low-privileged user on newer Windows as we’ll see below.
+>
+> You can try it for yourself using the following Wireshark filter:
+>
+> ```
+> ((smb2) || (wkssvc)|| (dcerpc) || (smb)) && !(smb2.ioctl.function == 0x001401fc)
+> ```
+
+Presumably, we can connect to the IPC$ share on the remote host because we can connect to the winreg pipe.
+
+If a low-privileged principal fails on executing an RPC call on the wkssvc pipe, is there a security descriptor on that RPC interface that prevents access?
+
+### Print Operators
+
+I added ACE_Enum_NetSession_T1 to Print Operators on AADC01. This allowed enumeration via NetWkstaUserEnum:
+
+```PowerShell
+PS C:\Users\sa_SHCE> $aadc = @('AADC01')
+
+PS C:\Users\sa_SHCE> NetWkstaUserEnum -ComputerName $aadc -Level 1
+
+wkui1_username wkui1_logon_domain wkui1_oth_domains wkui1_logon_server
+-------------- ------------------ ----------------- ------------------
+jasea          MAGIC                                TELLERDC01
+jasea          MAGIC                                TELLERDC01
+AADC01$        MAGIC
+AADC01$        MAGIC
+AADC01$        MAGIC
+AADC01$        MAGIC
+AADC01$        MAGIC
+AADC01$        MAGIC
+AADC01$        MAGIC
+AADC01$        MAGIC
+AADC01$        MAGIC
+
+
+
+PS C:\Users\sa_SHCE>
+```
+
+Additionally, adding the sa_SHCE account to the Print Operators group for the domain also allowed NetWkstaUserEnum on Domain Controllers:
+
+```PowerShell
+PS C:\Users\sa_SHCE> $DCs = @('TellerDC01', 'TellerDC02')
+
+PS C:\Users\sa_SHCE> NetWkstaUserEnum -ComputerName $DCs -Level 1
+
+wkui1_username wkui1_logon_domain wkui1_oth_domains wkui1_logon_server
+-------------- ------------------ ----------------- ------------------
+jasea          MAGIC                                TELLERDC01
+jasea          MAGIC                                TELLERDC01
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+TELLERDC01$    MAGIC
+jasea          MAGIC                                TELLERDC02
+jasea          MAGIC                                TELLERDC02
+TELLERDC02$    MAGIC
+TELLERDC02$    MAGIC
+TELLERDC02$    MAGIC
+TELLERDC02$    MAGIC
+TELLERDC02$    MAGIC
+
+
+
+PS C:\Users\sa_SHCE>
+```
+
+Defanging the Print Operators group on Domain Controllers, and likely all other non-print server hosts, could be a viable path forward for lesser-privileged session enumeration.
+
+Defanging Print Operators:
+
+- Remove User Rights Assignments in GPO applied to Domain Controllers OU:
+  - SeInteractiveLogonRight
+  - SeLoadDriverPrivilege
+  - SeShutdownPrivilege
+
 # References:
 
 - https://learn.microsoft.com/en-us/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum
@@ -61,3 +161,5 @@ From [Deconstructing Logon Session Enumeration](https://posts.specterops.io/deco
 - https://learn.microsoft.com/en-us/windows/win32/netmgmt/requirements-for-network-management-functions-on-servers-and-workstations
 - https://learn.microsoft.com/en-us/windows/win32/netmgmt/requirements-for-network-management-functions-on-active-directory-domain-controllers
 - https://blog.compass-security.com/2022/05/bloodhound-inner-workings-part-2/
+- https://gist.github.com/rvazarkar/b984506baa4fda6963f70b0a8c0e251e
+- https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wkst/55118c55-2122-4ef9-8664-0c1ff9e168f3

@@ -1,0 +1,130 @@
+PS C:\Scripts\SharpHound_v2.6.6_windows_x86> $env:ComputerName
+INHERITANCEIII
+PS C:\Scripts\SharpHound_v2.6.6_windows_x86> Get-NetIPAddress -InterfaceIndex 12
+
+IPAddress         : fe80::9022:25d8:c12d:683a%12
+InterfaceIndex    : 12
+InterfaceAlias    : Ethernet
+AddressFamily     : IPv6
+Type              : Unicast
+PrefixLength      : 64
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 10.10.15.201
+InterfaceIndex    : 12
+InterfaceAlias    : Ethernet
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 24
+PrefixOrigin      : Manual
+SuffixOrigin      : Manual
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+PS C:\Scripts\SharpHound_v2.6.6_windows_x86> Get-SmbClientConfiguration
+
+AuditInsecureGuestLogon               : False
+AuditServerDoesNotSupportEncryption   : False
+AuditServerDoesNotSupportSigning      : False
+BlockNTLM                             : False
+BlockNTLMServerExceptionList          :
+CompressibilitySamplingSize           : 524288000
+CompressibleThreshold                 : 104857600
+ConnectionCountPerRssNetworkInterface : 4
+DirectoryCacheEntriesMax              : 16
+DirectoryCacheEntrySizeMax            : 65536
+DirectoryCacheLifetime                : 10
+DisableCompression                    : False
+DisabledSMBQUICServerExceptionList    :
+DormantFileLimit                      : 1023
+EnableBandwidthThrottling             : True
+EnableByteRangeLockingOnReadOnlyFiles : True
+EnableCompressibilitySampling         : False
+EnableInsecureGuestLogons             : False
+EnableLargeMtu                        : True
+EnableLoadBalanceScaleOut             : True
+EnableMailslots                       : False
+EnableMultiChannel                    : True
+EnableSecuritySignature               : True
+EnableSMBQUIC                         : True
+EncryptionCiphers                     : AES_128_GCM, AES_128_CCM, AES_256_GCM, AES_256_CCM
+ExtendedSessionTimeout                : 1000
+FileInfoCacheEntriesMax               : 64
+FileInfoCacheLifetime                 : 10
+FileNotFoundCacheEntriesMax           : 128
+FileNotFoundCacheLifetime             : 5
+ForceSMBEncryptionOverQuic            : False
+InvalidAuthenticationCacheLifetime    : 30
+KeepConn                              : 600
+MaxCmds                               : 50
+MaximumConnectionCountPerServer       : 32
+OplocksDisabled                       : False
+RequestCompression                    : False
+RequireEncryption                     : True
+RequireSecuritySignature              : True
+SessionTimeout                        : 60
+SkipCertificateCheck                  : False
+Smb2DialectMax                        : None
+Smb2DialectMin                        : None
+UseOpportunisticLocking               : True
+WindowSizeThreshold                   : 1
+
+PS C:\Scripts\SharpHound_v2.6.6_windows_x86> .\SharpHound.exe
+2025-06-09T13:16:12.2362018-05:00|INFORMATION|This version of SharpHound is compatible with the 5.0.0 Release of BloodHound
+2025-06-09T13:16:12.8739621-05:00|INFORMATION|Resolved Collection Methods: Group, LocalAdmin, Session, Trusts, ACL, Container, RDP, ObjectProps, DCOM, SPNTargets, PSRemote, CertServices, LdapServices, WebClientService, SmbInfo
+2025-06-09T13:16:13.0441881-05:00|INFORMATION|Initializing SharpHound at 1:16 PM on 6/9/2025
+2025-06-09T13:16:13.2577200-05:00|INFORMATION|Resolved current domain to domain.root
+2025-06-09T13:16:13.6093605-05:00|INFORMATION|Flags: Group, LocalAdmin, Session, Trusts, ACL, Container, RDP, ObjectProps, DCOM, SPNTargets, PSRemote, CertServices, LdapServices, WebClientService, SmbInfo
+2025-06-09T13:16:13.8219173-05:00|INFORMATION|Beginning LDAP search for domain.root
+2025-06-09T13:16:13.9737766-05:00|INFORMATION|Beginning LDAP search for domain.root Configuration NC
+2025-06-09T13:16:14.0058768-05:00|INFORMATION|Producer has finished, closing LDAP channel
+2025-06-09T13:16:14.0103421-05:00|INFORMATION|LDAP channel closed, waiting for consumers
+2025-06-09T13:16:14.0419133-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.0497124-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.3216119-05:00|WARNING|[CommonLib LDAPUtils]Failed to get a forest name for domain DOMAIN.ROOT, unable to resolve enterprise DC sid
+2025-06-09T13:16:14.4967971-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.4988095-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.5997637-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.6089273-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.6980212-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.7000440-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.8042432-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.8042432-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.9040659-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.9080936-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:14.9091049-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.0063362-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.0144093-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.0513670-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.1097162-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.1170004-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.1489292-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.2177929-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.2261540-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.2645512-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.3519129-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.3587155-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:15.3899292-05:00|INFORMATION|[CommonLib ACLProc]Building GUID Cache for DOMAIN.ROOT
+2025-06-09T13:16:16.2180053-05:00|INFORMATION|Consumers finished, closing output channel
+2025-06-09T13:16:26.0123935-05:00|INFORMATION|[CommonLib LdapConnectionPool]Query - Failure during query setup: Unable to create a connection: Unable to get domain object for further strategies
+Query Information - Filter: (&(userAccountControl:1.2.840.113556.1.4.803:=8192)), Domain: UNKNOWN, GlobalCatalog: False, ADSPath: , ID: 162
+2025-06-09T13:16:26.0324256-05:00|INFORMATION|Output channel closed, waiting for output task to complete
+Closing writers
+2025-06-09T13:16:26.2310420-05:00|INFORMATION|Status: 376 objects finished (+376 31.33333)/s -- Using 41 MB RAM
+2025-06-09T13:16:26.2315581-05:00|INFORMATION|Enumeration finished in 00:00:12.4279268
+2025-06-09T13:16:26.3723291-05:00|INFORMATION|Saving cache with stats: 36 ID to type mappings.
+ 0 name to SID mappings.
+ 2 machine sid mappings.
+ 3 sid to domain mappings.
+ 0 global catalog mappings.
+2025-06-09T13:16:26.4344328-05:00|INFORMATION|SharpHound Enumeration Completed at 1:16 PM on 6/9/2025! Happy Graphing!
+PS C:\Scripts\SharpHound_v2.6.6_windows_x86>

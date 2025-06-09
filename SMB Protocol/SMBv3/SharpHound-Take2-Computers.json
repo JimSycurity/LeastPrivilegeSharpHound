@@ -1,0 +1,1727 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "DMSATESTPS.DOMAIN.ROOT",
+        "distinguishedname": "CN=DMSATEST-POWERSHELL,CN=MANAGED SERVICE ACCOUNTS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "dMSATestPS$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1131",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SQL01.DOMAIN.ROOT",
+        "distinguishedname": "CN=SQL01,CN=COMPUTERS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SQL01$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1133",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SQL03.DOMAIN.ROOT",
+        "distinguishedname": "CN=SQL03,CN=COMPUTERS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SQL03$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1135",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SQL02.DOMAIN.ROOT",
+        "distinguishedname": "CN=SQL02,CN=COMPUTERS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SQL02$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1134",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-CCDMSA.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-CCDMSA,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-CCdMSA$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1143",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-CCALL.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-CCALL,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-CCAll$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1144",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-GAALL.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-GAALL,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-GAAll$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1145",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-MIX1.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-MIX1,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-Mix1$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1148",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-MIX2.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-MIX2,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-Mix2$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1150",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-CONTAINER.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-CONTAINER,CN=COMPUTERS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-Container$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1146",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-MIX3.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-MIX3,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-Mix3$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1151",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-MIX4.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-MIX4,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-Mix4$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1152",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-ENFORCET3.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-ENFORCET3,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-EnforceT3$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1154",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-ENFORCET2.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-ENFORCET2,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-EnforceT2$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1153",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-ADSHDENY2.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-ADSHDENY2,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-ADSHDeny2$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1157",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-ADSHDENY.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-ADSHDENY,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-ADSHDeny$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1155",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "SU-ADSHDENY3.DOMAIN.ROOT",
+        "distinguishedname": "CN=SU-ADSHDENY3,OU=DMSAS,OU=MISCONFIGS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "SU-ADSHDeny3$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1158",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "ORGDMSA.DOMAIN.ROOT",
+        "distinguishedname": "CN=ORGDMSA,O=TESTORG,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "orgDMSA$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1160",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "ROOTDMS.DOMAIN.ROOT",
+        "distinguishedname": "CN=ROOTDMSA,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "rootDMSA$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1159",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "BIDMSA.DOMAIN.ROOT",
+        "distinguishedname": "CN=BIDMSA,CN=BUILTIN,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "biDMSA$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [],
+      "UserRights": [],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": {
+        "Connectable": false,
+        "Error": "PortNotOpen"
+      },
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1161",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "INHERITANCEIII.DOMAIN.ROOT",
+        "distinguishedname": "CN=INHERITANCEIII,CN=COMPUTERS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "INHERITANCEIII$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": true,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-579",
+          "Name": "ACCESS CONTROL ASSISTANCE OPERATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-544",
+          "Name": "ADMINISTRATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-512",
+              "ObjectType": "Group"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1132",
+              "ObjectType": "User"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-551",
+          "Name": "BACKUP OPERATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-574",
+          "Name": "CERTIFICATE SERVICE DCOM ACCESS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-569",
+          "Name": "CRYPTOGRAPHIC OPERATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-583",
+          "Name": "DEVICE OWNERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-562",
+          "Name": "DISTRIBUTED COM USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-573",
+          "Name": "EVENT LOG READERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-546",
+          "Name": "GUESTS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-578",
+          "Name": "HYPER-V ADMINISTRATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-568",
+          "Name": "IIS_IUSRS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-17",
+              "ObjectType": "LocalUser"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-556",
+          "Name": "NETWORK CONFIGURATION OPERATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-585",
+          "Name": "OPENSSH USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-559",
+          "Name": "PERFORMANCE LOG USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-558",
+          "Name": "PERFORMANCE MONITOR USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-547",
+          "Name": "POWER USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-550",
+          "Name": "PRINT OPERATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-576",
+          "Name": "RDS ENDPOINT SERVERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-577",
+          "Name": "RDS MANAGEMENT SERVERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-575",
+          "Name": "RDS REMOTE ACCESS SERVERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-555",
+          "Name": "REMOTE DESKTOP USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-513",
+              "ObjectType": "Group"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-580",
+          "Name": "REMOTE MANAGEMENT USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-552",
+          "Name": "REPLICATOR@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-582",
+          "Name": "STORAGE REPLICA ADMINISTRATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-581",
+          "Name": "SYSTEM MANAGED ACCOUNTS GROUP@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-584",
+          "Name": "USER MODE HARDWARE OPERATORS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-545",
+          "Name": "USERS@INHERITANCEIII.DOMAIN.ROOT",
+          "Results": [
+            {
+              "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-11",
+              "ObjectType": "Group"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-513",
+              "ObjectType": "Group"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        }
+      ],
+      "UserRights": [
+        {
+          "Privilege": "SeRemoteInteractiveLogonRight",
+          "Results": [
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-555",
+              "ObjectType": "LocalGroup"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139-544",
+              "ObjectType": "LocalGroup"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        }
+      ],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": null,
+      "IsDC": false,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1139",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    },
+    {
+      "Properties": {
+        "domain": "DOMAIN.ROOT",
+        "name": "INHERITANCEII.DOMAIN.ROOT",
+        "distinguishedname": "CN=INHERITANCEII,OU=DOMAIN CONTROLLERS,DC=DOMAIN,DC=ROOT",
+        "domainsid": "S-1-5-21-3931413440-1750864000-3539657848",
+        "samaccountname": "INHERITANCEII$",
+        "haslaps": false
+      },
+      "PrimaryGroupSID": null,
+      "AllowedToDelegate": [],
+      "AllowedToAct": [],
+      "HasSIDHistory": [],
+      "DumpSMSAPassword": [],
+      "Sessions": {
+        "Results": [],
+        "Collected": true,
+        "FailureReason": null
+      },
+      "PrivilegedSessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "RegistrySessions": {
+        "Results": [],
+        "Collected": false,
+        "FailureReason": null
+      },
+      "LocalGroups": [
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-544",
+          "Name": "IGNOREME",
+          "Results": [
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-500",
+              "ObjectType": "User"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-519",
+              "ObjectType": "Group"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-512",
+              "ObjectType": "Group"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1129",
+              "ObjectType": "User"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-545",
+          "Name": "IGNOREME",
+          "Results": [
+            {
+              "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-11",
+              "ObjectType": "Group"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-513",
+              "ObjectType": "Group"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-546",
+          "Name": "IGNOREME",
+          "Results": [
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-501",
+              "ObjectType": "User"
+            },
+            {
+              "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-514",
+              "ObjectType": "Group"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-550",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-551",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-552",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-555",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-556",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-558",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-559",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-562",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-568",
+          "Name": "IGNOREME",
+          "Results": [
+            {
+              "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-17",
+              "ObjectType": "User"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-569",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-573",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-574",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-575",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-576",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-577",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-578",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-579",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-580",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-582",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1000-585",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-549",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-548",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-554",
+          "Name": "IGNOREME",
+          "Results": [
+            {
+              "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-11",
+              "ObjectType": "Group"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-557",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-560",
+          "Name": "IGNOREME",
+          "Results": [
+            {
+              "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-9",
+              "ObjectType": "Group"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        },
+        {
+          "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-561",
+          "Name": "IGNOREME",
+          "Results": [],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        }
+      ],
+      "UserRights": [
+        {
+          "Privilege": "SeRemoteInteractiveLogonRight",
+          "Results": [
+            {
+              "ObjectIdentifier": "DOMAIN.ROOT-S-1-5-32-544",
+              "ObjectType": "Group"
+            }
+          ],
+          "LocalNames": [],
+          "Collected": true,
+          "FailureReason": null
+        }
+      ],
+      "DCRegistryData": {
+        "CertificateMappingMethods": null,
+        "StrongCertificateBindingEnforcement": null
+      },
+      "Status": null,
+      "IsDC": true,
+      "UnconstrainedDelegation": false,
+      "DomainSID": "S-1-5-21-3931413440-1750864000-3539657848",
+      "IsWebClientRunning": null,
+      "SmbInfo": null,
+      "NtlmSessions": null,
+      "NTLMRegistryData": null,
+      "Aces": [],
+      "ObjectIdentifier": "S-1-5-21-3931413440-1750864000-3539657848-1000",
+      "IsDeleted": false,
+      "IsACLProtected": false,
+      "ContainedBy": null
+    }
+  ],
+  "meta": {
+    "methods": 53514,
+    "type": "computers",
+    "count": 22,
+    "version": 6,
+    "collectorversion": "2.6.6.0"
+  }
+}
+PS C:\Users\Administrator.DOMAIN> $computers = @('InheritanceII')
+PS C:\Users\Administrator.DOMAIN> NetWkstaUserEnum -ComputerName $computers -level 1
+
+wkui1_username wkui1_logon_domain wkui1_oth_domains wkui1_logon_server
+-------------- ------------------ ----------------- ------------------
+Administrator  DOMAIN                               INHERITANCEII
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+INHERITANCEII$ DOMAIN
+
+
+PS C:\Users\Administrator.DOMAIN>

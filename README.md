@@ -17,7 +17,7 @@ SharpHound captures via RemoteRegistry
 
 ## Local Groups
 
-SharpHound captuers via SamConnect()
+SharpHound captures via SamConnect()
 
 ## Session Data
 

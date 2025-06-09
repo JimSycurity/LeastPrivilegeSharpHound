@@ -11,7 +11,12 @@ SharpHound utilizes LSAOpenPolicy() and LSAEnumerateAccountsWithUserRight() to c
 
 # Notes:
 
-Based on
+Based on queries with Claude.ai, it was suggested as a posibility that assigning a security principal SeAuditPrivilege or SeServiceLogonRight would provide sufficiant LSA read access. In initial testing, this did not appear to be the case. However, I did not validate that these rights were active during the attempt, just assigned.
+
+Additional suggestions from Claude were to delegate specific LSA permssions using LSAAddAccountRights() to grant:
+
+- POLICY_VIEW_LOCAL_INFORMATION
+- POLICY_LOOKUP_NAMES
 
 # References:
 

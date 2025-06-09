@@ -1,0 +1,25 @@
+PS C:\Scripts\SharpHound_v2.6.6_windows_x86> ./SharpHound.exe --skipregistryloggedon --trackcomputercalls --c LocalGroup Session UserRights
+2025-06-09T13:25:54.8679624-05:00|INFORMATION|This version of SharpHound is compatible with the 5.0.0 Release of BloodHound
+2025-06-09T13:25:55.1198870-05:00|INFORMATION|Resolved Collection Methods: LocalAdmin, Session, RDP, DCOM, PSRemote, UserRights
+2025-06-09T13:25:55.1729705-05:00|INFORMATION|Initializing SharpHound at 1:25 PM on 6/9/2025
+2025-06-09T13:25:55.2438548-05:00|INFORMATION|Resolved current domain to domain.root
+2025-06-09T13:25:55.7208279-05:00|INFORMATION|Loaded cache with stats: 36 ID to type mappings.
+ 0 name to SID mappings.
+ 2 machine sid mappings.
+ 3 sid to domain mappings.
+ 0 global catalog mappings.
+2025-06-09T13:25:55.7473241-05:00|INFORMATION|Flags: LocalAdmin, Session, RDP, DCOM, PSRemote, UserRights
+2025-06-09T13:25:55.9044981-05:00|INFORMATION|Beginning LDAP search for domain.root
+2025-06-09T13:25:55.9779552-05:00|INFORMATION|Producer has finished, closing LDAP channel
+2025-06-09T13:25:55.9821472-05:00|INFORMATION|LDAP channel closed, waiting for consumers
+2025-06-09T13:25:56.3989969-05:00|INFORMATION|Consumers finished, closing output channel
+2025-06-09T13:25:56.4415115-05:00|INFORMATION|Output channel closed, waiting for output task to complete
+Closing writers
+2025-06-09T13:25:56.6496174-05:00|INFORMATION|Status: 53 objects finished (+53 Infinity)/s -- Using 38 MB RAM
+2025-06-09T13:25:56.6496174-05:00|INFORMATION|Enumeration finished in 00:00:00.7675868
+2025-06-09T13:25:56.7565976-05:00|INFORMATION|Saving cache with stats: 36 ID to type mappings.
+ 0 name to SID mappings.
+ 2 machine sid mappings.
+ 3 sid to domain mappings.
+ 0 global catalog mappings.
+2025-06-09T13:25:56.7725938-05:00|INFORMATION|SharpHound Enumeration Completed at 1:25 PM on 6/9/2025! Happy Graphing!

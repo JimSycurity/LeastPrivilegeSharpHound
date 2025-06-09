@@ -75,9 +75,29 @@ _Note: Microsoft AD CS role automatically creates a remote registry path excepti
 
 # Notes:
 
+Per [Remote Hash Extraction On Demand Via Host Security Descriptor Modification](https://blog.harmj0y.net/activedirectory/remote-hash-extraction-on-demand-via-host-security-descriptor-modification/) there are sensitive keys in the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa path:
+
+- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\JD
+- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\Skew1
+- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\Data
+- HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\GBG
+  Per data collected from my lab (<computername>-Get-SharpHoundSubKeyPermissions0n.txt), all four of these registry keys provide no access to a standard user account.
+
+Per the same blog, additional sensitive registry keys:
+
+- HKEY_LOCAL_MACHINE\SECURITY\Policy\PolEKList
+- HKEY_LOCAL_MACHINE\SECURITY\Policy\Secrets\$MACHINE.ACC\CurrVal
+- HKEY_LOCAL_MACHINE\SAM\SAM\Domains\Account\Users
+- HKEY_LOCAL_MACHINE\SECURITY\Policy\Secrets\NL$KM\CurrVal
+- HKEY_LOCAL_MACHINE\SECURITY\Cache\NL$<1-10>
+  None of these overlap the paths SharpHound uses, so I haven't yet collected data on their DACLs.
+
+TODO: It bears further investigation to determine if a standard user account granted Read permissions on WinReg could possibly read these keys.
+
 # Resources:
 
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-remotely-accessible-registry-paths
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-remotely-accessible-registry-paths-and-subpaths
 - https://bloodhound.specterops.io/collect-data/enterprise-collection/permissions#dc-registry
 - https://bloodhound.specterops.io/collect-data/enterprise-collection/permissions#ca-registry
+- https://blog.harmj0y.net/activedirectory/remote-hash-extraction-on-demand-via-host-security-descriptor-modification/
