@@ -26,3 +26,4 @@ Additional suggestions from Claude were to delegate specific LSA permssions usin
 - https://stackoverflow.com/questions/21252677/how-to-get-user-rights-and-privileges-of-a-windows-user-account
 - https://syfuhs.net/a-bit-about-the-local-security-authority
 - https://learn.microsoft.com/en-us/windows/win32/secmgmt/policy-object-access-rights
+- https://github.com/blakedrumm/SCOM-Scripts-and-SQL/blob/master/Powershell/General%20Functions/Get-UserRights.ps1
