@@ -47,7 +47,7 @@ Least-privilege collection can be achieved by adding the SharpHound collector ac
 
 SharpHound captures User Rights Assignments for Remote Desktop via LSAOpenPolicy() and LSAEnumerateAccountsWithUserRight().
 
-There is no known least-privilege method to accurately collect this data. Parsing GPOs for specific Scope of Management(SoM) could provide partial data, however local security policy can also impact this configuration and this type of GPO parsing is not currently supported by SharpHound and BloodHound.
+There is **no known least-privilege method** to accurately collect this data. Parsing GPOs for specific Scope of Management(SoM) could provide partial data, however local security policy can also impact this configuration and this type of GPO parsing is not currently supported by SharpHound and BloodHound.
 
 ## [Relay Attack Surface](/NTLM/README.md)
 
