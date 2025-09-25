@@ -14,8 +14,9 @@ There are two methods to provide remote registry access without Administrator pr
 
 1. Configure DACL on the HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg subkey
 2. Create an exception to the winreg subkey DACL using either:
-   a. HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg\\AllowedExactPaths
-   b. HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg\\AllowedPaths
+
+  a. HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg\\AllowedExactPaths
+  b. HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg\\AllowedPaths
 
 Both methods 1 and 2 can be configured manually, with scripting, or via GPO. Neither of these methods will override DACLs configured on the registry key or subkey level.
 
@@ -25,9 +26,9 @@ Across data gathered in my lab from Windows Server 2012 R2, Windows Server 2019,
 
 For remotely collecting registry data over the network via SharpHound there are two known feasible approaches:
 
-1. Create WinReg named pipe remote connection exceptions for specific registry paths. This will allow any Authenticated User to connect to the named pipe for those specific key paths. Security descriptors on the registry keys and subkeys provide granular control. Of the 2 exception options, AllowExactPaths is more secure as it does not allow access to subkeys over the winreg connection. If configuration via GPO is desired, this would be the ‘Network access: Remotely accessible registry paths’ setting.
+1. Modify the DACL of the HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg subkey by adding an Allow Read ACE with the trustee principal being a tier-appropriate domain local security group which is placed in a secure OU for that tier. Add the SharpHound collection service account for that tier into the corresponding security group. Security descriptors on the registry keys and subkeys provide granular control.
 
-2. Modify the DACL of the HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg subkey by adding an Allow Read ACE with the trustee principal being a tier-appropriate domain local security group which is placed in a secure OU for that tier. Add the SharpHound collection service account for that tier into the corresponding security group. Security descriptors on the registry keys and subkeys provide granular control.
+2. Create WinReg named pipe remote connection exceptions for specific registry paths. This will allow any Authenticated User to connect to the named pipe for those specific key paths. Security descriptors on the registry keys and subkeys provide granular control. Of the 2 exception options, AllowExactPaths is more secure as it does not allow access to subkeys over the winreg connection. If configuration via GPO is desired, this would be the ‘Network access: Remotely accessible registry paths’ setting.
 
 There is no perfect solution here. Each is a tradeoff between granting some trust across the entire winreg named pipe to the SharpHound collector for that tier vs granting trust across explicit registry paths in the winreg named pipe to any Authenticated User.
 
