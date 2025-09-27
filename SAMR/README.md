@@ -17,7 +17,7 @@ SharpHound utilizes SamConnect() to collect Local Group data. By default, local 
 
 # Resources:
 
-- https://bloodhound.specterops.io/collect-data/enterprise-collection/permissions#local-group-membership
+- https://bloodhound.specterops.io/collect-data/permissions#local-group-membership
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls
 - https://github.com/NotMedic/DogDoor
 - https://github.com/idnahacks/NetCeasePlusPlus
