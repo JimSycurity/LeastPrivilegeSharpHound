@@ -12,6 +12,7 @@ SharpHound utilizes SamConnect() to collect Local Group data. By default, local 
 # Notes:
 
 - The registry key for controlling SAM-R access is HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam
+- The Microsoft supported method to modify this registry value is via the Group Policy Setting [Network access: Restrict clients allowed to make remote calls to SAM](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls)
 - By default, Domain Controllers allow anonymous access to the Netlogon, samr, and lsarpc Named Pipes per: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-named-pipes-that-can-be-accessed-anonymously
 
 # Resources:

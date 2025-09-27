@@ -1,13 +1,18 @@
 # Least-Privilege SharpHound
 
-Repository of scriptlets and documentation on achieving least-privilege data collection with SharpHound.
+Repository of scriptlets, lab data, and documentation on achieving least-privilege data collection with SharpHound.
 
 # Questions:
 
 - **What privileges are required for session enumeration?**
+  - Membership in the local Administrators group on the remote host(s) where sessions are being collected is the default permission requirement.
   - Adding the SharpHound collection account as a member of the builtin Print Operators group allows collection of this data. Group Policy Preferences can assist with configuring tiered collection. It is only necessary to add a collection account to the builtin domain Print Operators group if collecting sessions from Domain Controllers.
 - **What privileges are required for local group collection?**
+  - Membership in the local Administrators group on the remote host(s) where local group membership is being collected is the default permission requirement.
   - The SharpHound collection account can be configured with an Allow ACE on the DACL of the registry key HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam. The preferred method to do this is via the GPO setting [Network access: Restrict clients allowed to make remote calls to SAM](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls)
+- **What privileges are required for User Rights Assignment enumeration?**
+  - Membership in the local Administrators group on the remote host(s) where URA data is being collected is the default permission requirement.
+  - There is no known least-privilege configuration which allows for collection of this data.
 - **Are there any conflicts between BHE data collection and protection of MDE (e.g. for session collection)?**
   - More research required
 - **What other information can we gain from connecting to all systems (e.g. SMB signing configuration)?**
