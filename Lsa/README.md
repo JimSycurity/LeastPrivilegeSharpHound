@@ -5,7 +5,9 @@ SharpHound utilizes LSAOpenPolicy() and LSAEnumerateAccountsWithUserRight() to c
 # Questions:
 
 1. Does SharpHound attempt to collect anything from Domain Controllers via LSA?
+   - Only if you attempt to collect User Rights Assignment data from Domain Controllers.
 2. Could we create documentation for creating GPPs that are linked to appropriate scopes of management to add appropriate tier SH collector accounts to correlating tier hosts?
+   - Yes, is documented in my blog on least-privilege SharpHound collection.
 3. Why is membership in Administrators required for this capability? Is there a DACL somewhere which only allows Administrators or is this hard-coded into the LSA server APIs?
    a. Is Administrators membership required to enumerate this locally on host or is this only for remote enumeration?
 

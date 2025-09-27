@@ -5,6 +5,7 @@ SharpHound utilizes SamConnect() to collect Local Group data. By default, local 
 # Questions:
 
 1. Is there any other least-privilege method to allow SAMR access beyond the 'Network access: Restrict clients allowed to make remote calls to SAM' GP setting?
+   - No. This GPO setting configures the registry key below and there is no effective additional granularity by configuring raw SDDL.
 2. If the GP setting is the best method, what is the appropriate least-privilege security descriptor in SDDL format for each collection tier?
    - AccessAllowed, StandardRightsRead, SIDofCollectorAccount
 

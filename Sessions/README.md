@@ -11,33 +11,11 @@ To be clear there are 3 session enumeration methods:
 # Questions:
 
 1. Why exactly is Print Operators able to call NetwkstaUserEnum? Is this due to permissions on a NamedPipe or RPC interface? Is this a User Rights Assignment thing?
+  - The Print Operators RID is hard coded into the RPC server for this call.  There is no security descriptor or rights assignment configurable.
 2. If this is a DACL or URA, what would be the best method to set least-privilege access by tier?
+  - For Tier Zero, utilize a Tier Zero SharpHound collector and associated Tier Zero gMSA service account.  Add the T0 service account to the builtin domain local Print Operators group to collect session data from Domain Controllers. Utilize Group Policy Preferences (GPP) to add the T0 gMSA to the local Print Operators group and link the GPO to an OU containing the other Tier  Zero servers and PAWs.
+  - For all other tiers, utilize a tiered sharphound collector and associated gMSA service account.  Utilize GPP to add each tier's gMSA to the local Print Operator group. Link the GPO to the OU(s) which contain computers and servers of that specific tier.
 
-# Notes:
-
-- The DACL which controls access for the NetSessionEnum() function is a REG_BINARY value located at HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\DefaultSecurity\SrvsvcSessionInfo
-  - NetSessionEnum() is a fairly well-known topic. There are multiple blogs on allowing lesser privileged access to NetSessionEnum().
-  - ~~It's not Print Operators that are able to call NetwkstaUserEnum by default, it's Server Operators.~~ - I had NetSessionEnum() and NetWkstaUserEnum() conflated when I first looked at this. BHE uses only NetWkstaUserEnum(), so the NetSessionEnum() less-priv is not applicable.
-
-NetSessionEnum:
-
-```PowerShell
-PS C:\Windows\system32> Get-CurrentACLs
-Current ACL for NetSessionEnum
-
-SecurityIdentifier AccessMask       AceType
------------------- ----------       -------
-S-1-5-32-544           983059 AccessAllowed
-S-1-5-32-549           983059 AccessAllowed
-S-1-5-32-547           983059 AccessAllowed
-S-1-5-4                     1 AccessAllowed
-S-1-5-6                     1 AccessAllowed
-S-1-5-3                     1 AccessAllowed
-
-
----------------------
-No ACLs for RestrictRemoteSam found
-```
 
 From [Deconstructing Logon Session Enumeration](https://posts.specterops.io/deconstructing-logon-session-enumeration-0426b8452ef5):
 

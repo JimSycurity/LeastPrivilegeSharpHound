@@ -7,13 +7,14 @@ Repository of scriptlets and documentation on achieving least-privilege data col
 - **What privileges are required for session enumeration?**
   - Adding the SharpHound collection account as a member of the builtin Print Operators group allows collection of this data. Group Policy Preferences can assist with configuring tiered collection. It is only necessary to add a collection account to the builtin domain Print Operators group if collecting sessions from Domain Controllers.
 - **What privileges are required for local group collection?**
-  - The SharpHound collection account can be configured with an Allow ACE on the DACL of the registry key HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam
+  - The SharpHound collection account can be configured with an Allow ACE on the DACL of the registry key HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam. The preferred method to do this is via the GPO setting [Network access: Restrict clients allowed to make remote calls to SAM](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls)
 - **Are there any conflicts between BHE data collection and protection of MDE (e.g. for session collection)?**
   - More research required
 - **What other information can we gain from connecting to all systems (e.g. SMB signing configuration)?**
   - More research required
 - **What attack paths are opened with this (e.g. are credentials of the collection user left on the systems through interactive logon, …)?**
-  - All collection methods utilize Network logon types, which do not cache credentials on the remote system.
+  - All collection methods utilize [Network logon types](https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types), which do not cache credentials on the remote system. If a remote host configured for collection is configured with Kerberos Unconstrainted Delegation, then a Kerberos TGT for the service account may be captured on that host. To prevent this, ensure the collection service account is marked [sensitive and cannot be delegated](https://learn.microsoft.com/en-us/archive/blogs/poshchap/security-focus-analysing-account-is-sensitive-and-cannot-be-delegated-for-privileged-accounts). Additionally, if using a gMSA service account you may wish to test configuring it as a member of the [Protected Users](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/how-to-configure-protected-accounts) group for additional protections.
+
 - **What hardening can we apply?**
   - Apply tiering principles to all SharpHound collection accounts
   - Utilize User Rights Assignments to deny interactive login and remote interactive login to all SharpHound collection accounts
@@ -35,7 +36,9 @@ There is no perfect solution here. Each is a tradeoff between granting some trus
 
 SharpHound captures local group data via SamConnect().
 
-Least-privilege collection can be achieved by setting a correctly defined security descriptor in SDDL format in the HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam registry key on each host. The security descriptor must grant the SharpHound collector account Standard_Rights_Read (0x020000). This configuration is likely best accomplished via GPP by tier.
+Least-privilege collection can be achieved by setting a correctly defined security descriptor in SDDL format in the HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam registry key on each host. The security descriptor must grant the SharpHound collector account Standard_Rights_Read (0x020000).
+
+The preferred method of delegating read access to the SharpHound service account is via the GPO setting [Network access: Restrict clients allowed to make remote calls to SAM](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls)
 
 ## [Session Data](/Sessions/README.md)
 
