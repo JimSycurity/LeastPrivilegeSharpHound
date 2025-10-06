@@ -1,0 +1,2674 @@
+﻿{
+    "ComputerName":  "corp1-dc01",
+    "ComputerDescription":  "CORP1 Primary DC ",
+    "ScriptName":  "NetWkstaUserEnum",
+    "ScriptPurpose":  "Session Enumeration",
+    "Data":  [
+                 {
+                     "UserName":  "CORP1\\psx_d_stdusr",
+                     "UserInfo":  "Domain Users, no additional groups",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f0e6f3b1-35bc-4dbc-a4e1-7af16216d608",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  851612493,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  161,
+                                      "Minutes":  1,
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00098566260763888885,
+                                      "TotalHours":  0.023655902583333333,
+                                      "TotalMilliseconds":  85161.24930000001,
+                                      "TotalMinutes":  1.419354155,
+                                      "TotalSeconds":  85.1612493
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_acao",
+                     "UserInfo":  "Member of domain Access Control Assistance Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c9e64280-6bac-4894-a0df-e3fb89115be6",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  849258538,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  925,
+                                      "Minutes":  1,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00098293812268518519,
+                                      "TotalHours":  0.023590514944444443,
+                                      "TotalMilliseconds":  84925.8538,
+                                      "TotalMinutes":  1.4154308966666667,
+                                      "TotalSeconds":  84.9258538
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_acao",
+                     "UserInfo":  "Member of local Access Control Assistance Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f3057ded-7c9a-485d-86a2-2c47113d3736",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  846779477,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  677,
+                                      "Minutes":  1,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00098006883912037037,
+                                      "TotalHours":  0.023521652138888887,
+                                      "TotalMilliseconds":  84677.9477,
+                                      "TotalMinutes":  1.4112991283333334,
+                                      "TotalSeconds":  84.67794769999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_ao",
+                     "UserInfo":  "Member of domain Account Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  [
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a61fe781-c8c9-4fc5-beee-df5b82665404",
+                                        "PSShowComputerName":  false
+                                    }
+                                ],
+                     "Duration":  {
+                                      "Ticks":  844026756,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  402,
+                                      "Minutes":  1,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00097688281944444447,
+                                      "TotalHours":  0.023445187666666666,
+                                      "TotalMilliseconds":  84402.6756,
+                                      "TotalMinutes":  1.40671126,
+                                      "TotalSeconds":  84.4026756
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_ba",
+                     "UserInfo":  "Member of domain Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  [
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "d2c49039-f569-4c20-b199-96bbcdb8d5f2",
+                                        "PSShowComputerName":  false
+                                    }
+                                ],
+                     "Duration":  {
+                                      "Ticks":  840681192,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  68,
+                                      "Minutes":  1,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.0009730106388888888,
+                                      "TotalHours":  0.023352255333333332,
+                                      "TotalMilliseconds":  84068.1192,
+                                      "TotalMinutes":  1.40113532,
+                                      "TotalSeconds":  84.0681192
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_ba",
+                     "UserInfo":  "Member of local Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "90c7289a-e5ca-4df3-a41f-bb6a0b7e1f28",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  813119137,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  311,
+                                      "Minutes":  1,
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00094111011226851848,
+                                      "TotalHours":  0.022586642694444443,
+                                      "TotalMilliseconds":  81311.9137,
+                                      "TotalMinutes":  1.3551985616666666,
+                                      "TotalSeconds":  81.311913699999991
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_backupop",
+                     "UserInfo":  "Member of domain Backup Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "d18b8642-cdc6-497f-821c-e3f9cc944e14",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  808735861,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  873,
+                                      "Minutes":  1,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00093603687615740738,
+                                      "TotalHours":  0.022464885027777777,
+                                      "TotalMilliseconds":  80873.5861,
+                                      "TotalMinutes":  1.3478931016666666,
+                                      "TotalSeconds":  80.8735861
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_backupop",
+                     "UserInfo":  "Member of local Backup Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "3bee9714-eb8c-4a4c-a272-468f2e8b6035",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  806625776,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  662,
+                                      "Minutes":  1,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00093359464814814816,
+                                      "TotalHours":  0.022406271555555555,
+                                      "TotalMilliseconds":  80662.5776,
+                                      "TotalMinutes":  1.3443762933333334,
+                                      "TotalSeconds":  80.662577599999992
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_certdcom",
+                     "UserInfo":  "Member of domain Certificate Service DCOM Access",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "14692ac0-c4b0-49c3-92be-e4489bef35cc",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  804631688,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  463,
+                                      "Minutes":  1,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00093128667592592594,
+                                      "TotalHours":  0.02235088022222222,
+                                      "TotalMilliseconds":  80463.1688,
+                                      "TotalMinutes":  1.3410528133333333,
+                                      "TotalSeconds":  80.463168799999991
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_certdcom",
+                     "UserInfo":  "Member of local Certificate Service DCOM Access via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "153f5779-c95f-421a-b942-cb8d9d66fdf7",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  802279684,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  227,
+                                      "Minutes":  1,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.000928564449074074,
+                                      "TotalHours":  0.022285546777777776,
+                                      "TotalMilliseconds":  80227.9684,
+                                      "TotalMinutes":  1.3371328066666668,
+                                      "TotalSeconds":  80.2279684
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_cryptop",
+                     "UserInfo":  "Member of domain Cryptographic Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "876d8f8c-05cc-45f2-bdb3-e3a04c831920",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  778234775,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  823,
+                                      "Minutes":  1,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.000900734693287037,
+                                      "TotalHours":  0.021617632638888887,
+                                      "TotalMilliseconds":  77823.477500000008,
+                                      "TotalMinutes":  1.2970579583333333,
+                                      "TotalSeconds":  77.8234775
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_cryptop",
+                     "UserInfo":  "Member of local Cryptographic Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "fe8925a5-6f89-4a14-8fed-f2e51cecdaf0",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  770631436,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  63,
+                                      "Minutes":  1,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00089193453240740737,
+                                      "TotalHours":  0.021406428777777778,
+                                      "TotalMilliseconds":  77063.14360000001,
+                                      "TotalMinutes":  1.2843857266666667,
+                                      "TotalSeconds":  77.063143599999989
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dcomu",
+                     "UserInfo":  "Member of domain Distributed COM Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9d68d3b4-a706-4c2c-a3a0-e480821dda14",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  768393649,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  839,
+                                      "Minutes":  1,
+                                      "Seconds":  16,
+                                      "TotalDays":  0.00088934450115740738,
+                                      "TotalHours":  0.021344268027777776,
+                                      "TotalMilliseconds":  76839.3649,
+                                      "TotalMinutes":  1.2806560816666668,
+                                      "TotalSeconds":  76.839364899999993
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_dcomu",
+                     "UserInfo":  "Member of local Distributed COM Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "2c42e215-609a-4934-97ac-4a053e81b789",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  765686627,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  568,
+                                      "Minutes":  1,
+                                      "Seconds":  16,
+                                      "TotalDays":  0.00088621137384259255,
+                                      "TotalHours":  0.021269072972222223,
+                                      "TotalMilliseconds":  76568.6627,
+                                      "TotalMinutes":  1.2761443783333333,
+                                      "TotalSeconds":  76.56866269999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_evtrdr",
+                     "UserInfo":  "Member of domain Event Log Readers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "8a1146b6-e1a1-4162-abd1-3cd4a148724a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  762521619,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  252,
+                                      "Minutes":  1,
+                                      "Seconds":  16,
+                                      "TotalDays":  0.00088254817013888891,
+                                      "TotalHours":  0.021181156083333333,
+                                      "TotalMilliseconds":  76252.1619,
+                                      "TotalMinutes":  1.270869365,
+                                      "TotalSeconds":  76.25216189999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_evtrdr",
+                     "UserInfo":  "Member of local Event Log Readers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "757ed038-dfa8-493a-8792-c8c9b8b7c4c2",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  724348271,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  434,
+                                      "Minutes":  1,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.0008383660543981481,
+                                      "TotalHours":  0.020120785305555555,
+                                      "TotalMilliseconds":  72434.82710000001,
+                                      "TotalMinutes":  1.2072471183333333,
+                                      "TotalSeconds":  72.434827099999993
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_guest",
+                     "UserInfo":  "Member of domain Guests",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c1b38332-7e60-421e-b786-e3cf99b98cf3",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  722336345,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  233,
+                                      "Minutes":  1,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00083603743634259257,
+                                      "TotalHours":  0.020064898472222221,
+                                      "TotalMilliseconds":  72233.6345,
+                                      "TotalMinutes":  1.2038939083333333,
+                                      "TotalSeconds":  72.2336345
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_guest",
+                     "UserInfo":  "Member of local Guests via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "74bb1934-7adf-40d7-ab69-d6a0310ede89",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  716659155,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  665,
+                                      "Minutes":  1,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00082946661458333328,
+                                      "TotalHours":  0.01990719875,
+                                      "TotalMilliseconds":  71665.9155,
+                                      "TotalMinutes":  1.194431925,
+                                      "TotalSeconds":  71.6659155
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_hvadm",
+                     "UserInfo":  "Member of domain Hyper-V Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9d058236-03b7-49cc-814a-148fc7cb7959",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  714284329,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  428,
+                                      "Minutes":  1,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00082671797337962964,
+                                      "TotalHours":  0.019841231361111111,
+                                      "TotalMilliseconds":  71428.4329,
+                                      "TotalMinutes":  1.1904738816666667,
+                                      "TotalSeconds":  71.42843289999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_hvadm",
+                     "UserInfo":  "Member of local Hyper-V Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "ca860f87-bf30-48da-8eff-b603f6742b24",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  711814130,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  181,
+                                      "Minutes":  1,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00082385894675925922,
+                                      "TotalHours":  0.01977261472222222,
+                                      "TotalMilliseconds":  71181.413,
+                                      "TotalMinutes":  1.1863568833333333,
+                                      "TotalSeconds":  71.181412999999992
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_iisu",
+                     "UserInfo":  "Member of domain IIS_IUSRS",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f95beff7-01d2-4763-9def-684815af7bf9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  688560196,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  856,
+                                      "Minutes":  1,
+                                      "Seconds":  8,
+                                      "TotalDays":  0.00079694467129629628,
+                                      "TotalHours":  0.019126672111111111,
+                                      "TotalMilliseconds":  68856.0196,
+                                      "TotalMinutes":  1.1476003266666668,
+                                      "TotalSeconds":  68.8560196
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_iisu",
+                     "UserInfo":  "Member of local IIS_IUSRS via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f01b711d-9d12-4cdc-88b4-003eb6045cf6",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  685795325,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  579,
+                                      "Minutes":  1,
+                                      "Seconds":  8,
+                                      "TotalDays":  0.00079374458912037031,
+                                      "TotalHours":  0.019049870138888887,
+                                      "TotalMilliseconds":  68579.5325,
+                                      "TotalMinutes":  1.1429922083333333,
+                                      "TotalSeconds":  68.5795325
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_iftb",
+                     "UserInfo":  "Member of domain Incoming Forest Trust Builders",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "157d3e75-5166-4264-8b85-d2b6c429434b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  678835881,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  883,
+                                      "Minutes":  1,
+                                      "Seconds":  7,
+                                      "TotalDays":  0.00078568967708333331,
+                                      "TotalHours":  0.01885655225,
+                                      "TotalMilliseconds":  67883.588100000008,
+                                      "TotalMinutes":  1.131393135,
+                                      "TotalSeconds":  67.8835881
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_netconop",
+                     "UserInfo":  "Member of domain Network Configuration Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "e0576a91-865e-4317-976c-32fd282ea31b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  676273131,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  627,
+                                      "Minutes":  1,
+                                      "Seconds":  7,
+                                      "TotalDays":  0.00078272353125,
+                                      "TotalHours":  0.01878536475,
+                                      "TotalMilliseconds":  67627.3131,
+                                      "TotalMinutes":  1.127121885,
+                                      "TotalSeconds":  67.6273131
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_netconop",
+                     "UserInfo":  "Member of local Network Configuration Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c7d88408-889e-41d2-b04a-f89823de7b9e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  653892012,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  389,
+                                      "Minutes":  1,
+                                      "Seconds":  5,
+                                      "TotalDays":  0.00075681945833333336,
+                                      "TotalHours":  0.018163666999999998,
+                                      "TotalMilliseconds":  65389.2012,
+                                      "TotalMinutes":  1.0898200200000001,
+                                      "TotalSeconds":  65.3892012
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_perflog",
+                     "UserInfo":  "Member of domain Performance Log Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "e43a6a8b-e391-41e1-9d3d-ee5f6b95fa4f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  651654062,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  165,
+                                      "Minutes":  1,
+                                      "Seconds":  5,
+                                      "TotalDays":  0.00075422923842592584,
+                                      "TotalHours":  0.018101501722222222,
+                                      "TotalMilliseconds":  65165.406200000005,
+                                      "TotalMinutes":  1.0860901033333334,
+                                      "TotalSeconds":  65.165406199999993
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_perflog",
+                     "UserInfo":  "Member of local Performance Log Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "99d9f5bd-3762-47f0-9024-20c0b591274a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  644139863,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  413,
+                                      "Minutes":  1,
+                                      "Seconds":  4,
+                                      "TotalDays":  0.00074553224884259261,
+                                      "TotalHours":  0.01789277397222222,
+                                      "TotalMilliseconds":  64413.986300000004,
+                                      "TotalMinutes":  1.0735664383333334,
+                                      "TotalSeconds":  64.413986299999991
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_perfmon",
+                     "UserInfo":  "Member of domain Performance Monitor Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "16fcff47-abb5-4cb1-baaa-678584bd2275",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  641803960,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  180,
+                                      "Minutes":  1,
+                                      "Seconds":  4,
+                                      "TotalDays":  0.00074282865740740733,
+                                      "TotalHours":  0.017827887777777777,
+                                      "TotalMilliseconds":  64180.396,
+                                      "TotalMinutes":  1.0696732666666666,
+                                      "TotalSeconds":  64.180396
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_perfmon",
+                     "UserInfo":  "Member of local Performance Monitor Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "49a1f07b-6eda-44a4-a07b-9749e69fe6d6",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  638578635,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  857,
+                                      "Minutes":  1,
+                                      "Seconds":  3,
+                                      "TotalDays":  0.00073909564236111108,
+                                      "TotalHours":  0.017738295416666668,
+                                      "TotalMilliseconds":  63857.8635,
+                                      "TotalMinutes":  1.064297725,
+                                      "TotalSeconds":  63.8578635
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_pre2k",
+                     "UserInfo":  "Member of domain Pre-Windows 2000 Compatible Access",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "0b436f67-47e4-48bd-b9b7-44e1453f32e5",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  620160660,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  16,
+                                      "Minutes":  1,
+                                      "Seconds":  2,
+                                      "TotalDays":  0.00071777854166666668,
+                                      "TotalHours":  0.017226685,
+                                      "TotalMilliseconds":  62016.066000000006,
+                                      "TotalMinutes":  1.0336011,
+                                      "TotalSeconds":  62.016065999999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_openssh",
+                     "UserInfo":  "Member of domain OpenSSH Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "65bf1e0e-0303-4a94-801d-e5eec1a01af2",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  617154680,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  715,
+                                      "Minutes":  1,
+                                      "Seconds":  1,
+                                      "TotalDays":  0.00071429939814814808,
+                                      "TotalHours":  0.017143185555555555,
+                                      "TotalMilliseconds":  61715.468,
+                                      "TotalMinutes":  1.0285911333333333,
+                                      "TotalSeconds":  61.715467999999994
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_openssh",
+                     "UserInfo":  "Member of local OpenSSH Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "466d8636-e455-46b6-83e1-39214d028c66",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  609334132,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  933,
+                                      "Minutes":  1,
+                                      "Seconds":  0,
+                                      "TotalDays":  0.0007052478379629629,
+                                      "TotalHours":  0.01692594811111111,
+                                      "TotalMilliseconds":  60933.4132,
+                                      "TotalMinutes":  1.0155568866666667,
+                                      "TotalSeconds":  60.9334132
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_poweruser",
+                     "UserInfo":  "Member of local Power Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "613ee62b-02a3-46b9-8edf-23086fe569a5",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  606739799,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  673,
+                                      "Minutes":  1,
+                                      "Seconds":  0,
+                                      "TotalDays":  0.00070224513773148149,
+                                      "TotalHours":  0.016853883305555553,
+                                      "TotalMilliseconds":  60673.979900000006,
+                                      "TotalMinutes":  1.0112329983333332,
+                                      "TotalSeconds":  60.6739799
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_printop",
+                     "UserInfo":  "Member of domain Print Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  [
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "b78656b1-eb22-4b38-baec-4a491859f9f5",
+                                        "PSShowComputerName":  false
+                                    }
+                                ],
+                     "Duration":  {
+                                      "Ticks":  603698186,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  369,
+                                      "Minutes":  1,
+                                      "Seconds":  0,
+                                      "TotalDays":  0.00069872475231481479,
+                                      "TotalHours":  0.016769394055555553,
+                                      "TotalMilliseconds":  60369.818600000006,
+                                      "TotalMinutes":  1.0061636433333334,
+                                      "TotalSeconds":  60.369818599999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_printop",
+                     "UserInfo":  "Member of local Print Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b1bbbcab-e7df-44e7-807d-769797cf6c73",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  566092125,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  609,
+                                      "Minutes":  0,
+                                      "Seconds":  56,
+                                      "TotalDays":  0.00065519921875,
+                                      "TotalHours":  0.01572478125,
+                                      "TotalMilliseconds":  56609.2125,
+                                      "TotalMinutes":  0.94348687500000006,
+                                      "TotalSeconds":  56.6092125
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsep",
+                     "UserInfo":  "Member of domain RDS Endpoint Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "00c9c645-a4d4-4f38-bcdc-3f37be8f0273",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  563726330,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  372,
+                                      "Minutes":  0,
+                                      "Seconds":  56,
+                                      "TotalDays":  0.0006524610300925926,
+                                      "TotalHours":  0.01565906472222222,
+                                      "TotalMilliseconds":  56372.633,
+                                      "TotalMinutes":  0.93954388333333339,
+                                      "TotalSeconds":  56.372633
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsep",
+                     "UserInfo":  "Member of local RDS Endpoint Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "1a971d82-a1f7-4c49-a0b0-664381fb6729",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  561488981,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  148,
+                                      "Minutes":  0,
+                                      "Seconds":  56,
+                                      "TotalDays":  0.000649871505787037,
+                                      "TotalHours":  0.015596916138888889,
+                                      "TotalMilliseconds":  56148.898100000006,
+                                      "TotalMinutes":  0.93581496833333333,
+                                      "TotalSeconds":  56.1488981
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsmgmt",
+                     "UserInfo":  "Member of domain RDS Management Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "2624a2dd-b3c3-4c04-a78b-91e50683a6d9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  558771101,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  877,
+                                      "Minutes":  0,
+                                      "Seconds":  55,
+                                      "TotalDays":  0.00064672581134259252,
+                                      "TotalHours":  0.015521419472222221,
+                                      "TotalMilliseconds":  55877.110100000005,
+                                      "TotalMinutes":  0.9312851683333333,
+                                      "TotalSeconds":  55.877110099999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsmgmt",
+                     "UserInfo":  "Member of local RDS Management Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "42dc5a74-b09a-4ade-bdc3-1043a0f55e1e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  556083777,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  608,
+                                      "Minutes":  0,
+                                      "Seconds":  55,
+                                      "TotalDays":  0.00064361548263888887,
+                                      "TotalHours":  0.015446771583333333,
+                                      "TotalMilliseconds":  55608.377700000005,
+                                      "TotalMinutes":  0.926806295,
+                                      "TotalSeconds":  55.6083777
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsra",
+                     "UserInfo":  "Member of domain RDS Remote Access Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "73e822ee-81bc-4211-a699-b749fe1b8a4e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  527892802,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  789,
+                                      "Minutes":  0,
+                                      "Seconds":  52,
+                                      "TotalDays":  0.00061098703935185187,
+                                      "TotalHours":  0.014663688944444444,
+                                      "TotalMilliseconds":  52789.2802,
+                                      "TotalMinutes":  0.87982133666666673,
+                                      "TotalSeconds":  52.7892802
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsra",
+                     "UserInfo":  "Member of local RDS Remote Access Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9e01fde1-f540-429e-9cab-41eee6902445",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  525363748,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  536,
+                                      "Minutes":  0,
+                                      "Seconds":  52,
+                                      "TotalDays":  0.00060805989351851849,
+                                      "TotalHours":  0.014593437444444444,
+                                      "TotalMilliseconds":  52536.374800000005,
+                                      "TotalMinutes":  0.87560624666666664,
+                                      "TotalSeconds":  52.5363748
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdpusr",
+                     "UserInfo":  "Member of domain Remote Desktop Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "35728e05-60f1-421a-95b6-8caec25be7d4",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  522813130,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  281,
+                                      "Minutes":  0,
+                                      "Seconds":  52,
+                                      "TotalDays":  0.0006051077893518518,
+                                      "TotalHours":  0.014522586944444443,
+                                      "TotalMilliseconds":  52281.313,
+                                      "TotalMinutes":  0.87135521666666671,
+                                      "TotalSeconds":  52.281313
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdpusr",
+                     "UserInfo":  "Member of local Remote Desktop Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "76b2d50c-e162-4b3d-8ee1-3ec0c1b32663",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  520110192,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  11,
+                                      "Minutes":  0,
+                                      "Seconds":  52,
+                                      "TotalDays":  0.00060197938888888886,
+                                      "TotalHours":  0.014447505333333333,
+                                      "TotalMilliseconds":  52011.0192,
+                                      "TotalMinutes":  0.86685032000000006,
+                                      "TotalSeconds":  52.0110192
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rmtmgmt",
+                     "UserInfo":  "Member of domain Remote Management Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9565c5fb-a269-481c-9573-c9b1836c04cc",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  517030589,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  703,
+                                      "Minutes":  0,
+                                      "Seconds":  51,
+                                      "TotalDays":  0.00059841503356481481,
+                                      "TotalHours":  0.014361960805555555,
+                                      "TotalMilliseconds":  51703.0589,
+                                      "TotalMinutes":  0.86171764833333331,
+                                      "TotalSeconds":  51.703058899999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rmtmgmt",
+                     "UserInfo":  "Member of local Remote Management Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "81f98496-cfed-4731-bd9e-90b488bc6a85",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  479371174,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  937,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.00055482774768518517,
+                                      "TotalHours":  0.013315865944444444,
+                                      "TotalMilliseconds":  47937.1174,
+                                      "TotalMinutes":  0.79895195666666663,
+                                      "TotalSeconds":  47.9371174
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_repl",
+                     "UserInfo":  "Member of domain Replicator",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a501a445-82a1-4ffd-8293-dec32abd79df",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  476870885,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  687,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.0005519338946759259,
+                                      "TotalHours":  0.013246413472222222,
+                                      "TotalMilliseconds":  47687.088500000005,
+                                      "TotalMinutes":  0.79478480833333331,
+                                      "TotalSeconds":  47.687088499999994
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_repl",
+                     "UserInfo":  "Member of local Replicator via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "e2dcf17a-e867-4607-97e4-506bc7a32435",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  474269648,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  426,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.00054892320370370363,
+                                      "TotalHours":  0.013174156888888889,
+                                      "TotalMilliseconds":  47426.9648,
+                                      "TotalMinutes":  0.7904494133333333,
+                                      "TotalSeconds":  47.4269648
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_servop",
+                     "UserInfo":  "Member of domain Server Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  [
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "03a4b4ce-820a-4e50-b8ca-96e261f21c70",
+                                        "PSShowComputerName":  false
+                                    }
+                                ],
+                     "Duration":  {
+                                      "Ticks":  471042005,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  104,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.000545187505787037,
+                                      "TotalHours":  0.013084500138888889,
+                                      "TotalMilliseconds":  47104.2005,
+                                      "TotalMinutes":  0.7850700083333334,
+                                      "TotalSeconds":  47.1042005
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_storadm",
+                     "UserInfo":  "Member of domain Storage Replica Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "38850f8b-2543-4f3c-bbbc-bb152f0aed29",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  447561809,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  756,
+                                      "Minutes":  0,
+                                      "Seconds":  44,
+                                      "TotalDays":  0.00051801135300925927,
+                                      "TotalHours":  0.012432272472222223,
+                                      "TotalMilliseconds":  44756.1809,
+                                      "TotalMinutes":  0.74593634833333333,
+                                      "TotalSeconds":  44.7561809
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_storadm",
+                     "UserInfo":  "Member of local Storage Replica Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7128d3dd-d9c0-467a-ad93-f9b38db394e9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  439987562,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  998,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.00050924486342592587,
+                                      "TotalHours":  0.012221876722222223,
+                                      "TotalMilliseconds":  43998.7562,
+                                      "TotalMinutes":  0.73331260333333337,
+                                      "TotalSeconds":  43.998756199999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_sysmgd",
+                     "UserInfo":  "Member of local System Managed Accounts Group via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "d339f0ae-7d4f-4ca1-bead-845c03590edd",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  437319985,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  731,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.00050615739004629629,
+                                      "TotalHours":  0.01214777736111111,
+                                      "TotalMilliseconds":  43731.9985,
+                                      "TotalMinutes":  0.7288666416666667,
+                                      "TotalSeconds":  43.731998499999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_tslic",
+                     "UserInfo":  "Member of domain Terminal Server License Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "bfc3b37e-3fb0-4aba-819d-345d2ce30fa1",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  434616744,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  461,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.00050302863888888882,
+                                      "TotalHours":  0.012072687333333334,
+                                      "TotalMilliseconds":  43461.6744,
+                                      "TotalMinutes":  0.72436124,
+                                      "TotalSeconds":  43.4616744
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_winauth",
+                     "UserInfo":  "Member of domain Windows Authorization Access Group",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "17c49e35-e687-458c-a2e9-46f230def021",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  431627908,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  162,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.0004995693379629629,
+                                      "TotalHours":  0.01198966411111111,
+                                      "TotalMilliseconds":  43162.7908,
+                                      "TotalMinutes":  0.71937984666666666,
+                                      "TotalSeconds":  43.162790799999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_certpub",
+                     "UserInfo":  "Member of domain Cert Publishers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "42fbc6e7-bd71-4796-a298-07127808bd18",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  408568361,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  856,
+                                      "Minutes":  0,
+                                      "Seconds":  40,
+                                      "TotalDays":  0.00047288004745370369,
+                                      "TotalHours":  0.011349121138888888,
+                                      "TotalMilliseconds":  40856.8361,
+                                      "TotalMinutes":  0.6809472683333333,
+                                      "TotalSeconds":  40.856836099999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_clonedc",
+                     "UserInfo":  "Member of domain Cloneable Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "66404f8e-a424-4a67-8e6a-f176a1f96ec4",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  406082036,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  608,
+                                      "Minutes":  0,
+                                      "Seconds":  40,
+                                      "TotalDays":  0.00047000235648148145,
+                                      "TotalHours":  0.011280056555555555,
+                                      "TotalMilliseconds":  40608.2036,
+                                      "TotalMinutes":  0.67680339333333339,
+                                      "TotalSeconds":  40.608203599999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dnsadm",
+                     "UserInfo":  "Member of domain DnsAdmins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c3f630a3-f81e-45dd-b251-b84a12f77070",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  402977317,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  297,
+                                      "Minutes":  0,
+                                      "Seconds":  40,
+                                      "TotalDays":  0.00046640893171296294,
+                                      "TotalHours":  0.011193814361111111,
+                                      "TotalMilliseconds":  40297.731700000004,
+                                      "TotalMinutes":  0.67162886166666669,
+                                      "TotalSeconds":  40.2977317
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dnsproxy",
+                     "UserInfo":  "Member of domain DnsUpdateProxy",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "e6aa7281-f80d-4a38-97f4-af6e5f314101",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  394874979,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  487,
+                                      "Minutes":  0,
+                                      "Seconds":  39,
+                                      "TotalDays":  0.00045703122569444441,
+                                      "TotalHours":  0.010968749416666666,
+                                      "TotalMilliseconds":  39487.4979,
+                                      "TotalMinutes":  0.65812496500000006,
+                                      "TotalSeconds":  39.4874979
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domadm",
+                     "UserInfo":  "Member of domain Domain Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  [
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "408cbb26-5bb1-491e-873e-0a20c0b2784a",
+                                        "PSShowComputerName":  false
+                                    }
+                                ],
+                     "Duration":  {
+                                      "Ticks":  391941843,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  194,
+                                      "Minutes":  0,
+                                      "Seconds":  39,
+                                      "TotalDays":  0.00045363639236111109,
+                                      "TotalHours":  0.010887273416666666,
+                                      "TotalMilliseconds":  39194.1843,
+                                      "TotalMinutes":  0.653236405,
+                                      "TotalSeconds":  39.194184299999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domcomp",
+                     "UserInfo":  "Member of domain Domain Computers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f71558c5-d20b-4ab2-8ad1-f1292acc41f8",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  373692583,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  369,
+                                      "Minutes":  0,
+                                      "Seconds":  37,
+                                      "TotalDays":  0.00043251456365740737,
+                                      "TotalHours":  0.010380349527777777,
+                                      "TotalMilliseconds":  37369.2583,
+                                      "TotalMinutes":  0.62282097166666672,
+                                      "TotalSeconds":  37.3692583
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domctrl",
+                     "UserInfo":  "Member of domain Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5f2fed87-491f-4cdb-aa31-3fb3d42d4310",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  371224528,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  122,
+                                      "Minutes":  0,
+                                      "Seconds":  37,
+                                      "TotalDays":  0.0004296580185185185,
+                                      "TotalHours":  0.010311792444444443,
+                                      "TotalMilliseconds":  37122.4528,
+                                      "TotalMinutes":  0.61870754666666672,
+                                      "TotalSeconds":  37.1224528
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domguest",
+                     "UserInfo":  "Member of domain Domain Guests",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a5489783-69af-454a-9f0f-7633d3ab8b19",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  360159042,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  15,
+                                      "Minutes":  0,
+                                      "Seconds":  36,
+                                      "TotalDays":  0.00041685074305555553,
+                                      "TotalHours":  0.010004417833333333,
+                                      "TotalMilliseconds":  36015.904200000004,
+                                      "TotalMinutes":  0.60026507000000007,
+                                      "TotalSeconds":  36.0159042
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entadm",
+                     "UserInfo":  "Member of forest Enterprise Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  [
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "Administrator",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "CORP1-DC01",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    },
+                                    {
+                                        "wkui1_username":  "CORP1-DC01$",
+                                        "wkui1_logon_domain":  "CORP1",
+                                        "wkui1_oth_domains":  "",
+                                        "wkui1_logon_server":  "",
+                                        "QueriedComputer":  "corp1-dc01",
+                                        "PSComputerName":  "localhost",
+                                        "RunspaceId":  "a04eb283-adca-4169-af02-3ee7d747a0f5",
+                                        "PSShowComputerName":  false
+                                    }
+                                ],
+                     "Duration":  {
+                                      "Ticks":  357614010,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  761,
+                                      "Minutes":  0,
+                                      "Seconds":  35,
+                                      "TotalDays":  0.00041390510416666667,
+                                      "TotalHours":  0.0099337224999999987,
+                                      "TotalMilliseconds":  35761.401000000005,
+                                      "TotalMinutes":  0.59602335000000006,
+                                      "TotalSeconds":  35.761401
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entkey",
+                     "UserInfo":  "Member of forest Enterprise Key Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "984afe97-ae2f-43e9-9575-5ba9d5bef84f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  101906549,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  190,
+                                      "Minutes":  0,
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00011794739467592592,
+                                      "TotalHours":  0.0028307374722222221,
+                                      "TotalMilliseconds":  10190.654900000001,
+                                      "TotalMinutes":  0.16984424833333334,
+                                      "TotalSeconds":  10.1906549
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entrodc",
+                     "UserInfo":  "Member of forest Enterprise Read-only Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b29b3e70-c4e7-44d5-b3af-f14642e5f437",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  98688687,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  868,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.0001142230173611111,
+                                      "TotalHours":  0.0027413524166666667,
+                                      "TotalMilliseconds":  9868.8687,
+                                      "TotalMinutes":  0.164481145,
+                                      "TotalSeconds":  9.8688687
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_exttrust",
+                     "UserInfo":  "Member of domain External Trust Accounts",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "1a458a40-7a56-45f8-8a9c-f5ce39257242",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  96398209,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  639,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.0001115720011574074,
+                                      "TotalHours":  0.0026777280277777778,
+                                      "TotalMilliseconds":  9639.8209,
+                                      "TotalMinutes":  0.16066368166666667,
+                                      "TotalSeconds":  9.6398209
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_fortrust",
+                     "UserInfo":  "Member of domain Forest Trust Accounts",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a42bd3d6-1cc1-4cd5-8c96-67e057bcbfa5",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  93911950,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  391,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010869438657407408,
+                                      "TotalHours":  0.0026086652777777778,
+                                      "TotalMilliseconds":  9391.195,
+                                      "TotalMinutes":  0.15651991666666668,
+                                      "TotalSeconds":  9.391195
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_gpoowner",
+                     "UserInfo":  "Member of domain Group Policy Creator Owners",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "1688e9c7-2496-4b89-9f56-ea4099236883",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  91325082,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  132,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010570032638888888,
+                                      "TotalHours":  0.0025368078333333332,
+                                      "TotalMilliseconds":  9132.5082,
+                                      "TotalMinutes":  0.15220847,
+                                      "TotalSeconds":  9.1325082
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_keyadm",
+                     "UserInfo":  "Member of domain Key Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7881541d-035d-46f1-9b89-05b351cbd823",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  48120352,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  812,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  5.5694851851851847E-05,
+                                      "TotalHours":  0.0013366764444444443,
+                                      "TotalMilliseconds":  4812.0352,
+                                      "TotalMinutes":  0.080200586666666671,
+                                      "TotalSeconds":  4.8120351999999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_protected",
+                     "UserInfo":  "Member of domain Protected Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a382c615-b376-4097-9037-e48227cf3c74",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  45398469,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  539,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  5.2544524305555552E-05,
+                                      "TotalHours":  0.0012610685833333332,
+                                      "TotalMilliseconds":  4539.8469000000005,
+                                      "TotalMinutes":  0.075664115,
+                                      "TotalSeconds":  4.5398469
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rasias",
+                     "UserInfo":  "Member of domain RAS and IAS Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "39a28a9d-cfd7-449a-89c6-691bf7579708",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  42691729,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  269,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  4.9411723379629626E-05,
+                                      "TotalHours":  0.001185881361111111,
+                                      "TotalMilliseconds":  4269.1729000000005,
+                                      "TotalMinutes":  0.071152881666666667,
+                                      "TotalSeconds":  4.2691729
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rodc",
+                     "UserInfo":  "Member of domain Read-only Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "dbdc03ce-2775-4eff-a3d9-c41decb8d449",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  40637609,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  63,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  4.7034269675925922E-05,
+                                      "TotalHours":  0.0011288224722222221,
+                                      "TotalMilliseconds":  4063.7609,
+                                      "TotalMinutes":  0.067729348333333328,
+                                      "TotalSeconds":  4.0637609
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_schemaadm",
+                     "UserInfo":  "Member of forest Schema Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "2859963e-175e-44eb-9b94-40d95d5a3d39",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  38275620,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  827,
+                                      "Minutes":  0,
+                                      "Seconds":  3,
+                                      "TotalDays":  4.4300486111111108E-05,
+                                      "TotalHours":  0.0010632116666666666,
+                                      "TotalMilliseconds":  3827.5620000000004,
+                                      "TotalMinutes":  0.063792700000000008,
+                                      "TotalSeconds":  3.827562
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_devown",
+                     "UserInfo":  "Member of local Device Owners via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "dde174fc-8b01-4530-be59-894c871ed784",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  59679058,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  967,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  6.9072983796296291E-05,
+                                      "TotalHours":  0.001657751611111111,
+                                      "TotalMilliseconds":  5967.9058,
+                                      "TotalMinutes":  0.099465096666666669,
+                                      "TotalSeconds":  5.9679058
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_umhwop",
+                     "UserInfo":  "Member of local User Mode Hardware Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "value":  "No data",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c05b5267-7c08-4287-b52c-83d567e8e61d",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  57419736,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  741,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  6.6458027777777779E-05,
+                                      "TotalHours":  0.0015949926666666667,
+                                      "TotalMilliseconds":  5741.9736,
+                                      "TotalMinutes":  0.09569956,
+                                      "TotalSeconds":  5.7419736
+                                  }
+                 }
+             ]
+}

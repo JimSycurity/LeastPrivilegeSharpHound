@@ -1,0 +1,2746 @@
+﻿{
+    "ComputerName":  "corp1-she03",
+    "ComputerDescription":  "CORP1 T1 SharpHound",
+    "ScriptName":  "LocalGroups",
+    "ScriptPurpose":  "Local Group Collection over SAMR",
+    "Data":  [
+                 {
+                     "UserName":  "CORP1\\psx_d_stdusr",
+                     "UserInfo":  "Domain Users, no additional groups",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520031854)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:51 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "d8563395-3090-463b-9733-25b0842d5652",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  445988858,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  598,
+                                      "Minutes":  0,
+                                      "Seconds":  44,
+                                      "TotalDays":  0.00051619080787037035,
+                                      "TotalHours":  0.012388579388888888,
+                                      "TotalMilliseconds":  44598.885800000004,
+                                      "TotalMinutes":  0.74331476333333335,
+                                      "TotalSeconds":  44.5988858
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_acao",
+                     "UserInfo":  "Member of domain Access Control Assistance Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520031853)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:51 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "4e771b4f-2500-430c-a4df-c0bce2fd51ac",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  443583981,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  358,
+                                      "Minutes":  0,
+                                      "Seconds":  44,
+                                      "TotalDays":  0.00051340738541666669,
+                                      "TotalHours":  0.012321777249999999,
+                                      "TotalMilliseconds":  44358.3981,
+                                      "TotalMinutes":  0.739306635,
+                                      "TotalSeconds":  44.358398099999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_acao",
+                     "UserInfo":  "Member of local Access Control Assistance Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520031853)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:51 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "3e971969-8033-4062-a743-fd014f87f15d",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  441126868,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  112,
+                                      "Minutes":  0,
+                                      "Seconds":  44,
+                                      "TotalDays":  0.00051056350462962965,
+                                      "TotalHours":  0.01225352411111111,
+                                      "TotalMilliseconds":  44112.6868,
+                                      "TotalMinutes":  0.73521144666666671,
+                                      "TotalSeconds":  44.1126868
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_ao",
+                     "UserInfo":  "Member of domain Account Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520031853)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:51 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "46896699-1f83-46d4-99e6-fb76c2b6d5e6",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  438336021,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  833,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.00050733335763888888,
+                                      "TotalHours":  0.012176000583333332,
+                                      "TotalMilliseconds":  43833.602100000004,
+                                      "TotalMinutes":  0.730560035,
+                                      "TotalSeconds":  43.8336021
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_ba",
+                     "UserInfo":  "Member of domain Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520031853)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:51 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "591413dc-f613-4641-ba84-fbc8bc9205dc",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  434928980,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  492,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.00050339002314814816,
+                                      "TotalHours":  0.012081360555555556,
+                                      "TotalMilliseconds":  43492.898,
+                                      "TotalMinutes":  0.72488163333333333,
+                                      "TotalSeconds":  43.492898
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_ba",
+                     "UserInfo":  "Member of local Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520033412)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:53 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "1f508b2b-07d3-4f03-9734-b0e1258232bf",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  218502007,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  850,
+                                      "Minutes":  0,
+                                      "Seconds":  21,
+                                      "TotalDays":  0.0002528958414351852,
+                                      "TotalHours":  0.0060695001944444443,
+                                      "TotalMilliseconds":  21850.2007,
+                                      "TotalMinutes":  0.36417001166666668,
+                                      "TotalSeconds":  21.8502007
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_backupop",
+                     "UserInfo":  "Member of domain Backup Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520033740)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:53 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "bdf0e532-7dd1-47d9-ac40-4ab7e514b895",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  216124858,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  612,
+                                      "Minutes":  0,
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00025014451157407406,
+                                      "TotalHours":  0.0060034682777777779,
+                                      "TotalMilliseconds":  21612.485800000002,
+                                      "TotalMinutes":  0.3602080966666667,
+                                      "TotalSeconds":  21.612485799999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_backupop",
+                     "UserInfo":  "Member of local Backup Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520033983)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:53 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "0e8f7ece-c338-4cfe-aead-b36e7aeda704",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  213815703,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  381,
+                                      "Minutes":  0,
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00024747187847222219,
+                                      "TotalHours":  0.0059393250833333329,
+                                      "TotalMilliseconds":  21381.5703,
+                                      "TotalMinutes":  0.356359505,
+                                      "TotalSeconds":  21.3815703
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_certdcom",
+                     "UserInfo":  "Member of domain Certificate Service DCOM Access",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520034409)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:54 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "50e1a7c9-1716-4adb-bad1-ad28be6e06c5",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  211253164,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  125,
+                                      "Minutes":  0,
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00024450597685185185,
+                                      "TotalHours":  0.0058681434444444441,
+                                      "TotalMilliseconds":  21125.3164,
+                                      "TotalMinutes":  0.35208860666666669,
+                                      "TotalSeconds":  21.1253164
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_certdcom",
+                     "UserInfo":  "Member of local Certificate Service DCOM Access via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520034528)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:54 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "6570652f-f2fa-4b17-9e45-2964ff53eb83",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  210019371,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  1,
+                                      "Minutes":  0,
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00024307797569444445,
+                                      "TotalHours":  0.0058338714166666665,
+                                      "TotalMilliseconds":  21001.9371,
+                                      "TotalMinutes":  0.350032285,
+                                      "TotalSeconds":  21.0019371
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_cryptop",
+                     "UserInfo":  "Member of domain Cryptographic Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520034704)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:54 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "92408162-7564-46ed-af93-4ede218d7772",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  207905058,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  790,
+                                      "Minutes":  0,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00024063085416666666,
+                                      "TotalHours":  0.0057751404999999995,
+                                      "TotalMilliseconds":  20790.505800000003,
+                                      "TotalMinutes":  0.34650843000000003,
+                                      "TotalSeconds":  20.7905058
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_cryptop",
+                     "UserInfo":  "Member of local Cryptographic Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520034866)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:54 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "39bd15c5-a482-4178-a226-cdc1d89db57a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  205441811,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  544,
+                                      "Minutes":  0,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00023777987384259258,
+                                      "TotalHours":  0.0057067169722222217,
+                                      "TotalMilliseconds":  20544.1811,
+                                      "TotalMinutes":  0.34240301833333336,
+                                      "TotalSeconds":  20.5441811
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dcomu",
+                     "UserInfo":  "Member of domain Distributed COM Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520035129)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:55 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f183b607-fd97-4e1f-8b15-7728387fbdb9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  202548370,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  254,
+                                      "Minutes":  0,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00023443098379629629,
+                                      "TotalHours":  0.0056263436111111112,
+                                      "TotalMilliseconds":  20254.837,
+                                      "TotalMinutes":  0.33758061666666667,
+                                      "TotalSeconds":  20.254837
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_dcomu",
+                     "UserInfo":  "Member of local Distributed COM Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520036066)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:56 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "0270f599-0440-45ca-b559-83f216530a83",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  195074141,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  507,
+                                      "Minutes":  0,
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00022578025578703703,
+                                      "TotalHours":  0.0054187261388888887,
+                                      "TotalMilliseconds":  19507.4141,
+                                      "TotalMinutes":  0.32512356833333333,
+                                      "TotalSeconds":  19.5074141
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_evtrdr",
+                     "UserInfo":  "Member of domain Event Log Readers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520036257)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:56 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "66a191a8-deb3-43d4-90d5-e19ae0c5aa7a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  192729629,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  272,
+                                      "Minutes":  0,
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00022306670023148148,
+                                      "TotalHours":  0.0053536008055555554,
+                                      "TotalMilliseconds":  19272.962900000002,
+                                      "TotalMinutes":  0.32121604833333334,
+                                      "TotalSeconds":  19.2729629
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_evtrdr",
+                     "UserInfo":  "Member of local Event Log Readers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520036418)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:56 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9cb6db41-9fe8-4213-b002-a9f5d150030b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  190573826,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  57,
+                                      "Minutes":  0,
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00022057155787037037,
+                                      "TotalHours":  0.0052937173888888888,
+                                      "TotalMilliseconds":  19057.3826,
+                                      "TotalMinutes":  0.31762304333333335,
+                                      "TotalSeconds":  19.0573826
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_guest",
+                     "UserInfo":  "Member of domain Guests",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520036649)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:56 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "55fcb9dd-e158-4082-be76-6f08c5ad8c9c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  188010728,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  801,
+                                      "Minutes":  0,
+                                      "Seconds":  18,
+                                      "TotalDays":  0.00021760500925925924,
+                                      "TotalHours":  0.005222520222222222,
+                                      "TotalMilliseconds":  18801.0728,
+                                      "TotalMinutes":  0.31335121333333332,
+                                      "TotalSeconds":  18.8010728
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_guest",
+                     "UserInfo":  "Member of local Guests via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520040476)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:00 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c41fe63b-5457-44db-b790-ecc643470c51",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  182150306,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  215,
+                                      "Minutes":  0,
+                                      "Seconds":  18,
+                                      "TotalDays":  0.00021082211342592593,
+                                      "TotalHours":  0.0050597307222222223,
+                                      "TotalMilliseconds":  18215.030600000002,
+                                      "TotalMinutes":  0.30358384333333333,
+                                      "TotalSeconds":  18.2150306
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_hvadm",
+                     "UserInfo":  "Member of domain Hyper-V Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520037636)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:57 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "23869b21-f5fc-4cd3-a95f-ec130b18bf3b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  180169724,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  16,
+                                      "Minutes":  0,
+                                      "Seconds":  18,
+                                      "TotalDays":  0.00020852977314814815,
+                                      "TotalHours":  0.0050047145555555551,
+                                      "TotalMilliseconds":  18016.972400000002,
+                                      "TotalMinutes":  0.30028287333333337,
+                                      "TotalSeconds":  18.0169724
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_hvadm",
+                     "UserInfo":  "Member of local Hyper-V Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520037774)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:57 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "ac6fcb8a-df56-48d2-ac5b-2baba20d3a34",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  177817623,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  781,
+                                      "Minutes":  0,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00020580743402777776,
+                                      "TotalHours":  0.0049393784166666668,
+                                      "TotalMilliseconds":  17781.762300000002,
+                                      "TotalMinutes":  0.296362705,
+                                      "TotalSeconds":  17.7817623
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_iisu",
+                     "UserInfo":  "Member of domain IIS_IUSRS",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520038003)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:58 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "85e1b4c6-ffae-47d0-98c9-a935d7edc68b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  175259051,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  525,
+                                      "Minutes":  0,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00020284612384259258,
+                                      "TotalHours":  0.0048683069722222222,
+                                      "TotalMilliseconds":  17525.9051,
+                                      "TotalMinutes":  0.29209841833333333,
+                                      "TotalSeconds":  17.5259051
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_iisu",
+                     "UserInfo":  "Member of local IIS_IUSRS via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520038228)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:58 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "ac1a832b-68cd-484c-8951-f46328861363",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  172274167,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  227,
+                                      "Minutes":  0,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00019939139699074073,
+                                      "TotalHours":  0.0047853935277777778,
+                                      "TotalMilliseconds":  17227.4167,
+                                      "TotalMinutes":  0.28712361166666667,
+                                      "TotalSeconds":  17.2274167
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_iftb",
+                     "UserInfo":  "Member of domain Incoming Forest Trust Builders",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520039164)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:59 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "17e74556-9727-44c8-8015-fb31258409fc",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  164688531,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  468,
+                                      "Minutes":  0,
+                                      "Seconds":  16,
+                                      "TotalDays":  0.00019061172569444443,
+                                      "TotalHours":  0.0045746814166666662,
+                                      "TotalMilliseconds":  16468.8531,
+                                      "TotalMinutes":  0.274480885,
+                                      "TotalSeconds":  16.4688531
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_netconop",
+                     "UserInfo":  "Member of domain Network Configuration Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520039385)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:59 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "d70dca3a-8335-4ec4-bb03-c650006dcaac",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  162220919,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  222,
+                                      "Minutes":  0,
+                                      "Seconds":  16,
+                                      "TotalDays":  0.00018775569328703703,
+                                      "TotalHours":  0.0045061366388888888,
+                                      "TotalMilliseconds":  16222.091900000001,
+                                      "TotalMinutes":  0.27036819833333336,
+                                      "TotalSeconds":  16.2220919
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_netconop",
+                     "UserInfo":  "Member of local Network Configuration Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520039594)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:59 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7d44dcef-b66d-4e01-9e51-f24461a0c748",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  159376551,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  937,
+                                      "Minutes":  0,
+                                      "Seconds":  15,
+                                      "TotalDays":  0.00018446360069444443,
+                                      "TotalHours":  0.0044271264166666664,
+                                      "TotalMilliseconds":  15937.6551,
+                                      "TotalMinutes":  0.265627585,
+                                      "TotalSeconds":  15.937655099999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_perflog",
+                     "UserInfo":  "Member of domain Performance Log Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520039823)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:33:59 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c881f445-fa21-4b4d-b2c2-7f97dd8701a9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  156423145,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  642,
+                                      "Minutes":  0,
+                                      "Seconds":  15,
+                                      "TotalDays":  0.00018104530671296296,
+                                      "TotalHours":  0.0043450873611111107,
+                                      "TotalMilliseconds":  15642.3145,
+                                      "TotalMinutes":  0.2607052416666667,
+                                      "TotalSeconds":  15.6423145
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_perflog",
+                     "UserInfo":  "Member of local Performance Log Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520040765)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:00 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "8e2204f9-b122-43a2-bb19-b5d9a0aa1694",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  149450246,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  945,
+                                      "Minutes":  0,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00017297482175925925,
+                                      "TotalHours":  0.0041513957222222217,
+                                      "TotalMilliseconds":  14945.0246,
+                                      "TotalMinutes":  0.24908374333333333,
+                                      "TotalSeconds":  14.9450246
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_perfmon",
+                     "UserInfo":  "Member of domain Performance Monitor Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520040951)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:00 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f77b2bb5-8aba-46f0-93a9-d4a3fe4c962f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  147259359,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  725,
+                                      "Minutes":  0,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00017043907291666667,
+                                      "TotalHours":  0.00409053775,
+                                      "TotalMilliseconds":  14725.9359,
+                                      "TotalMinutes":  0.245432265,
+                                      "TotalSeconds":  14.7259359
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_perfmon",
+                     "UserInfo":  "Member of local Performance Monitor Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520041275)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:01 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5a143df8-13ae-4e3a-a382-6f05e778ec96",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  145177895,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  517,
+                                      "Minutes":  0,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00016802997106481481,
+                                      "TotalHours":  0.0040327193055555554,
+                                      "TotalMilliseconds":  14517.7895,
+                                      "TotalMinutes":  0.24196315833333334,
+                                      "TotalSeconds":  14.5177895
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_pre2k",
+                     "UserInfo":  "Member of domain Pre-Windows 2000 Compatible Access",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520041588)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:01 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "167c539f-11dc-4170-a1a3-a1a2151b0234",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  141902203,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  190,
+                                      "Minutes":  0,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00016423866087962962,
+                                      "TotalHours":  0.0039417278611111111,
+                                      "TotalMilliseconds":  14190.2203,
+                                      "TotalMinutes":  0.23650367166666666,
+                                      "TotalSeconds":  14.1902203
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_openssh",
+                     "UserInfo":  "Member of domain OpenSSH Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520041968)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:01 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "e7b42d9b-b099-426d-97a2-637ed8fd8247",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  137814073,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  781,
+                                      "Minutes":  0,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00015950702893518517,
+                                      "TotalHours":  0.0038281686944444441,
+                                      "TotalMilliseconds":  13781.4073,
+                                      "TotalMinutes":  0.22969012166666666,
+                                      "TotalSeconds":  13.7814073
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_openssh",
+                     "UserInfo":  "Member of local OpenSSH Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520042318)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:02 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f9ad47ea-ab8c-4a97-a0fe-a6a6943005c4",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  135202683,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  520,
+                                      "Minutes":  0,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00015648458680555554,
+                                      "TotalHours":  0.0037556300833333331,
+                                      "TotalMilliseconds":  13520.268300000002,
+                                      "TotalMinutes":  0.225337805,
+                                      "TotalSeconds":  13.5202683
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_poweruser",
+                     "UserInfo":  "Member of local Power Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520042489)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:02 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "3cb6437c-f802-42a5-9561-dddcb4557764",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  132501570,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  250,
+                                      "Minutes":  0,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.0001533582986111111,
+                                      "TotalHours":  0.0036805991666666667,
+                                      "TotalMilliseconds":  13250.157000000001,
+                                      "TotalMinutes":  0.22083595,
+                                      "TotalSeconds":  13.250157
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_printop",
+                     "UserInfo":  "Member of domain Print Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520042876)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:02 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a49b633a-f912-40b2-bbcd-9b69bcd84510",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  129508824,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  950,
+                                      "Minutes":  0,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00014989447222222221,
+                                      "TotalHours":  0.0035974673333333332,
+                                      "TotalMilliseconds":  12950.8824,
+                                      "TotalMinutes":  0.21584804,
+                                      "TotalSeconds":  12.9508824
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_printop",
+                     "UserInfo":  "Member of local Print Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520043157)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:03 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "dd8c6b69-ade4-4d9a-8126-29fd7ecce56b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  126818498,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  681,
+                                      "Minutes":  0,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00014678066898148149,
+                                      "TotalHours":  0.0035227360555555552,
+                                      "TotalMilliseconds":  12681.8498,
+                                      "TotalMinutes":  0.21136416333333333,
+                                      "TotalSeconds":  12.6818498
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsep",
+                     "UserInfo":  "Member of domain RDS Endpoint Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520043396)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:03 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7c788f7a-0e60-42c5-b85a-f5f320bd9007",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  123534242,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  353,
+                                      "Minutes":  0,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00014297944675925925,
+                                      "TotalHours":  0.0034315067222222221,
+                                      "TotalMilliseconds":  12353.424200000001,
+                                      "TotalMinutes":  0.20589040333333333,
+                                      "TotalSeconds":  12.3534242
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsep",
+                     "UserInfo":  "Member of local RDS Endpoint Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520043687)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:03 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5996cd5c-f993-4567-b5c8-43fa18ad74ae",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  120861250,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  86,
+                                      "Minutes":  0,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00013988570601851852,
+                                      "TotalHours":  0.0033572569444444444,
+                                      "TotalMilliseconds":  12086.125,
+                                      "TotalMinutes":  0.20143541666666667,
+                                      "TotalSeconds":  12.086125
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsmgmt",
+                     "UserInfo":  "Member of domain RDS Management Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520043982)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:03 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9de231e5-4d35-422e-b005-28c65c026e87",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  118493686,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  849,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00013714546990740739,
+                                      "TotalHours":  0.0032914912777777775,
+                                      "TotalMilliseconds":  11849.3686,
+                                      "TotalMinutes":  0.19748947666666666,
+                                      "TotalSeconds":  11.8493686
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsmgmt",
+                     "UserInfo":  "Member of local RDS Management Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520044256)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:04 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "1931a857-5791-44ff-8eb4-fcaa1c706d06",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  115891758,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  589,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00013413397916666665,
+                                      "TotalHours":  0.0032192155,
+                                      "TotalMilliseconds":  11589.1758,
+                                      "TotalMinutes":  0.19315293,
+                                      "TotalSeconds":  11.5891758
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsra",
+                     "UserInfo":  "Member of domain RDS Remote Access Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520044506)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:04 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "41f64454-2ba2-43fe-a97f-9021deefeadd",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  113127167,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  312,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00013093422106481481,
+                                      "TotalHours":  0.0031424213055555555,
+                                      "TotalMilliseconds":  11312.7167,
+                                      "TotalMinutes":  0.18854527833333334,
+                                      "TotalSeconds":  11.3127167
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsra",
+                     "UserInfo":  "Member of local RDS Remote Access Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520044748)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:04 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "ac7a980c-b3fa-4bc2-a82e-be8dfeb5783e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  110187085,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  18,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00012753134837962962,
+                                      "TotalHours":  0.003060752361111111,
+                                      "TotalMilliseconds":  11018.7085,
+                                      "TotalMinutes":  0.18364514166666668,
+                                      "TotalSeconds":  11.018708499999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdpusr",
+                     "UserInfo":  "Member of domain Remote Desktop Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520045099)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:05 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "92437544-8129-4799-bd02-bddcf24b9c6d",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  108005844,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  800,
+                                      "Minutes":  0,
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00012500676388888887,
+                                      "TotalHours":  0.0030001623333333334,
+                                      "TotalMilliseconds":  10800.5844,
+                                      "TotalMinutes":  0.18000974,
+                                      "TotalSeconds":  10.8005844
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdpusr",
+                     "UserInfo":  "Member of local Remote Desktop Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520045413)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:05 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c0b9fe6f-c8b5-4f8e-8156-8ee9b6fad79f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  105174314,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  517,
+                                      "Minutes":  0,
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00012172953009259258,
+                                      "TotalHours":  0.0029215087222222223,
+                                      "TotalMilliseconds":  10517.431400000001,
+                                      "TotalMinutes":  0.17529052333333334,
+                                      "TotalSeconds":  10.5174314
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rmtmgmt",
+                     "UserInfo":  "Member of domain Remote Management Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520045709)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:05 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "8fef6591-17ef-4f45-83d1-6e9196caf865",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  102496386,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  249,
+                                      "Minutes":  0,
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00011863007638888889,
+                                      "TotalHours":  0.0028471218333333331,
+                                      "TotalMilliseconds":  10249.6386,
+                                      "TotalMinutes":  0.17082731,
+                                      "TotalSeconds":  10.249638599999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rmtmgmt",
+                     "UserInfo":  "Member of local Remote Management Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520045975)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:05 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f8773ee9-8912-4db8-868d-62b74a5a3955",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  99858196,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  985,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00011557661574074074,
+                                      "TotalHours":  0.0027738387777777778,
+                                      "TotalMilliseconds":  9985.8196,
+                                      "TotalMinutes":  0.16643032666666668,
+                                      "TotalSeconds":  9.9858196
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_repl",
+                     "UserInfo":  "Member of domain Replicator",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520046224)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:06 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "523c7f3c-da28-48fa-a250-48f0e55d9305",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  97128558,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  712,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00011241731249999999,
+                                      "TotalHours":  0.0026980155,
+                                      "TotalMilliseconds":  9712.8558000000012,
+                                      "TotalMinutes":  0.16188093,
+                                      "TotalSeconds":  9.7128558
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_repl",
+                     "UserInfo":  "Member of local Replicator via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520046479)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:06 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "3c44f40c-c18e-4efb-9396-f5728a9b4732",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  94200176,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  420,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010902798148148148,
+                                      "TotalHours":  0.0026166715555555557,
+                                      "TotalMilliseconds":  9420.017600000001,
+                                      "TotalMinutes":  0.15700029333333335,
+                                      "TotalSeconds":  9.4200176
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_servop",
+                     "UserInfo":  "Member of domain Server Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520046714)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:06 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b5af66b9-a3bc-4708-ba34-823237d2bece",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  91436810,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  143,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010582964120370371,
+                                      "TotalHours":  0.0025399113888888887,
+                                      "TotalMilliseconds":  9143.681,
+                                      "TotalMinutes":  0.15239468333333334,
+                                      "TotalSeconds":  9.1436809999999991
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_storadm",
+                     "UserInfo":  "Member of domain Storage Replica Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520046928)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:06 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "2a22b4a9-5c95-488c-a25d-96f6c1589386",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  88483892,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  848,
+                                      "Minutes":  0,
+                                      "Seconds":  8,
+                                      "TotalDays":  0.00010241191203703703,
+                                      "TotalHours":  0.0024578858888888886,
+                                      "TotalMilliseconds":  8848.3892,
+                                      "TotalMinutes":  0.14747315333333333,
+                                      "TotalSeconds":  8.8483892
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_storadm",
+                     "UserInfo":  "Member of local Storage Replica Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520047186)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:07 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "26f30c60-4b73-4227-8778-15a9dbb6ce22",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  86267422,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  626,
+                                      "Minutes":  0,
+                                      "Seconds":  8,
+                                      "TotalDays":  9.9846553240740742E-05,
+                                      "TotalHours":  0.0023963172777777776,
+                                      "TotalMilliseconds":  8626.7422,
+                                      "TotalMinutes":  0.14377903666666667,
+                                      "TotalSeconds":  8.6267421999999989
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_sysmgd",
+                     "UserInfo":  "Member of local System Managed Accounts Group via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520047617)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:07 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7c436dc8-e7b3-4736-aab1-26e2c7ea415c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  83490008,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  349,
+                                      "Minutes":  0,
+                                      "Seconds":  8,
+                                      "TotalDays":  9.66319537037037E-05,
+                                      "TotalHours":  0.0023191668888888888,
+                                      "TotalMilliseconds":  8349.0008,
+                                      "TotalMinutes":  0.13915001333333335,
+                                      "TotalSeconds":  8.3490007999999989
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_tslic",
+                     "UserInfo":  "Member of domain Terminal Server License Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520047739)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:07 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b92a287d-1acd-45ae-8d21-b2df363f397d",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  81104615,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  110,
+                                      "Minutes":  0,
+                                      "Seconds":  8,
+                                      "TotalDays":  9.3871082175925918E-05,
+                                      "TotalHours":  0.0022529059722222219,
+                                      "TotalMilliseconds":  8110.4615,
+                                      "TotalMinutes":  0.13517435833333333,
+                                      "TotalSeconds":  8.1104615
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_winauth",
+                     "UserInfo":  "Member of domain Windows Authorization Access Group",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520047917)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:07 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "4941a2bd-03bc-4c4b-ac0b-ce7ce66baf0e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  78825775,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  882,
+                                      "Minutes":  0,
+                                      "Seconds":  7,
+                                      "TotalDays":  9.1233535879629623E-05,
+                                      "TotalHours":  0.0021896048611111112,
+                                      "TotalMilliseconds":  7882.5775,
+                                      "TotalMinutes":  0.13137629166666667,
+                                      "TotalSeconds":  7.8825775
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_certpub",
+                     "UserInfo":  "Member of domain Cert Publishers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520048092)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:08 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "43e6e057-9861-42a0-ace4-f79321aeec0d",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  76162358,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  616,
+                                      "Minutes":  0,
+                                      "Seconds":  7,
+                                      "TotalDays":  8.81508773148148E-05,
+                                      "TotalHours":  0.0021156210555555556,
+                                      "TotalMilliseconds":  7616.2358,
+                                      "TotalMinutes":  0.12693726333333333,
+                                      "TotalSeconds":  7.6162357999999992
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_clonedc",
+                     "UserInfo":  "Member of domain Cloneable Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520048262)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:08 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "59e63cee-f985-4968-938e-108b19628d78",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  73435441,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  343,
+                                      "Minutes":  0,
+                                      "Seconds":  7,
+                                      "TotalDays":  8.4994723379629627E-05,
+                                      "TotalHours":  0.0020398733611111108,
+                                      "TotalMilliseconds":  7343.5441,
+                                      "TotalMinutes":  0.12239240166666666,
+                                      "TotalSeconds":  7.3435441
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dnsadm",
+                     "UserInfo":  "Member of domain DnsAdmins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520049193)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:09 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "485ea345-da50-4fcc-a935-1a4f4abfbc1b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  66479501,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  647,
+                                      "Minutes":  0,
+                                      "Seconds":  6,
+                                      "TotalDays":  7.694386689814814E-05,
+                                      "TotalHours":  0.0018466528055555555,
+                                      "TotalMilliseconds":  6647.9501,
+                                      "TotalMinutes":  0.11079916833333334,
+                                      "TotalSeconds":  6.6479501
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dnsproxy",
+                     "UserInfo":  "Member of domain DnsUpdateProxy",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520049445)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:09 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "3d8d5699-345c-4fbb-9c59-435304d268d2",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  64050694,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  405,
+                                      "Minutes":  0,
+                                      "Seconds":  6,
+                                      "TotalDays":  7.4132747685185183E-05,
+                                      "TotalHours":  0.0017791859444444443,
+                                      "TotalMilliseconds":  6405.0694,
+                                      "TotalMinutes":  0.10675115666666667,
+                                      "TotalSeconds":  6.4050693999999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domadm",
+                     "UserInfo":  "Member of domain Domain Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520049593)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:09 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "1e23188b-bc76-4cda-b89d-521150a4e8af",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  61948659,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  194,
+                                      "Minutes":  0,
+                                      "Seconds":  6,
+                                      "TotalDays":  7.1699836805555559E-05,
+                                      "TotalHours":  0.0017207960833333332,
+                                      "TotalMilliseconds":  6194.8659000000007,
+                                      "TotalMinutes":  0.103247765,
+                                      "TotalSeconds":  6.1948659
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domcomp",
+                     "UserInfo":  "Member of domain Domain Computers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520049800)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:09 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "bb64ac86-c0bb-4521-8a1e-d9bcc806fe14",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  59639473,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  963,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  6.902716782407407E-05,
+                                      "TotalHours":  0.0016566520277777777,
+                                      "TotalMilliseconds":  5963.9473000000007,
+                                      "TotalMinutes":  0.099399121666666673,
+                                      "TotalSeconds":  5.9639473
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domctrl",
+                     "UserInfo":  "Member of domain Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520050037)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:10 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "fd0f0b61-de28-4806-a859-5679830bba8b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  57070760,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  707,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  6.605412037037037E-05,
+                                      "TotalHours":  0.0015852988888888889,
+                                      "TotalMilliseconds":  5707.076,
+                                      "TotalMinutes":  0.095117933333333335,
+                                      "TotalSeconds":  5.707076
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domguest",
+                     "UserInfo":  "Member of domain Domain Guests",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520053784)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:13 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "2a4db09e-240a-460c-93b1-d062f9b6534e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  51614034,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  161,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  5.9738465277777775E-05,
+                                      "TotalHours":  0.0014337231666666666,
+                                      "TotalMilliseconds":  5161.4034,
+                                      "TotalMinutes":  0.08602339,
+                                      "TotalSeconds":  5.1614034
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entadm",
+                     "UserInfo":  "Member of forest Enterprise Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520051084)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:11 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "fd7b20f3-1ef8-4a4c-9c30-282aaa3f07bc",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  48471903,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  847,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  5.6101739583333334E-05,
+                                      "TotalHours":  0.00134644175,
+                                      "TotalMilliseconds":  4847.1903,
+                                      "TotalMinutes":  0.080786505000000008,
+                                      "TotalSeconds":  4.8471902999999994
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entkey",
+                     "UserInfo":  "Member of forest Enterprise Key Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520051244)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:11 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5b9deb59-cf60-423e-b619-fb416033d7dd",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  45978046,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  597,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  5.3215331018518515E-05,
+                                      "TotalHours":  0.0012771679444444444,
+                                      "TotalMilliseconds":  4597.8046,
+                                      "TotalMinutes":  0.076630076666666672,
+                                      "TotalSeconds":  4.5978046
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entrodc",
+                     "UserInfo":  "Member of forest Enterprise Read-only Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520051449)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:11 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7d40fb65-1982-4cb1-a3de-9d980f81246e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  43126520,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  312,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  4.99149537037037E-05,
+                                      "TotalHours":  0.0011979588888888888,
+                                      "TotalMilliseconds":  4312.652,
+                                      "TotalMinutes":  0.07187753333333334,
+                                      "TotalSeconds":  4.312652
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_exttrust",
+                     "UserInfo":  "Member of domain External Trust Accounts",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520051686)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:11 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "2689ce88-cb8b-4e2c-9fae-f4062bbb045b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  40306059,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  30,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  4.665053125E-05,
+                                      "TotalHours":  0.00111961275,
+                                      "TotalMilliseconds":  4030.6059,
+                                      "TotalMinutes":  0.067176765,
+                                      "TotalSeconds":  4.0306058999999994
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_fortrust",
+                     "UserInfo":  "Member of domain Forest Trust Accounts",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520052647)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:12 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "384e1967-d08f-4e9d-bbd5-a263afca0d78",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  32784783,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  278,
+                                      "Minutes":  0,
+                                      "Seconds":  3,
+                                      "TotalDays":  3.7945350694444442E-05,
+                                      "TotalHours":  0.00091068841666666666,
+                                      "TotalMilliseconds":  3278.4783,
+                                      "TotalMinutes":  0.054641305,
+                                      "TotalSeconds":  3.2784782999999997
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_gpoowner",
+                     "UserInfo":  "Member of domain Group Policy Creator Owners",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520052825)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:12 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "bed58f56-db24-4935-bd05-41d32ef28892",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  30283416,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  28,
+                                      "Minutes":  0,
+                                      "Seconds":  3,
+                                      "TotalDays":  3.5050249999999995E-05,
+                                      "TotalHours":  0.00084120599999999994,
+                                      "TotalMilliseconds":  3028.3416,
+                                      "TotalMinutes":  0.05047236,
+                                      "TotalSeconds":  3.0283416
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_keyadm",
+                     "UserInfo":  "Member of domain Key Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520053040)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:13 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b9498904-e4e2-4719-8601-6f860f974bfe",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  27804671,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  780,
+                                      "Minutes":  0,
+                                      "Seconds":  2,
+                                      "TotalDays":  3.2181332175925921E-05,
+                                      "TotalHours":  0.00077235197222222222,
+                                      "TotalMilliseconds":  2780.4671000000003,
+                                      "TotalMinutes":  0.046341118333333334,
+                                      "TotalSeconds":  2.7804671
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_protected",
+                     "UserInfo":  "Member of domain Protected Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520053267)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:13 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "92f0fa1a-2954-453a-b21a-92c225488f45",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  24999512,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  499,
+                                      "Minutes":  0,
+                                      "Seconds":  2,
+                                      "TotalDays":  2.8934620370370368E-05,
+                                      "TotalHours":  0.00069443088888888882,
+                                      "TotalMilliseconds":  2499.9512,
+                                      "TotalMinutes":  0.041665853333333336,
+                                      "TotalSeconds":  2.4999512
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rasias",
+                     "UserInfo":  "Member of domain RAS and IAS Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520054191)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:14 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "dc1de2bb-b32d-45c4-9937-7560520589d3",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  17513080,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  751,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  2.0269768518518516E-05,
+                                      "TotalHours":  0.00048647444444444444,
+                                      "TotalMilliseconds":  1751.308,
+                                      "TotalMinutes":  0.029188466666666666,
+                                      "TotalSeconds":  1.7513079999999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rodc",
+                     "UserInfo":  "Member of domain Read-only Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520054388)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:14 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "abd9ddf8-aaeb-4d79-84a3-d29bfaf0d4d3",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  15220130,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  522,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  1.7615891203703703E-05,
+                                      "TotalHours":  0.00042278138888888887,
+                                      "TotalMilliseconds":  1522.0130000000001,
+                                      "TotalMinutes":  0.025366883333333333,
+                                      "TotalSeconds":  1.5220129999999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_schemaadm",
+                     "UserInfo":  "Member of forest Schema Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520054789)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:14 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5166839e-37c3-47e9-a78b-da91b1570da5",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  12435884,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  243,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  1.4393384259259258E-05,
+                                      "TotalHours":  0.00034544122222222222,
+                                      "TotalMilliseconds":  1243.5884,
+                                      "TotalMinutes":  0.020726473333333335,
+                                      "TotalSeconds":  1.2435884
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_devown",
+                     "UserInfo":  "Member of local Device Owners via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520055206)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:15 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a86999f5-29cf-4a29-ad98-301567695e53",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  11872704,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  187,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  1.3741555555555555E-05,
+                                      "TotalHours":  0.00032979733333333332,
+                                      "TotalMilliseconds":  1187.2704,
+                                      "TotalMinutes":  0.01978784,
+                                      "TotalSeconds":  1.1872703999999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_umhwop",
+                     "UserInfo":  "Member of local User Mode Hardware Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "Success":  false,
+                                    "RetrievedAt":  {
+                                                        "value":  "\/Date(1759520055527)\/",
+                                                        "DisplayHint":  {
+                                                                            "value":  2,
+                                                                            "Value":  "DateTime"
+                                                                        },
+                                                        "DateTime":  "Friday, October 3, 2025 2:34:15 PM"
+                                                    },
+                                    "ErrorMessage":  "Exception calling \"Enumerate\" with \"1\" argument(s): \"SamConnect failed for corp1-she03 (NTSTATUS 0xC0020017)\"",
+                                    "NtStatus":  null,
+                                    "FullyQualifiedErrorId":  "Win32Exception",
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "ceffeeda-2a30-4b74-b4db-24e0f78d0b2c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  11722935,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  172,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  1.3568211805555555E-05,
+                                      "TotalHours":  0.00032563708333333333,
+                                      "TotalMilliseconds":  1172.2935,
+                                      "TotalMinutes":  0.019538225,
+                                      "TotalSeconds":  1.1722934999999999
+                                  }
+                 }
+             ]
+}

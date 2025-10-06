@@ -1,0 +1,2820 @@
+﻿{
+    "ComputerName":  "corp1-she03",
+    "ComputerDescription":  "CORP1 T1 SharpHound",
+    "ScriptName":  "LSAURA",
+    "ScriptPurpose":  "LSA User Rights Assignments",
+    "Data":  [
+                 {
+                     "UserName":  "CORP1\\psx_d_stdusr",
+                     "UserInfo":  "Domain Users, no additional groups",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_stdusr",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "dabe1de8-988c-4ed4-a66d-19b7f9609dbd",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  480194245,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  19,
+                                      "Minutes":  0,
+                                      "Seconds":  48,
+                                      "TotalDays":  0.00055578037615740738,
+                                      "TotalHours":  0.013338729027777777,
+                                      "TotalMilliseconds":  48019.4245,
+                                      "TotalMinutes":  0.80032374166666664,
+                                      "TotalSeconds":  48.0194245
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_acao",
+                     "UserInfo":  "Member of domain Access Control Assistance Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_acao",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "6f823da7-30b4-46e3-9b6a-5cf777044711",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  477853539,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  785,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.00055307122569444439,
+                                      "TotalHours":  0.013273709416666666,
+                                      "TotalMilliseconds":  47785.3539,
+                                      "TotalMinutes":  0.796422565,
+                                      "TotalSeconds":  47.7853539
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_acao",
+                     "UserInfo":  "Member of local Access Control Assistance Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_acao",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9b9eb5c3-1de4-4876-9c43-db86adca5f22",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  475512011,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  551,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.00055036112384259262,
+                                      "TotalHours":  0.013208666972222222,
+                                      "TotalMilliseconds":  47551.201100000006,
+                                      "TotalMinutes":  0.7925200183333333,
+                                      "TotalSeconds":  47.5512011
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_ao",
+                     "UserInfo":  "Member of domain Account Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_ao",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "6f362eda-3cef-4169-a097-06efe5bf6365",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  472608415,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  260,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.00054700048032407409,
+                                      "TotalHours":  0.013128011527777777,
+                                      "TotalMilliseconds":  47260.8415,
+                                      "TotalMinutes":  0.78768069166666665,
+                                      "TotalSeconds":  47.2608415
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_ba",
+                     "UserInfo":  "Member of domain Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_ba",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7e2dd413-6f67-435c-b6cf-19222f9741e2",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  470128192,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  12,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.00054412985185185183,
+                                      "TotalHours":  0.013059116444444444,
+                                      "TotalMilliseconds":  47012.819200000005,
+                                      "TotalMinutes":  0.78354698666666667,
+                                      "TotalSeconds":  47.012819199999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_ba",
+                     "UserInfo":  "Member of local Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_ba",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a9c432e4-b12e-422d-a6b8-b84562ffada6",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  253312882,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  331,
+                                      "Minutes":  0,
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029318620601851851,
+                                      "TotalHours":  0.0070364689444444442,
+                                      "TotalMilliseconds":  25331.288200000003,
+                                      "TotalMinutes":  0.42218813666666666,
+                                      "TotalSeconds":  25.3312882
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_backupop",
+                     "UserInfo":  "Member of domain Backup Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_backupop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "48710b9f-7bee-4e6a-97c4-6a8b85fcb260",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  251060845,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  106,
+                                      "Minutes":  0,
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029057968171296295,
+                                      "TotalHours":  0.0069739123611111111,
+                                      "TotalMilliseconds":  25106.0845,
+                                      "TotalMinutes":  0.41843474166666667,
+                                      "TotalSeconds":  25.106084499999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_backupop",
+                     "UserInfo":  "Member of local Backup Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_backupop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "293c3eff-efc0-4e29-8522-1c1abe3580db",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  248687602,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  868,
+                                      "Minutes":  0,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00028783287268518515,
+                                      "TotalHours":  0.006907988944444444,
+                                      "TotalMilliseconds":  24868.7602,
+                                      "TotalMinutes":  0.4144793366666667,
+                                      "TotalSeconds":  24.8687602
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_certdcom",
+                     "UserInfo":  "Member of domain Certificate Service DCOM Access",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_certdcom",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "06199084-0da0-4572-9f2b-8a51f6b1da1b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  246366205,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  636,
+                                      "Minutes":  0,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00028514607060185185,
+                                      "TotalHours":  0.0068435056944444444,
+                                      "TotalMilliseconds":  24636.6205,
+                                      "TotalMinutes":  0.41061034166666666,
+                                      "TotalSeconds":  24.6366205
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_certdcom",
+                     "UserInfo":  "Member of local Certificate Service DCOM Access via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_certdcom",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "17fb4c31-4d40-4ad1-be0a-213c90b5cc10",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  243405703,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  340,
+                                      "Minutes":  0,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00028171956365740741,
+                                      "TotalHours":  0.0067612695277777775,
+                                      "TotalMilliseconds":  24340.5703,
+                                      "TotalMinutes":  0.4056761716666667,
+                                      "TotalSeconds":  24.3405703
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_cryptop",
+                     "UserInfo":  "Member of domain Cryptographic Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_cryptop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "91cdd4e6-725d-4fde-a6a1-b8363aef7f2a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  240445412,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  44,
+                                      "Minutes":  0,
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00027829330092592593,
+                                      "TotalHours":  0.0066790392222222219,
+                                      "TotalMilliseconds":  24044.5412,
+                                      "TotalMinutes":  0.40074235333333336,
+                                      "TotalSeconds":  24.044541199999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_cryptop",
+                     "UserInfo":  "Member of local Cryptographic Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_cryptop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "084baf21-695e-475c-b97b-165a4bec193f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  237966230,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  796,
+                                      "Minutes":  0,
+                                      "Seconds":  23,
+                                      "TotalDays":  0.00027542387731481483,
+                                      "TotalHours":  0.0066101730555555554,
+                                      "TotalMilliseconds":  23796.623,
+                                      "TotalMinutes":  0.39661038333333332,
+                                      "TotalSeconds":  23.796623
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dcomu",
+                     "UserInfo":  "Member of domain Distributed COM Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_dcomu",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "45ffeea6-db6c-4c8f-b37b-65a4ec071377",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  230929019,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  92,
+                                      "Minutes":  0,
+                                      "Seconds":  23,
+                                      "TotalDays":  0.00026727895717592589,
+                                      "TotalHours":  0.0064146949722222223,
+                                      "TotalMilliseconds":  23092.9019,
+                                      "TotalMinutes":  0.38488169833333336,
+                                      "TotalSeconds":  23.092901899999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_dcomu",
+                     "UserInfo":  "Member of local Distributed COM Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_dcomu",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "576969a6-1c1c-4895-b510-d7e0b2b7bba9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  228497652,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  849,
+                                      "Minutes":  0,
+                                      "Seconds":  22,
+                                      "TotalDays":  0.000264464875,
+                                      "TotalHours":  0.006347157,
+                                      "TotalMilliseconds":  22849.7652,
+                                      "TotalMinutes":  0.38082942000000003,
+                                      "TotalSeconds":  22.8497652
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_evtrdr",
+                     "UserInfo":  "Member of domain Event Log Readers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_evtrdr",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "7b8c0c8c-9f81-4722-846e-3db619680084",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  226070099,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  607,
+                                      "Minutes":  0,
+                                      "Seconds":  22,
+                                      "TotalDays":  0.0002616552071759259,
+                                      "TotalHours":  0.0062797249722222215,
+                                      "TotalMilliseconds":  22607.0099,
+                                      "TotalMinutes":  0.37678349833333336,
+                                      "TotalSeconds":  22.607009899999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_evtrdr",
+                     "UserInfo":  "Member of local Event Log Readers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_evtrdr",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c230e562-9eee-4769-8ad3-ac8c992208cf",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  223574719,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  357,
+                                      "Minutes":  0,
+                                      "Seconds":  22,
+                                      "TotalDays":  0.00025876703587962964,
+                                      "TotalHours":  0.006210408861111111,
+                                      "TotalMilliseconds":  22357.4719,
+                                      "TotalMinutes":  0.37262453166666665,
+                                      "TotalSeconds":  22.3574719
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_guest",
+                     "UserInfo":  "Member of domain Guests",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_guest",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "6d05cfed-5546-4b19-8c2b-e94124391366",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  220964948,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  96,
+                                      "Minutes":  0,
+                                      "Seconds":  22,
+                                      "TotalDays":  0.00025574646759259258,
+                                      "TotalHours":  0.0061379152222222223,
+                                      "TotalMilliseconds":  22096.4948,
+                                      "TotalMinutes":  0.36827491333333334,
+                                      "TotalSeconds":  22.0964948
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_guest",
+                     "UserInfo":  "Member of local Guests via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_guest",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b3af6d23-7039-4a3b-9fec-6365ecd6181b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  210342934,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  34,
+                                      "Minutes":  0,
+                                      "Seconds":  21,
+                                      "TotalDays":  0.0002434524699074074,
+                                      "TotalHours":  0.0058428592777777779,
+                                      "TotalMilliseconds":  21034.293400000002,
+                                      "TotalMinutes":  0.35057155666666667,
+                                      "TotalSeconds":  21.0342934
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_hvadm",
+                     "UserInfo":  "Member of domain Hyper-V Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_hvadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "dd1e7d33-259f-4683-8f38-1c1b13e2e74c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  208015237,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  801,
+                                      "Minutes":  0,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.0002407583761574074,
+                                      "TotalHours":  0.0057782010277777776,
+                                      "TotalMilliseconds":  20801.5237,
+                                      "TotalMinutes":  0.34669206166666666,
+                                      "TotalSeconds":  20.8015237
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_hvadm",
+                     "UserInfo":  "Member of local Hyper-V Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_hvadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "13f9892e-f5f9-4baf-b8b4-c7816cd3c321",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  205569543,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  556,
+                                      "Minutes":  0,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00023792771180555555,
+                                      "TotalHours":  0.0057102650833333332,
+                                      "TotalMilliseconds":  20556.9543,
+                                      "TotalMinutes":  0.342615905,
+                                      "TotalSeconds":  20.556954299999997
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_iisu",
+                     "UserInfo":  "Member of domain IIS_IUSRS",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_iisu",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "823be6b9-4447-4013-ae26-e8ad744b5a8c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  202943682,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  294,
+                                      "Minutes":  0,
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00023488852083333332,
+                                      "TotalHours":  0.0056373245,
+                                      "TotalMilliseconds":  20294.3682,
+                                      "TotalMinutes":  0.33823947,
+                                      "TotalSeconds":  20.294368199999997
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_iisu",
+                     "UserInfo":  "Member of local IIS_IUSRS via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_iisu",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "70d32e88-4bcf-4b05-84a8-628f21cb3fa5",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  199885721,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  988,
+                                      "Minutes":  0,
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00023134921412037036,
+                                      "TotalHours":  0.0055523811388888886,
+                                      "TotalMilliseconds":  19988.5721,
+                                      "TotalMinutes":  0.33314286833333334,
+                                      "TotalSeconds":  19.9885721
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_iftb",
+                     "UserInfo":  "Member of domain Incoming Forest Trust Builders",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_iftb",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c265ed42-50ff-42e2-a403-3f7950e7de43",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  192538472,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  253,
+                                      "Minutes":  0,
+                                      "Seconds":  19,
+                                      "TotalDays":  0.0002228454537037037,
+                                      "TotalHours":  0.005348290888888889,
+                                      "TotalMilliseconds":  19253.8472,
+                                      "TotalMinutes":  0.32089745333333336,
+                                      "TotalSeconds":  19.2538472
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_netconop",
+                     "UserInfo":  "Member of domain Network Configuration Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_netconop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "164fa3af-a1ee-45f9-af06-cb830559c288",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  190362970,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  36,
+                                      "Minutes":  0,
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00022032751157407407,
+                                      "TotalHours":  0.0052878602777777775,
+                                      "TotalMilliseconds":  19036.297000000002,
+                                      "TotalMinutes":  0.3172716166666667,
+                                      "TotalSeconds":  19.036296999999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_netconop",
+                     "UserInfo":  "Member of local Network Configuration Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_netconop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b38244d6-b6ef-4c95-9b4f-09a15475d91c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  188168259,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  816,
+                                      "Minutes":  0,
+                                      "Seconds":  18,
+                                      "TotalDays":  0.00021778733680555555,
+                                      "TotalHours":  0.0052268960833333333,
+                                      "TotalMilliseconds":  18816.8259,
+                                      "TotalMinutes":  0.313613765,
+                                      "TotalSeconds":  18.816825899999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_perflog",
+                     "UserInfo":  "Member of domain Performance Log Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_perflog",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "781bdbc9-b5bc-451c-8651-700017b5b6c9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  185314699,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  531,
+                                      "Minutes":  0,
+                                      "Seconds":  18,
+                                      "TotalDays":  0.00021448460532407407,
+                                      "TotalHours":  0.0051476305277777775,
+                                      "TotalMilliseconds":  18531.4699,
+                                      "TotalMinutes":  0.30885783166666669,
+                                      "TotalSeconds":  18.531469899999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_perflog",
+                     "UserInfo":  "Member of local Performance Log Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_perflog",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "cced1fff-ef4c-4c20-8946-cc698c4ce443",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  177948065,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  794,
+                                      "Minutes":  0,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.0002059584085648148,
+                                      "TotalHours":  0.0049430018055555552,
+                                      "TotalMilliseconds":  17794.806500000002,
+                                      "TotalMinutes":  0.29658010833333331,
+                                      "TotalSeconds":  17.7948065
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_perfmon",
+                     "UserInfo":  "Member of domain Performance Monitor Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_perfmon",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5db55842-f463-4495-a13a-c2f43a61a9d1",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  175837134,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  583,
+                                      "Minutes":  0,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00020351520138888889,
+                                      "TotalHours":  0.0048843648333333333,
+                                      "TotalMilliseconds":  17583.7134,
+                                      "TotalMinutes":  0.29306189,
+                                      "TotalSeconds":  17.5837134
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_perfmon",
+                     "UserInfo":  "Member of local Performance Monitor Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_perfmon",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a98ca185-7491-4bee-b926-cc5757795cbf",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  173263863,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  326,
+                                      "Minutes":  0,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.0002005368784722222,
+                                      "TotalHours":  0.0048128850833333335,
+                                      "TotalMilliseconds":  17326.386300000002,
+                                      "TotalMinutes":  0.28877310500000003,
+                                      "TotalSeconds":  17.3263863
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_pre2k",
+                     "UserInfo":  "Member of domain Pre-Windows 2000 Compatible Access",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_pre2k",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5fc0e067-0821-43fd-83c5-3c4e26cd819b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  170544925,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  54,
+                                      "Minutes":  0,
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00019738995949074073,
+                                      "TotalHours":  0.0047373590277777775,
+                                      "TotalMilliseconds":  17054.4925,
+                                      "TotalMinutes":  0.28424154166666665,
+                                      "TotalSeconds":  17.0544925
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_openssh",
+                     "UserInfo":  "Member of domain OpenSSH Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_openssh",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "871c3c4e-380b-46fa-b8d7-39f26299677a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  153001668,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  300,
+                                      "Minutes":  0,
+                                      "Seconds":  15,
+                                      "TotalDays":  0.00017708526388888888,
+                                      "TotalHours":  0.0042500463333333335,
+                                      "TotalMilliseconds":  15300.1668,
+                                      "TotalMinutes":  0.25500278,
+                                      "TotalSeconds":  15.3001668
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_openssh",
+                     "UserInfo":  "Member of local OpenSSH Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_openssh",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b3a97b0c-8cf2-4101-b471-ba30013583bb",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  150784377,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  78,
+                                      "Minutes":  0,
+                                      "Seconds":  15,
+                                      "TotalDays":  0.0001745189548611111,
+                                      "TotalHours":  0.0041884549166666665,
+                                      "TotalMilliseconds":  15078.4377,
+                                      "TotalMinutes":  0.251307295,
+                                      "TotalSeconds":  15.078437699999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_poweruser",
+                     "UserInfo":  "Member of local Power Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_poweruser",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5f439743-5fd9-4c01-badb-c42b4db90211",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  148417536,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  841,
+                                      "Minutes":  0,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00017177955555555555,
+                                      "TotalHours":  0.0041227093333333327,
+                                      "TotalMilliseconds":  14841.7536,
+                                      "TotalMinutes":  0.24736256,
+                                      "TotalSeconds":  14.841753599999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_printop",
+                     "UserInfo":  "Member of domain Print Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_printop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "931ec1ac-3581-4459-82e5-1cbbe0c35fb1",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  146454309,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  645,
+                                      "Minutes":  0,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00016950730208333334,
+                                      "TotalHours":  0.00406817525,
+                                      "TotalMilliseconds":  14645.430900000001,
+                                      "TotalMinutes":  0.244090515,
+                                      "TotalSeconds":  14.6454309
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_printop",
+                     "UserInfo":  "Member of local Print Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_printop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "22bad79f-5a3d-4ff5-a792-34fd9450d60c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  143845543,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  384,
+                                      "Minutes":  0,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00016648789699074074,
+                                      "TotalHours":  0.0039957095277777773,
+                                      "TotalMilliseconds":  14384.5543,
+                                      "TotalMinutes":  0.23974257166666668,
+                                      "TotalSeconds":  14.3845543
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsep",
+                     "UserInfo":  "Member of domain RDS Endpoint Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_rdsep",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "94670326-e704-4e83-9e7d-0009ff802a17",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  136285093,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  628,
+                                      "Minutes":  0,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00015773737615740741,
+                                      "TotalHours":  0.0037856970277777777,
+                                      "TotalMilliseconds":  13628.509300000002,
+                                      "TotalMinutes":  0.22714182166666666,
+                                      "TotalSeconds":  13.6285093
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsep",
+                     "UserInfo":  "Member of local RDS Endpoint Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_rdsep",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9d35b961-52b8-41c8-a596-065a382dfae0",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  133793371,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  379,
+                                      "Minutes":  0,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.0001548534386574074,
+                                      "TotalHours":  0.0037164825277777778,
+                                      "TotalMilliseconds":  13379.3371,
+                                      "TotalMinutes":  0.22298895166666668,
+                                      "TotalSeconds":  13.379337099999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsmgmt",
+                     "UserInfo":  "Member of domain RDS Management Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_rdsmgmt",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "532f9df5-9ef8-4c42-8217-ba16f8d81b13",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  131262527,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  126,
+                                      "Minutes":  0,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00015192422106481481,
+                                      "TotalHours":  0.0036461813055555553,
+                                      "TotalMilliseconds":  13126.252700000001,
+                                      "TotalMinutes":  0.21877087833333334,
+                                      "TotalSeconds":  13.1262527
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsmgmt",
+                     "UserInfo":  "Member of local RDS Management Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_rdsmgmt",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "ea4b2262-b391-4fee-b8c8-800613ce9752",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  128848227,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  884,
+                                      "Minutes":  0,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.0001491298923611111,
+                                      "TotalHours":  0.0035791174166666666,
+                                      "TotalMilliseconds":  12884.8227,
+                                      "TotalMinutes":  0.214747045,
+                                      "TotalSeconds":  12.884822699999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdsra",
+                     "UserInfo":  "Member of domain RDS Remote Access Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_rdsra",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "791b9fcb-64b9-4f91-82dd-133ac10e8110",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  125849065,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  584,
+                                      "Minutes":  0,
+                                      "Seconds":  12,
+                                      "TotalDays":  0.0001456586400462963,
+                                      "TotalHours":  0.0034958073611111111,
+                                      "TotalMilliseconds":  12584.906500000001,
+                                      "TotalMinutes":  0.20974844166666667,
+                                      "TotalSeconds":  12.584906499999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdsra",
+                     "UserInfo":  "Member of local RDS Remote Access Servers via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_rdsra",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9630dfdc-c013-49db-a73b-52f9d150f5dd",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  118209102,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  820,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00013681609027777777,
+                                      "TotalHours":  0.0032835861666666664,
+                                      "TotalMilliseconds":  11820.9102,
+                                      "TotalMinutes":  0.19701517000000002,
+                                      "TotalSeconds":  11.8209102
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rdpusr",
+                     "UserInfo":  "Member of domain Remote Desktop Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_rdpusr",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "70950732-9c44-459d-af2d-7ca249697359",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  115971959,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  597,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00013422680439814815,
+                                      "TotalHours":  0.0032214433055555553,
+                                      "TotalMilliseconds":  11597.1959,
+                                      "TotalMinutes":  0.19328659833333334,
+                                      "TotalSeconds":  11.597195899999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rdpusr",
+                     "UserInfo":  "Member of local Remote Desktop Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_rdpusr",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "4e9c1b26-96f6-42b2-9859-c42af2eca6b5",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  113617395,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  361,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00013150161458333332,
+                                      "TotalHours":  0.00315603875,
+                                      "TotalMilliseconds":  11361.7395,
+                                      "TotalMinutes":  0.189362325,
+                                      "TotalSeconds":  11.361739499999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rmtmgmt",
+                     "UserInfo":  "Member of domain Remote Management Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_rmtmgmt",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "861e8b5f-43a5-471a-a7b6-58aba4a58d96",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  111643921,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  164,
+                                      "Minutes":  0,
+                                      "Seconds":  11,
+                                      "TotalDays":  0.0001292175011574074,
+                                      "TotalHours":  0.0031012200277777775,
+                                      "TotalMilliseconds":  11164.392100000001,
+                                      "TotalMinutes":  0.18607320166666666,
+                                      "TotalSeconds":  11.164392099999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_rmtmgmt",
+                     "UserInfo":  "Member of local Remote Management Users via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_rmtmgmt",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "a828bcbf-ed4d-43fd-8add-5de55168c240",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  108469667,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  846,
+                                      "Minutes":  0,
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00012554359606481482,
+                                      "TotalHours":  0.0030130463055555554,
+                                      "TotalMilliseconds":  10846.9667,
+                                      "TotalMinutes":  0.18078277833333334,
+                                      "TotalSeconds":  10.8469667
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_repl",
+                     "UserInfo":  "Member of domain Replicator",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_repl",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "116f9ad1-a8f3-490f-91a1-ebaf89c6b07c",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  100845875,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  84,
+                                      "Minutes":  0,
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00011671976273148148,
+                                      "TotalHours":  0.0028012743055555555,
+                                      "TotalMilliseconds":  10084.5875,
+                                      "TotalMinutes":  0.16807645833333335,
+                                      "TotalSeconds":  10.0845875
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_repl",
+                     "UserInfo":  "Member of local Replicator via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_repl",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f1c2cf85-eb0d-4cc6-b3b9-cde7d05822fc",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  98507318,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  850,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00011401309953703703,
+                                      "TotalHours":  0.0027363143888888886,
+                                      "TotalMilliseconds":  9850.7318,
+                                      "TotalMinutes":  0.16417886333333334,
+                                      "TotalSeconds":  9.8507318
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_servop",
+                     "UserInfo":  "Member of domain Server Operators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_servop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "4123a511-c454-4662-a066-bb6a412bc7d9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  96039407,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  603,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00011115672106481481,
+                                      "TotalHours":  0.0026677613055555555,
+                                      "TotalMilliseconds":  9603.940700000001,
+                                      "TotalMinutes":  0.16006567833333335,
+                                      "TotalSeconds":  9.603940699999999
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_storadm",
+                     "UserInfo":  "Member of domain Storage Replica Administrators",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_storadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "82a96f69-fc6b-4b3b-a13f-affda6735577",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  93852048,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  385,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010862505555555556,
+                                      "TotalHours":  0.0026070013333333334,
+                                      "TotalMilliseconds":  9385.2048000000013,
+                                      "TotalMinutes":  0.15642008000000002,
+                                      "TotalSeconds":  9.3852048
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_storadm",
+                     "UserInfo":  "Member of local Storage Replica Administrators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_storadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "9f8f8a76-eb52-4f02-a40b-f4ac0a529b78",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  90936647,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  93,
+                                      "Minutes":  0,
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010525074884259259,
+                                      "TotalHours":  0.0025260179722222222,
+                                      "TotalMilliseconds":  9093.6647000000012,
+                                      "TotalMinutes":  0.15156107833333335,
+                                      "TotalSeconds":  9.0936647
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_sysmgd",
+                     "UserInfo":  "Member of local System Managed Accounts Group via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_sysmgd",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "c5bc62fb-6fab-4adc-885b-1e17dfa0b505",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  83421162,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  342,
+                                      "Minutes":  0,
+                                      "Seconds":  8,
+                                      "TotalDays":  9.6552270833333333E-05,
+                                      "TotalHours":  0.0023172545,
+                                      "TotalMilliseconds":  8342.1162,
+                                      "TotalMinutes":  0.13903527000000002,
+                                      "TotalSeconds":  8.3421162
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_tslic",
+                     "UserInfo":  "Member of domain Terminal Server License Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_tslic",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "e7d4b493-48de-47cd-b142-a7065a4c4c8a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  81017151,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  101,
+                                      "Minutes":  0,
+                                      "Seconds":  8,
+                                      "TotalDays":  9.3769850694444442E-05,
+                                      "TotalHours":  0.0022504764166666664,
+                                      "TotalMilliseconds":  8101.7151,
+                                      "TotalMinutes":  0.135028585,
+                                      "TotalSeconds":  8.1017151
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_winauth",
+                     "UserInfo":  "Member of domain Windows Authorization Access Group",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_winauth",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "e2bd6bea-195d-4920-8ec3-f012fb284fd1",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  78492070,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  849,
+                                      "Minutes":  0,
+                                      "Seconds":  7,
+                                      "TotalDays":  9.0847303240740738E-05,
+                                      "TotalHours":  0.0021803352777777776,
+                                      "TotalMilliseconds":  7849.207,
+                                      "TotalMinutes":  0.13082011666666668,
+                                      "TotalSeconds":  7.849207
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_certpub",
+                     "UserInfo":  "Member of domain Cert Publishers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_certpub",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "2bf45c96-7626-44ec-b746-d6bed7615d5b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  76129198,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  612,
+                                      "Minutes":  0,
+                                      "Seconds":  7,
+                                      "TotalDays":  8.8112497685185177E-05,
+                                      "TotalHours":  0.0021146999444444444,
+                                      "TotalMilliseconds":  7612.9198000000006,
+                                      "TotalMinutes":  0.12688199666666666,
+                                      "TotalSeconds":  7.6129197999999993
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_clonedc",
+                     "UserInfo":  "Member of domain Cloneable Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_clonedc",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "5bb15444-7e20-4bbf-beb1-d425dc13be9f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  73186943,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  318,
+                                      "Minutes":  0,
+                                      "Seconds":  7,
+                                      "TotalDays":  8.47071099537037E-05,
+                                      "TotalHours":  0.0020329706388888887,
+                                      "TotalMilliseconds":  7318.6943,
+                                      "TotalMinutes":  0.12197823833333334,
+                                      "TotalSeconds":  7.3186943
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dnsadm",
+                     "UserInfo":  "Member of domain DnsAdmins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_dnsadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "25218835-7331-470a-b303-e6b7d318c847",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  70070710,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  7,
+                                      "Minutes":  0,
+                                      "Seconds":  7,
+                                      "TotalDays":  8.11003587962963E-05,
+                                      "TotalHours":  0.0019464086111111111,
+                                      "TotalMilliseconds":  7007.071,
+                                      "TotalMinutes":  0.11678451666666667,
+                                      "TotalSeconds":  7.007071
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_dnsproxy",
+                     "UserInfo":  "Member of domain DnsUpdateProxy",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_dnsproxy",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "4e24ea3d-effb-40ff-a03f-dc943ea0cf89",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  67243791,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  724,
+                                      "Minutes":  0,
+                                      "Seconds":  6,
+                                      "TotalDays":  7.7828461805555548E-05,
+                                      "TotalHours":  0.0018678830833333332,
+                                      "TotalMilliseconds":  6724.3791,
+                                      "TotalMinutes":  0.112072985,
+                                      "TotalSeconds":  6.7243790999999993
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domadm",
+                     "UserInfo":  "Member of domain Domain Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_domadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "62a86d4f-7229-4890-b1f6-2fa336f2ed26",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  64235237,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  423,
+                                      "Minutes":  0,
+                                      "Seconds":  6,
+                                      "TotalDays":  7.4346339120370372E-05,
+                                      "TotalHours":  0.0017843121388888888,
+                                      "TotalMilliseconds":  6423.5237000000006,
+                                      "TotalMinutes":  0.10705872833333334,
+                                      "TotalSeconds":  6.4235237
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domcomp",
+                     "UserInfo":  "Member of domain Domain Computers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_domcomp",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "31b98cc2-8e18-4083-94d4-f4ddcd095b99",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  61836974,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  183,
+                                      "Minutes":  0,
+                                      "Seconds":  6,
+                                      "TotalDays":  7.1570571759259263E-05,
+                                      "TotalHours":  0.0017176937222222221,
+                                      "TotalMilliseconds":  6183.6974,
+                                      "TotalMinutes":  0.10306162333333334,
+                                      "TotalSeconds":  6.1836974
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domctrl",
+                     "UserInfo":  "Member of domain Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_domctrl",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "8b9919bc-044d-4f7a-8a11-d76711578db7",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  59279817,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  927,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  6.8610899305555556E-05,
+                                      "TotalHours":  0.0016466615833333332,
+                                      "TotalMilliseconds":  5927.9817,
+                                      "TotalMinutes":  0.098799695,
+                                      "TotalSeconds":  5.9279817
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_domguest",
+                     "UserInfo":  "Member of domain Domain Guests",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_domguest",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "546a0865-293c-4a67-8287-2c09c0ea0514",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  53344802,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  334,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  6.1741668981481475E-05,
+                                      "TotalHours":  0.0014818000555555555,
+                                      "TotalMilliseconds":  5334.4802,
+                                      "TotalMinutes":  0.088908003333333332,
+                                      "TotalSeconds":  5.3344802
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entadm",
+                     "UserInfo":  "Member of forest Enterprise Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_f_entadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "f691de16-b59b-485b-98ae-6ccc0f35727e",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  50871249,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  87,
+                                      "Minutes":  0,
+                                      "Seconds":  5,
+                                      "TotalDays":  5.8878760416666667E-05,
+                                      "TotalHours":  0.00141309025,
+                                      "TotalMilliseconds":  5087.1249,
+                                      "TotalMinutes":  0.084785415,
+                                      "TotalSeconds":  5.0871249
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entkey",
+                     "UserInfo":  "Member of forest Enterprise Key Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_f_entkey",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "3f368c52-4504-4e65-8c7f-ca54733e1bd0",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  48179040,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  817,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  5.5762777777777776E-05,
+                                      "TotalHours":  0.0013383066666666666,
+                                      "TotalMilliseconds":  4817.904,
+                                      "TotalMinutes":  0.0802984,
+                                      "TotalSeconds":  4.8179039999999995
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_entrodc",
+                     "UserInfo":  "Member of forest Enterprise Read-only Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_f_entrodc",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "233d13ed-3a55-489d-9e87-40377fc27b9f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  45955984,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  595,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  5.3189796296296292E-05,
+                                      "TotalHours":  0.0012765551111111112,
+                                      "TotalMilliseconds":  4595.5984,
+                                      "TotalMinutes":  0.076593306666666666,
+                                      "TotalSeconds":  4.5955984
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_exttrust",
+                     "UserInfo":  "Member of domain External Trust Accounts",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_exttrust",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "002c8f4d-68f7-42dd-b675-e283d315f27b",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  43017816,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  301,
+                                      "Minutes":  0,
+                                      "Seconds":  4,
+                                      "TotalDays":  4.9789138888888889E-05,
+                                      "TotalHours":  0.0011949393333333333,
+                                      "TotalMilliseconds":  4301.7816,
+                                      "TotalMinutes":  0.07169636,
+                                      "TotalSeconds":  4.3017816
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_fortrust",
+                     "UserInfo":  "Member of domain Forest Trust Accounts",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_fortrust",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "80c80ba8-d9a9-4729-a05f-3e9e8b1605c9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  35359324,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  535,
+                                      "Minutes":  0,
+                                      "Seconds":  3,
+                                      "TotalDays":  4.092514351851852E-05,
+                                      "TotalHours":  0.00098220344444444442,
+                                      "TotalMilliseconds":  3535.9324,
+                                      "TotalMinutes":  0.058932206666666667,
+                                      "TotalSeconds":  3.5359323999999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_gpoowner",
+                     "UserInfo":  "Member of domain Group Policy Creator Owners",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_gpoowner",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "0a3e0ca8-5c24-4675-9a84-a8ff24ac698f",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  32748265,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  274,
+                                      "Minutes":  0,
+                                      "Seconds":  3,
+                                      "TotalDays":  3.7903084490740738E-05,
+                                      "TotalHours":  0.00090967402777777776,
+                                      "TotalMilliseconds":  3274.8265,
+                                      "TotalMinutes":  0.054580441666666667,
+                                      "TotalSeconds":  3.2748264999999996
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_keyadm",
+                     "UserInfo":  "Member of domain Key Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_keyadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "070832d4-b916-485b-878c-82a2d33f8c8a",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  30052059,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  5,
+                                      "Minutes":  0,
+                                      "Seconds":  3,
+                                      "TotalDays":  3.478247569444444E-05,
+                                      "TotalHours":  0.00083477941666666668,
+                                      "TotalMilliseconds":  3005.2059,
+                                      "TotalMinutes":  0.050086765,
+                                      "TotalSeconds":  3.0052059
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_protected",
+                     "UserInfo":  "Member of domain Protected Users",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_protected",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "1f0d7d12-8625-4237-9c2b-9cca1033b29d",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  27475461,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  747,
+                                      "Minutes":  0,
+                                      "Seconds":  2,
+                                      "TotalDays":  3.1800302083333331E-05,
+                                      "TotalHours":  0.00076320725,
+                                      "TotalMilliseconds":  2747.5461,
+                                      "TotalMinutes":  0.045792435,
+                                      "TotalSeconds":  2.7475460999999997
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rasias",
+                     "UserInfo":  "Member of domain RAS and IAS Servers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_rasias",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "de8d1e78-decb-4b1a-b9ee-6f589a7337b9",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  20207216,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  20,
+                                      "Minutes":  0,
+                                      "Seconds":  2,
+                                      "TotalDays":  2.3387981481481481E-05,
+                                      "TotalHours":  0.00056131155555555555,
+                                      "TotalMilliseconds":  2020.7216,
+                                      "TotalMinutes":  0.033678693333333336,
+                                      "TotalSeconds":  2.0207216
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_d_rodc",
+                     "UserInfo":  "Member of domain Read-only Domain Controllers",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_d_rodc",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "37484118-0eba-4cba-af8b-1b22d64e2755",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  17713950,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  771,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  2.0502256944444445E-05,
+                                      "TotalHours":  0.00049205416666666659,
+                                      "TotalMilliseconds":  1771.395,
+                                      "TotalMinutes":  0.02952325,
+                                      "TotalSeconds":  1.7713949999999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_f_schemaadm",
+                     "UserInfo":  "Member of forest Schema Admins",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_f_schemaadm",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "be6d9f8e-291d-42fc-be31-d66831b564b2",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  15110147,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  511,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  1.7488596064814815E-05,
+                                      "TotalHours":  0.00041972630555555556,
+                                      "TotalMilliseconds":  1511.0147000000002,
+                                      "TotalMinutes":  0.025183578333333335,
+                                      "TotalSeconds":  1.5110146999999998
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_devown",
+                     "UserInfo":  "Member of local Device Owners via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_devown",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "3f1dc4a9-c355-4c9e-aa93-ef97274b27d7",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  12395969,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  239,
+                                      "Minutes":  0,
+                                      "Seconds":  1,
+                                      "TotalDays":  1.4347186342592591E-05,
+                                      "TotalHours":  0.00034433247222222219,
+                                      "TotalMilliseconds":  1239.5969,
+                                      "TotalMinutes":  0.020659948333333334,
+                                      "TotalSeconds":  1.2395969
+                                  }
+                 },
+                 {
+                     "UserName":  "CORP1\\psx_l_umhwop",
+                     "UserInfo":  "Member of local User Mode Hardware Operators via GPP",
+                     "Success":  true,
+                     "Error":  null,
+                     "Output":  {
+                                    "ComputerName":  "corp1-she03",
+                                    "TargetSystem":  "corp1-she03",
+                                    "UserContext":  "CORP1\\psx_l_umhwop",
+                                    "LSAPolicyOpened":  false,
+                                    "SystemName":  "\\\\corp1-she03.corp1.lab.home-labs.lol",
+                                    "Rights":  [
+
+                                               ],
+                                    "SuccessCount":  0,
+                                    "FailureCount":  0,
+                                    "Errors":  [
+                                                   "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
+                                               ],
+                                    "CanEnumerateUserRights":  false,
+                                    "PSComputerName":  "localhost",
+                                    "RunspaceId":  "b396cd9d-d928-4110-bd37-e13b1203d4eb",
+                                    "PSShowComputerName":  false
+                                },
+                     "Duration":  {
+                                      "Ticks":  9740940,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  974,
+                                      "Minutes":  0,
+                                      "Seconds":  0,
+                                      "TotalDays":  1.127423611111111E-05,
+                                      "TotalHours":  0.00027058166666666663,
+                                      "TotalMilliseconds":  974.094,
+                                      "TotalMinutes":  0.0162349,
+                                      "TotalSeconds":  0.9740939999999999
+                                  }
+                 }
+             ]
+}
