@@ -24,6 +24,8 @@ resources created by this script.
 .PARAMETER ServiceAccountOUDN
 Distinguished Name of the OU that stores the shared tier service accounts and security groups. Optional
 per-tier overrides are available (Tier0ServiceAccountOUDN, Tier1ServiceAccountOUDN, Tier2ServiceAccountOUDN).
+When omitted, security groups are created in the default Users container and gMSAs in the domain's
+Managed Service Accounts container for the root domain.
 
 .PARAMETER Tier0ServiceAccountOUDN
 Optional Distinguished Name override for Tier 0 service account and group placement. Falls back to
@@ -107,9 +109,8 @@ param (
     [ValidateSet('Create', 'Rollback')]
     [string]$Action = 'Create',
 
-    [Parameter(Mandatory = $true)]
-    [ValidateNotNullOrEmpty()]
-    [string]$ServiceAccountOUDN,
+    [Parameter(Mandatory = $false)]
+    [string]$ServiceAccountOUDN = $null,
 
     [Parameter(Mandatory = $false)]
     [string]$Tier0ServiceAccountOUDN,
@@ -160,6 +161,7 @@ param (
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
+$script:GmsaUpnMap = @{}
 $script:ProvisionState = New-Object System.Collections.Generic.List[psobject]
 
 #region Helper Functions
@@ -184,6 +186,121 @@ function Write-ScriptLog {
     }
 
     Write-Host "[$timestamp] [$Level] $Message" -ForegroundColor $color
+}
+
+function Resolve-GmsaName {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory = $true)]
+        [string]$Name
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Name)) {
+        return $Name
+    }
+
+    $normalized = $Name.Trim("'`"")
+
+    if ($normalized -like '*@*') {
+        $parts = $normalized.Split('@', 2, [System.StringSplitOptions]::RemoveEmptyEntries)
+        if ($parts.Length -ge 1) {
+            $normalized = $parts[0].Trim()
+        }
+    }
+
+    if ($normalized -like '*\\*') {
+        $netbiosParts = $normalized.Split('\\', 2, [System.StringSplitOptions]::RemoveEmptyEntries)
+        if ($netbiosParts.Length -ge 2) {
+            $normalized = $netbiosParts[1].Trim()
+        }
+        elseif ($netbiosParts.Length -eq 1) {
+            $normalized = $netbiosParts[0].Trim()
+        }
+    }
+
+    return $normalized.Trim().TrimEnd('$')
+}
+
+function Get-TierScopedName {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory = $true)][string]$BaseName,
+        [Parameter(Mandatory = $true)][string]$Tier
+    )
+
+    $trimmedBase = if ([string]::IsNullOrWhiteSpace($BaseName)) { '' } else { $BaseName.Trim() }
+    $normalizedTier = if ([string]::IsNullOrWhiteSpace($Tier)) { '' } else { $Tier.Trim() }
+
+    if ($normalizedTier -match '^Tier\s*([0-9]+)$') {
+        $normalizedTier = 'T{0}' -f $Matches[1]
+    }
+
+    if (-not [string]::IsNullOrWhiteSpace($normalizedTier)) {
+        $normalizedTier = $normalizedTier.ToUpperInvariant()
+    }
+
+    if ([string]::IsNullOrWhiteSpace($trimmedBase)) {
+        return $normalizedTier
+    }
+
+    if ([string]::IsNullOrWhiteSpace($normalizedTier)) {
+        return $trimmedBase
+    }
+
+    return ('{0}_{1}' -f $trimmedBase, $normalizedTier)
+}
+
+$script:GmsaNormalization = New-Object System.Collections.Generic.List[psobject]
+foreach ($gmsaTier in @(
+        @{ TierKey = 'T0'; Variable = 'Tier0GMSAName' },
+        @{ TierKey = 'T1'; Variable = 'Tier1GMSAName' },
+        @{ TierKey = 'T2'; Variable = 'Tier2GMSAName' }
+    )) {
+    $originalValue = Get-Variable -Name $gmsaTier.Variable -ValueOnly
+    $trimmedInput = if ([string]::IsNullOrWhiteSpace($originalValue)) { '' } else { $originalValue.Trim("'`"") }
+    $candidateUpn = $null
+    $normalizedInput = $trimmedInput
+
+    if ($normalizedInput -like '*@*') {
+        $parts = $normalizedInput.Split('@', 2, [System.StringSplitOptions]::RemoveEmptyEntries)
+        if ($parts.Length -ge 1) {
+            $normalizedInput = $parts[0].Trim()
+        }
+        if ($parts.Length -ge 2) {
+            $domainPart = $parts[1].Trim()
+            if (-not [string]::IsNullOrWhiteSpace($domainPart) -and -not [string]::IsNullOrWhiteSpace($normalizedInput)) {
+                $candidateUpn = ('{0}@{1}' -f $normalizedInput.TrimEnd('$'), $domainPart)
+            }
+        }
+    }
+
+    if ($normalizedInput -like '*\\*') {
+        $netbiosParts = $normalizedInput.Split('\\', 2, [System.StringSplitOptions]::RemoveEmptyEntries)
+        if ($netbiosParts.Length -ge 2) {
+            $normalizedInput = $netbiosParts[1].Trim()
+        }
+        elseif ($netbiosParts.Length -eq 1) {
+            $normalizedInput = $netbiosParts[0].Trim()
+        }
+    }
+
+    $normalizedValue = Resolve-GmsaName -Name $normalizedInput
+
+    if ([string]::IsNullOrWhiteSpace($normalizedValue)) {
+        throw ([System.String]::Format('Resolved {0} gMSA name is empty after normalization.', $gmsaTier.TierKey))
+    }
+
+    Set-Variable -Name $gmsaTier.Variable -Value $normalizedValue -Scope Script
+    $script:GmsaUpnMap[$gmsaTier.TierKey] = $candidateUpn
+
+    if ($originalValue -ne $normalizedValue) {
+        $entry = [pscustomobject]@{
+            Tier = $gmsaTier.TierKey
+            Original = $originalValue
+            Normalized = $normalizedValue
+        }
+        [void]$script:GmsaNormalization.Add($entry)
+    }
 }
 
 function Register-ProvisionResult {
@@ -254,6 +371,69 @@ function Get-DomainContextForDN {
     }
 }
 
+function Resolve-ServiceAccountPaths {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory = $false)][string]$RequestedPath,
+        [Parameter(Mandatory = $true)][Microsoft.ActiveDirectory.Management.ADDomain]$RootDomain,
+        [Parameter(Mandatory = $true)][string]$Tier,
+        [Parameter(Mandatory = $false)][switch]$AllowMissing
+    )
+
+    if ($RequestedPath) {
+        $domainContext = Get-DomainContextForDN -DistinguishedName $RequestedPath
+
+        try {
+            Get-ADObject -Identity $RequestedPath -Server $domainContext.Server -ErrorAction Stop | Out-Null
+            Write-ScriptLog ("Validated service account container '{0}' for tier {1}." -f $RequestedPath, $Tier) -Level Success
+        }
+        catch {
+            if ($AllowMissing) {
+                Write-ScriptLog ("Service account container '{0}' for tier {1} could not be resolved; continuing due to AllowMissingOUs." -f $RequestedPath, $Tier) -Level Warning
+            }
+            else {
+                throw ("Service account container '{0}' for tier {1} does not exist or is unreachable." -f $RequestedPath, $Tier)
+            }
+        }
+
+        return [pscustomobject]@{
+            GroupPath = $RequestedPath
+            GmsaPath = $RequestedPath
+            Domain = $domainContext.Domain
+            Server = $domainContext.Server
+        }
+    }
+
+    $groupPath = "CN=Users,$($RootDomain.DistinguishedName)"
+    $gmsaPath = $RootDomain.ManagedServiceAccountsContainer
+
+    if ([string]::IsNullOrWhiteSpace($gmsaPath)) {
+        $gmsaPath = "CN=Managed Service Accounts,$($RootDomain.DistinguishedName)"
+    }
+
+    try {
+        Get-ADObject -Identity $gmsaPath -Server $RootDomain.PDCEmulator -ErrorAction Stop | Out-Null
+        Write-ScriptLog ("Resolved default gMSA container '{0}' for tier {1}." -f $gmsaPath, $Tier) -Level Info
+    }
+    catch {
+        if ($AllowMissing) {
+            Write-ScriptLog ("Default gMSA container '{0}' for tier {1} not found; continuing due to AllowMissingOUs." -f $gmsaPath, $Tier) -Level Warning
+        }
+        else {
+            throw ("Default Managed Service Accounts container '{0}' for tier {1} was not found. Specify ServiceAccountOUDN or create the container." -f $gmsaPath, $Tier)
+        }
+    }
+
+    Write-ScriptLog ("Service account container not provided for tier {0}; using defaults (Groups: {1}, gMSA: {2})." -f $Tier, $groupPath, $gmsaPath) -Level Info
+
+    return [pscustomobject]@{
+        GroupPath = $groupPath
+        GmsaPath = $gmsaPath
+        Domain = $RootDomain
+        Server = $RootDomain.PDCEmulator
+    }
+}
+
 function Resolve-TargetTiers {
     [CmdletBinding()]
     param (
@@ -278,6 +458,7 @@ function Get-TierDefinitions {
         'T0' = [pscustomobject]@{
             Name = 'T0'
             GMSAName = $Tier0GMSAName
+            GMSAUserPrincipalName = $script:GmsaUpnMap['T0']
             Collector = $Tier0Collector
             ServiceAccountOU = if ($Tier0ServiceAccountOUDN) { $Tier0ServiceAccountOUDN } else { $ServiceAccountOUDN }
             AssetOUs = $Tier0AssetOUs
@@ -288,6 +469,7 @@ function Get-TierDefinitions {
         'T1' = [pscustomobject]@{
             Name = 'T1'
             GMSAName = $Tier1GMSAName
+            GMSAUserPrincipalName = $script:GmsaUpnMap['T1']
             Collector = $Tier1Collector
             ServiceAccountOU = if ($Tier1ServiceAccountOUDN) { $Tier1ServiceAccountOUDN } else { $ServiceAccountOUDN }
             AssetOUs = $Tier1AssetOUs
@@ -298,6 +480,7 @@ function Get-TierDefinitions {
         'T2' = [pscustomobject]@{
             Name = 'T2'
             GMSAName = $Tier2GMSAName
+            GMSAUserPrincipalName = $script:GmsaUpnMap['T2']
             Collector = $Tier2Collector
             ServiceAccountOU = if ($Tier2ServiceAccountOUDN) { $Tier2ServiceAccountOUDN } else { $ServiceAccountOUDN }
             AssetOUs = $Tier2AssetOUs
@@ -308,24 +491,14 @@ function Get-TierDefinitions {
     }
 
     foreach ($tier in $defaults.Keys) {
-        $ou = $defaults[$tier].ServiceAccountOU
-        if (-not $ou) {
-            throw "ServiceAccountOUDN was not provided for tier '$tier'."
-        }
-        $domainContext = Get-DomainContextForDN -DistinguishedName $ou
-        try {
-            Get-ADOrganizationalUnit -Identity $ou -Server $domainContext.Server -ErrorAction Stop | Out-Null
-        }
-        catch {
-            if ($AllowMissingOUs) {
-                Write-ScriptLog ("Service account OU '{0}' for tier '{1}' was not found; continuing due to AllowMissingOUs." -f $ou, $tier) -Level Warning
-            }
-            else {
-                throw ("Service account OU '{0}' for tier '{1}' does not exist or is not reachable." -f $ou, $tier)
-            }
-        }
-        $defaults[$tier] | Add-Member -MemberType NoteProperty -Name ServiceDomain -Value $domainContext.Domain -Force
-        $defaults[$tier] | Add-Member -MemberType NoteProperty -Name ServiceServer -Value $domainContext.Server -Force
+        $requestedPath = $defaults[$tier].ServiceAccountOU
+        $resolvedPaths = Resolve-ServiceAccountPaths -RequestedPath $requestedPath -RootDomain $RootDomain -Tier $tier -AllowMissing:$AllowMissingOUs
+
+        $defaults[$tier] | Add-Member -MemberType NoteProperty -Name RequestedServiceAccountOU -Value $requestedPath -Force
+        $defaults[$tier].ServiceAccountOU = $resolvedPaths.GroupPath
+        $defaults[$tier] | Add-Member -MemberType NoteProperty -Name GmsaContainerPath -Value $resolvedPaths.GmsaPath -Force
+        $defaults[$tier] | Add-Member -MemberType NoteProperty -Name ServiceDomain -Value $resolvedPaths.Domain -Force
+        $defaults[$tier] | Add-Member -MemberType NoteProperty -Name ServiceServer -Value $resolvedPaths.Server -Force
     }
 
     return $defaults
@@ -393,24 +566,75 @@ function Ensure-GMSA {
         [Parameter(Mandatory = $true)][string]$Name,
         [Parameter(Mandatory = $true)][string]$Path,
         [Parameter(Mandatory = $true)][string]$PrincipalsAllowed,
-        [Parameter(Mandatory = $true)][string]$Server
+        [Parameter(Mandatory = $true)][string]$Server,
+        [Parameter(Mandatory = $false)][string]$UserPrincipalName
     )
 
     $created = $false
+    $desiredUpn = if ([string]::IsNullOrWhiteSpace($UserPrincipalName)) { $null } else { $UserPrincipalName.Trim() }
     if ($PSCmdlet.ShouldProcess($Name, 'Ensure gMSA')) {
         try {
-            $domain = Get-ADDomain -Server $Server
+            $targetServer = $Server
+            $domain = $null
+
+            if (-not [string]::IsNullOrWhiteSpace($Path)) {
+                try {
+                    $pathContext = Get-DomainContextForDN -DistinguishedName $Path
+                    if ($pathContext) {
+                        if ($pathContext.Server) { $targetServer = $pathContext.Server }
+                        if ($pathContext.Domain) { $domain = $pathContext.Domain }
+                    }
+                }
+                catch {
+                    Write-ScriptLog ("Unable to resolve domain context from '{0}' for gMSA {1}: {2}" -f $Path, $Name, $_) -Level Warning
+                }
+            }
+
+            if (-not $targetServer) {
+                $targetServer = $Server
+            }
+
+            if (-not $domain) {
+                $domain = Get-ADDomain -Server $targetServer
+            }
+            else {
+                $domain = Get-ADDomain -Identity $domain.DNSRoot -Server $targetServer
+            }
+
             $dnsHostName = "$Name.$($domain.DNSRoot)"
-            $gmsa = New-ADServiceAccount -Name $Name -Description "SharpHound tier $Tier service account" -DNSHostName $dnsHostName \
-                -ManagedPasswordIntervalInDays 30 -PrincipalsAllowedToRetrieveManagedPassword $PrincipalsAllowed \
-                -Enabled $true -AccountNotDelegated $true -KerberosEncryptionType AES128,AES256 -Path $Path -PassThru \
-                -ErrorAction Stop
+            $baseSam = if ([string]::IsNullOrWhiteSpace($Name)) { '' } else { $Name.TrimEnd('$') }
+            if (-not $desiredUpn -and -not [string]::IsNullOrWhiteSpace($baseSam) -and $domain -and -not [string]::IsNullOrWhiteSpace($domain.DNSRoot)) {
+                $desiredUpn = '{0}@{1}' -f $baseSam, $domain.DNSRoot
+            }
+            $gmsaParams = @{
+                Name                            = $Name
+                Description                     = "SharpHound tier $Tier service account"
+                DNSHostname                     = $dnsHostName
+                ManagedPasswordIntervalInDays   = 1 # Set to 1 for SHDelegatorServiceTesting
+                PrincipalsAllowedToRetrieveManagedPassword  = $PrincipalsAllowed
+                Enabled                         = $true
+                AccountNotDelegated             = $true
+                KerberosEncryptionType          = 'AES128,AES256'
+                Path                            = $Path
+                Server                          = $targetServer
+            }
+            if ($desiredUpn) {
+                $gmsaParams['OtherAttributes'] = @{ userPrincipalName = $desiredUpn }
+            }
+            $gmsa = New-ADServiceAccount @gmsaParams -PassThru -ErrorAction Stop
             $created = $true
             Write-ScriptLog "Created gMSA '$Name' for tier $Tier." -Level Success
         }
         catch {
-            if ($_.Exception.Message -match 'already exists') {
-                $gmsa = Get-ADServiceAccount -Identity $Name -Server $Server -ErrorAction Stop
+            $message = $_.Exception.Message
+            if ($message -match 'already exists' -or $message -match 'not unique forest-wide') {
+                $gmsa = Get-ADServiceAccount -Identity $Name -Server $targetServer -ErrorAction Stop
+                if ($desiredUpn -and -not [string]::Equals($gmsa.userPrincipalName, $desiredUpn, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $setParams = @{ Identity = $gmsa.DistinguishedName; Replace = @{ userPrincipalName = $desiredUpn }; ErrorAction = 'Stop'; Server = $targetServer }
+                    Set-ADServiceAccount @setParams
+                    Write-ScriptLog "Updated gMSA userPrincipalName to $desiredUpn" -Level Info
+                    $gmsa = Get-ADServiceAccount -Identity $Name -Server $targetServer -ErrorAction Stop
+                }
                 Write-ScriptLog "gMSA '$Name' already exists; reusing for tier $Tier." -Level Warning
             }
             else {
@@ -419,7 +643,7 @@ function Ensure-GMSA {
         }
 
         if ($created) {
-            Register-ProvisionResult -Tier $Tier -Type 'GMSA' -Name $Name -Metadata @{ Server = $Server }
+            Register-ProvisionResult -Tier $Tier -Type 'GMSA' -Name $Name -Metadata @{ Server = $targetServer }
         }
         return $gmsa
     }
@@ -558,7 +782,7 @@ function Set-GPOLocalGroupMembership {
     param (
         [Parameter(Mandatory = $true)][Guid]$GpoId,
         [Parameter(Mandatory = $true)][string]$GpoName,
-        [Parameter(Mandatory = $true)][string]$Domain,
+        [Parameter(Mandatory = $true)]$Domain,
         [Parameter(Mandatory = $true)][string]$Server,
         [Parameter(Mandatory = $true)][string]$LocalGroup,
         [Parameter(Mandatory = $true)][string[]]$Members
@@ -569,8 +793,23 @@ function Set-GPOLocalGroupMembership {
         return
     }
 
-    $gpo = Get-GPO -Guid $GpoId -Domain $Domain -Server $Server
-    $sysvolPath = "\\$Domain\SYSVOL\$Domain\Policies\{$GpoId}\Machine\Preferences\Groups"
+    $domainObject = if ($Domain -is [string]) {
+        try {
+            Get-ADDomain -Identity $Domain -Server $Server -ErrorAction Stop
+        }
+        catch {
+            throw ("Failed to resolve domain '{0}' for Set-GPOLocalGroupMembership: {1}" -f $Domain, $_)
+        }
+    }
+    else {
+        $Domain
+    }
+
+    $domainName = $domainObject.DNSRoot
+    $domainDn = $domainObject.DistinguishedName
+
+    $gpo = Get-GPO -Guid $GpoId -Domain $domainName -Server $Server
+    $sysvolPath = "\\$domainName\SYSVOL\$domainName\Policies\{$GpoId}\Machine\Preferences\Groups"
     $groupsXmlPath = Join-Path $sysvolPath 'Groups.xml'
 
     if (-not (Test-Path $sysvolPath)) {
@@ -625,12 +864,12 @@ function Set-GPOLocalGroupMembership {
     Set-Acl -Path $groupsXmlPath -AclObject $acl
 
     $extensionNames = "[{00000000-0000-0000-0000-000000000000}{79F92669-4224-476C-9C5C-6EFB4D87DF4A}][{17D89FEC-5C44-4972-B12D-241CAEF74509}{79F92669-4224-476C-9C5C-6EFB4D87DF4A}][{B087BE9D-ED37-454F-AF9C-04291E351182}{BEE07A6A-EC9F-4659-B8C9-0B1937907C83}]"
-    $gpoPath = "CN={$GpoId},CN=Policies,CN=System,$($Domain.DistinguishedName)"
+    $gpoPath = "CN={$GpoId},CN=Policies,CN=System,$domainDn"
     Set-ADObject -Identity $gpoPath -Replace @{
         gPCMachineExtensionNames = $extensionNames
     } -Server $Server -ErrorAction SilentlyContinue
 
-    $gptIniPath = "\\$Domain\SYSVOL\$Domain\Policies\{$GpoId}\GPT.INI"
+    $gptIniPath = "\\$domainName\SYSVOL\$domainName\Policies\{$GpoId}\GPT.INI"
     if (Test-Path $gptIniPath) {
         $gptContent = Get-Content $gptIniPath
         $versionNumber = $gpo.Computer.DSVersion + 1
@@ -662,7 +901,7 @@ function Add-GroupMemberIfMissing {
     Register-ProvisionResult -Tier $Tier -Type 'GroupMembership' -Name "$($Group.DistinguishedName)->$memberDN" -Metadata @{ Server = $Server }
 }
 
-function Add-PrintOperatorsMembership {
+function Add-PrintOperatorsMembership {  # TODO: Only Tier0 should be added to print operators, rest need to be GPP
     [CmdletBinding()]
     param (
         [Parameter(Mandatory = $true)][string]$Tier,
@@ -710,37 +949,132 @@ function Invoke-TierProvision {
     Write-ScriptLog "--- Processing tier $Tier ---" -Level Info
     Write-ScriptLog $TierDefinition.Description -Level Info
 
+    if (-not $TierDefinition.GMSAName) {
+        throw "Tier '$Tier' configuration does not include a GMSAName value."
+    }
+
+    if (-not $TierDefinition.ServiceAccountOU) {
+        throw "Tier '$Tier' configuration does not include a ServiceAccountOU value."
+    }
+
+    if (-not $TierDefinition.GmsaContainerPath) {
+        throw "Tier '$Tier' configuration does not include a GmsaContainerPath value."
+    }
+
+    Write-ScriptLog ("Tier {0} security groups container: {1}" -f $Tier, $TierDefinition.ServiceAccountOU) -Level Info
+    Write-ScriptLog ("Tier {0} gMSA container: {1}" -f $Tier, $TierDefinition.GmsaContainerPath) -Level Info
+
     $collector = Ensure-CollectorComputer -Name $TierDefinition.Collector -Tier $Tier
 
+    $dc = $RootDomain.PDCEmulator
+    if ([string]::IsNullOrWhiteSpace($dc) -or $dc -ieq $TierDefinition.Collector) {
+        $contextDn = if ([string]::IsNullOrWhiteSpace($TierDefinition.ServiceAccountOU)) {
+            if ([string]::IsNullOrWhiteSpace($TierDefinition.GmsaContainerPath)) { $RootDomain.DistinguishedName } else { $TierDefinition.GmsaContainerPath }
+        }
+        else {
+            $TierDefinition.ServiceAccountOU
+        }
+
+        try {
+            $domainContext = Get-DomainContextForDN -DistinguishedName $contextDn
+            if ($domainContext -and $domainContext.Server) {
+                $dc = $domainContext.Server
+                if ($domainContext.Domain) {
+                    $TierDefinition | Add-Member -MemberType NoteProperty -Name ServiceDomain -Value $domainContext.Domain -Force
+                }
+                Write-ScriptLog ("Using domain controller {0} for tier {1} operations." -f $dc, $Tier) -Level Info
+            }
+        }
+        catch {
+            Write-ScriptLog ("Failed to resolve domain controller for tier {0}: {1}" -f $Tier, $_) -Level Warning
+        }
+    }
+
+    if ([string]::IsNullOrWhiteSpace($dc)) {
+        $dc = $RootDomain.PDCEmulator
+        Write-ScriptLog ("Defaulting tier {0} operations to root domain controller {1}." -f $Tier, $dc) -Level Warning
+    }
+
+    $TierDefinition | Add-Member -MemberType NoteProperty -Name ServiceServer -Value $dc -Force
+
+    $pwdReadersGroupName = '{0}_pwdRead' -f $TierDefinition.GMSAName
+
     $groupDefinitions = @()
-    $groupDefinitions += [pscustomobject]@{ Key = 'PasswordReaders'; Name = "${($TierDefinition.GMSAName)}_pwdRead"; Description = "Password retrieval for gMSA $($TierDefinition.GMSAName)."; AddToGMSA = $false; AddCollector = $true }
-    $groupDefinitions += [pscustomobject]@{ Key = 'Allow_SamConnect'; Name = "${Tier}_Allow_SamConnect"; Description = 'Allows remote SAM connections for SharpHound least privilege.'; AddToGMSA = $true; AddCollector = $false }
-    $groupDefinitions += [pscustomobject]@{ Key = 'Allow_NetwkstaUserEnum'; Name = "${Tier}_Allow_NetwkstaUserEnum"; Description = 'Allows session enumeration via Print Operators membership.'; AddToGMSA = $true; AddCollector = $false }
-    $groupDefinitions += [pscustomobject]@{ Key = 'Allow_WinReg'; Name = "${Tier}_Allow_WinReg"; Description = 'Allows remote registry reads for SharpHound least privilege.'; AddToGMSA = $true; AddCollector = $false }
+    $groupDefinitions += [pscustomobject]@{
+        Key = 'PasswordReaders'
+        Name = $pwdReadersGroupName
+        Description = 'Password retrieval group for SharpHound gMSA.'
+        AddToGMSA = $false
+        AddCollector = $true
+    }
+    $groupDefinitions += [pscustomobject]@{
+        Key = 'Allow_SamConnect'
+        Name = Get-TierScopedName -BaseName 'Allow_SamConnect' -Tier $Tier
+        Description = 'Allows remote SAM connections for SharpHound least privilege.'
+        AddToGMSA = $true
+        AddCollector = $false
+    }
+    $groupDefinitions += [pscustomobject]@{
+        Key = 'Allow_NetwkstaUserEnum'
+        Name = Get-TierScopedName -BaseName 'Allow_NetwkstaUserEnum' -Tier $Tier
+        Description = 'Allows session enumeration via Print Operators membership.'
+        AddToGMSA = $true
+        AddCollector = $false
+    }
+    $groupDefinitions += [pscustomobject]@{
+        Key = 'Allow_WinReg'
+        Name = Get-TierScopedName -BaseName 'Allow_WinReg' -Tier $Tier
+        Description = 'Allows remote registry reads for SharpHound least privilege.'
+        AddToGMSA = $true
+        AddCollector = $false
+    }
     if ($TierDefinition.IncludeDeletedObjects) {
-        $groupDefinitions += [pscustomobject]@{ Key = 'DeletedObjects_Read'; Name = "${Tier}_DeletedObjects_Read"; Description = 'Allows read access to Deleted Objects container for Tier 0 collections.'; AddToGMSA = $true; AddCollector = $false }
+        $groupDefinitions += [pscustomobject]@{
+            Key = 'DeletedObjects_Read'
+            Name = Get-TierScopedName -BaseName 'DeletedObjects_Read' -Tier $Tier
+            Description = 'Allows read access to Deleted Objects container for Tier 0 collections.'
+            AddToGMSA = $true
+            AddCollector = $false
+        }
     }
 
     $groups = @{}
     foreach ($definition in $groupDefinitions) {
-        $groupObject = Ensure-AdGroup -Tier $Tier -Name $definition.Name -Description $definition.Description -Path $TierDefinition.ServiceAccountOU -Server $TierDefinition.ServiceServer
+        $groupObject = Ensure-AdGroup -Tier $Tier -Name $definition.Name -Description $definition.Description -Path $TierDefinition.ServiceAccountOU -Server $dc
         if ($groupObject) {
             $groups[$definition.Key] = $groupObject
         }
     }
 
     $pwdReadersGroup = $groups['PasswordReaders']
-    $gmsa = Ensure-GMSA -Tier $Tier -Name $TierDefinition.GMSAName -Path $TierDefinition.ServiceAccountOU -PrincipalsAllowed $pwdReadersGroup.SamAccountName -Server $TierDefinition.ServiceServer
+    if (-not $pwdReadersGroup) {
+        throw "Tier '$Tier' password reader group was not created successfully; cannot continue provisioning."
+    }
+
+    $principalsAllowed = $null
+    if ($pwdReadersGroup) {
+        if ($pwdReadersGroup.SID -and $pwdReadersGroup.SID.Value) {
+            $principalsAllowed = $pwdReadersGroup.SID.Value
+        }
+        elseif ($pwdReadersGroup.DistinguishedName) {
+            $principalsAllowed = $pwdReadersGroup.DistinguishedName
+        }
+        else {
+            $principalsAllowed = $pwdReadersGroup.SamAccountName
+        }
+    }
+
+    $gmsa = Ensure-GMSA -Tier $Tier -Name $TierDefinition.GMSAName -Path $TierDefinition.GmsaContainerPath -PrincipalsAllowed $principalsAllowed -Server $dc -UserPrincipalName $TierDefinition.GMSAUserPrincipalName
 
     if ($gmsa) {
         if ($PSCmdlet.ShouldProcess("Group memberships for tier $Tier", 'Configure SharpHound membership')) {
             if ($pwdReadersGroup) {
-                Add-GroupMemberIfMissing -Tier $Tier -Group $pwdReadersGroup -Member $collector -Server $TierDefinition.ServiceServer
+                Add-GroupMemberIfMissing -Tier $Tier -Group $pwdReadersGroup -Member $collector -Server $dc
             }
 
             foreach ($definition in $groupDefinitions | Where-Object { $_.AddToGMSA }) {
                 if ($groups[$definition.Key]) {
-                    Add-GroupMemberIfMissing -Tier $Tier -Group $groups[$definition.Key] -Member $gmsa -Server $TierDefinition.ServiceServer
+                    Add-GroupMemberIfMissing -Tier $Tier -Group $groups[$definition.Key] -Member $gmsa -Server $dc
                 }
             }
         }
@@ -760,7 +1094,7 @@ function Invoke-TierProvision {
         if ($sessionGroup) {
             try {
                 $printOperators = Get-ADGroup -Identity 'Print Operators' -Server $domain.PDCEmulator -ErrorAction Stop
-                Add-PrintOperatorsMembership -Tier $Tier -PrintOperatorsGroup $printOperators -SessionGroup $sessionGroup -DomainServer $domain.PDCEmulator -FallbackServer $TierDefinition.ServiceServer
+                Add-PrintOperatorsMembership -Tier $Tier -PrintOperatorsGroup $printOperators -SessionGroup $sessionGroup -DomainServer $domain.PDCEmulator -FallbackServer $dc
             }
             catch {
                 Write-ScriptLog ("Failed to configure Print Operators membership in {0}: {1}" -f $domain.DNSRoot, $_) -Level Warning
@@ -798,7 +1132,7 @@ function Invoke-TierProvision {
                 Write-ScriptLog "Tier $Tier asset OUs not provided; link GPO '$memberGpoName' manually." -Level Warning
             }
 
-            $gpoMemberName = "${($TierDefinition.ServiceDomain.NetBIOSName)}\\$($sessionGroup.SamAccountName)"
+            $gpoMemberName = '{0}\{1}' -f $TierDefinition.ServiceDomain.NetBIOSName, $sessionGroup.SamAccountName
             Set-GPOLocalGroupMembership -GpoId $memberGpo.Id -GpoName $memberGpoName -Domain $domain.DNSRoot -Server $domain.PDCEmulator -LocalGroup 'Print Operators' -Members @($gpoMemberName)
         }
     }
@@ -869,14 +1203,18 @@ function Remove-TierResources {
     Write-ScriptLog "--- Deterministic rollback for tier $Tier ---" -Level Warning
 
     $server = $TierDefinition.ServiceServer
-    $pwdGroupName = "${($TierDefinition.GMSAName)}_pwdRead"
-    $groupNames = @("${Tier}_Allow_SamConnect", "${Tier}_Allow_NetwkstaUserEnum", "${Tier}_Allow_WinReg")
-    $deletedObjectsGroupName = "${Tier}_DeletedObjects_Read"
+    $pwdGroupName = '{0}_pwdRead' -f $TierDefinition.GMSAName
+    $groupNames = @(
+        (Get-TierScopedName -BaseName 'Allow_SamConnect' -Tier $Tier),
+        (Get-TierScopedName -BaseName 'Allow_NetwkstaUserEnum' -Tier $Tier),
+        (Get-TierScopedName -BaseName 'Allow_WinReg' -Tier $Tier)
+    )
+    $deletedObjectsGroupName = Get-TierScopedName -BaseName 'DeletedObjects_Read' -Tier $Tier
     if ($groupNames -notcontains $deletedObjectsGroupName) {
         $groupNames += $deletedObjectsGroupName
     }
 
-    $sessionGroupName = "${Tier}_Allow_NetwkstaUserEnum"
+    $sessionGroupName = Get-TierScopedName -BaseName 'Allow_NetwkstaUserEnum' -Tier $Tier
 
     $gmsa = Get-ADServiceAccount -Identity $TierDefinition.GMSAName -Server $server -ErrorAction SilentlyContinue
     if ($gmsa) {
@@ -1057,6 +1395,12 @@ function Invoke-TierRollback {
 function Invoke-Main {
     [CmdletBinding()]
     param()
+
+    if ($script:GmsaNormalization.Count -gt 0) {
+        foreach ($entry in $script:GmsaNormalization) {
+            Write-ScriptLog ("Normalized {0} gMSA input '{1}' to '{2}'" -f $entry.Tier, $entry.Original, $entry.Normalized) -Level Info
+        }
+    }
 
     Test-Prerequisites
 

@@ -13,6 +13,7 @@ Default: LP_gMSA_SHS
 
 .PARAMETER TargetOUDN
 Distinguished Name of the OU where security groups and gMSA will be created.
+Optional: when omitted the gMSA is created in the domain's default Managed Service Accounts container and supporting security groups are created in the default Users container.
 Example: "OU=Tier0,DC=magic,DC=lab,DC=lan"
 
 .PARAMETER CollectorComputer
@@ -67,9 +68,9 @@ param(
     [ValidateNotNullOrEmpty()]
     [string]$GMSAName = 'LP_gMSA_SHS',
 
-    [Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $false)]
     [ValidateNotNullOrEmpty()]
-    [string]$TargetOUDN,
+    [string]$TargetOUDN = $null,
 
     [Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
@@ -79,7 +80,10 @@ param(
     [switch]$CreateDeletedObjectsAccess = $false,
 
     [Parameter(Mandatory = $false)]
-    [switch]$RollbackEnabled = $false
+    [switch]$RollbackEnabled = $false,
+
+    [Parameter(Mandatory = $false)]
+    [string]$UserPrincipalName = $null
 )
 
 # Set strict mode and error handling
@@ -135,13 +139,18 @@ function Test-Prerequisites {
         throw "Unable to connect to Active Directory domain: $_"
     }
 
-    # Validate target OU exists
-    try {
-        Get-ADOrganizationalUnit -Identity $TargetOUDN | Out-Null
-        Write-ScriptLog "Target OU verified: $TargetOUDN" -Level Success
+    # Validate target OU exists when provided
+    if ($TargetOUDN) {
+        try {
+            Get-ADOrganizationalUnit -Identity $TargetOUDN | Out-Null
+            Write-ScriptLog "Target OU verified: $TargetOUDN" -Level Success
+        }
+        catch {
+            throw "Target OU does not exist: $TargetOUDN"
+        }
     }
-    catch {
-        throw "Target OU does not exist: $TargetOUDN"
+    else {
+        Write-ScriptLog "No Target OU specified; defaults will be applied at runtime." -Level Info
     }
 
     # Validate collector computer exists
@@ -156,7 +165,7 @@ function Test-Prerequisites {
     # Validate KDS Root Key exists for gMSA support
     Write-ScriptLog "Checking KDS Root Key for gMSA support..." -Level Info
     try {
-        $kdsRootKeys = Get-KdsRootKey
+        $kdsRootKeys = @(Get-KdsRootKey)
         if ($kdsRootKeys.Count -eq 0) {
             Write-ScriptLog "No KDS Root Key found - gMSA creation will fail" -Level Error
             throw "KDS Root Key is required for Group Managed Service Accounts. Run: Add-KdsRootKey -EffectiveImmediately"
@@ -251,7 +260,10 @@ function New-SharpHoundGMSA {
         [string]$PrincipalsAllowedToRetrieveManagedPassword,
 
         [Parameter(Mandatory = $false)]
-        [string]$Server
+        [string]$Server,
+
+        [Parameter(Mandatory = $false)]
+        [string]$UserPrincipalName
     )
 
     if ($PSCmdlet.ShouldProcess($Name, "Create gMSA")) {
@@ -263,6 +275,11 @@ function New-SharpHoundGMSA {
                 $domain = Get-ADDomain
             }
             $dnsHostName = "$Name.$($domain.DNSRoot)"
+            $baseSam = if ([string]::IsNullOrWhiteSpace($Name)) { '' } else { $Name.TrimEnd('$') }
+            $desiredUpn = if ([string]::IsNullOrWhiteSpace($UserPrincipalName)) { $null } else { $UserPrincipalName.Trim() }
+            if (-not $desiredUpn -and -not [string]::IsNullOrWhiteSpace($baseSam) -and $domain -and -not [string]::IsNullOrWhiteSpace($domain.DNSRoot)) {
+                $desiredUpn = '{0}@{1}' -f $baseSam, $domain.DNSRoot
+            }
 
             $gmsaParams = @{
                 Name = $Name
@@ -277,6 +294,10 @@ function New-SharpHoundGMSA {
                 PassThru = $true
             }
 
+            if ($desiredUpn) {
+                $gmsaParams['OtherAttributes'] = @{ userPrincipalName = $desiredUpn }
+            }
+
             if ($Server) {
                 $gmsaParams['Server'] = $Server
             }
@@ -288,7 +309,17 @@ function New-SharpHoundGMSA {
         catch {
             if ($_.Exception.Message -match "already exists") {
                 Write-ScriptLog "gMSA already exists: $Name" -Level Warning
-                return Get-ADServiceAccount -Identity $Name
+                $getParams = @{ Identity = $Name }
+                if ($Server) { $getParams['Server'] = $Server }
+                $gmsa = Get-ADServiceAccount @getParams
+                if ($desiredUpn -and -not [string]::Equals($gmsa.userPrincipalName, $desiredUpn, [System.StringComparison]::OrdinalIgnoreCase)) {
+                    $setParams = @{ Identity = $gmsa.DistinguishedName; Replace = @{ userPrincipalName = $desiredUpn }; ErrorAction = 'Stop' }
+                    if ($Server) { $setParams['Server'] = $Server }
+                    Set-ADServiceAccount @setParams
+                    Write-ScriptLog "Updated gMSA userPrincipalName to $desiredUpn" -Level Info
+                    $gmsa = Get-ADServiceAccount @getParams
+                }
+                return $gmsa
             }
             else {
                 throw "Failed to create gMSA '$Name': $_"
@@ -611,8 +642,46 @@ function Set-GPOLocalGroupMembership {
 #region Main Script Logic
 
 try {
+    $originalGmsaName = $GMSAName
+    $gmsaUserPrincipalName = if ([string]::IsNullOrWhiteSpace($UserPrincipalName)) { $null } else { $UserPrincipalName.Trim("'`"") }
+    if (-not [string]::IsNullOrWhiteSpace($GMSAName)) {
+        $normalizedInput = $GMSAName.Trim("'`"")
+        if ($normalizedInput -like '*@*') {
+            $normalizedParts = $normalizedInput.Split('@', 2, [System.StringSplitOptions]::RemoveEmptyEntries)
+            if ($normalizedParts.Length -ge 1) {
+                $normalizedInput = $normalizedParts[0].Trim()
+            }
+            if ($normalizedParts.Length -ge 2) {
+                $domainPart = $normalizedParts[1].Trim()
+                if (-not [string]::IsNullOrWhiteSpace($domainPart) -and -not $gmsaUserPrincipalName) {
+                    $gmsaUserPrincipalName = ('{0}@{1}' -f $normalizedInput.TrimEnd('$'), $domainPart)
+                }
+            }
+        }
+        $normalizedGmsa = $normalizedInput
+        if ($normalizedGmsa -like '*\\*') {
+            $netbiosParts = $normalizedGmsa.Split('\\', 2, [System.StringSplitOptions]::RemoveEmptyEntries)
+            if ($netbiosParts.Length -ge 2) {
+                $normalizedGmsa = $netbiosParts[1].Trim()
+            }
+            elseif ($netbiosParts.Length -eq 1) {
+                $normalizedGmsa = $netbiosParts[0].Trim()
+            }
+        }
+        $GMSAName = $normalizedGmsa.Trim().TrimEnd('$')
+    }
+
+    if ([string]::IsNullOrWhiteSpace($GMSAName)) {
+        throw 'Resolved gMSA name is empty after normalization.'
+    }
+
+    if ($originalGmsaName -ne $GMSAName) {
+        Write-ScriptLog ("Normalized gMSA input '{0}' to '{1}'" -f $originalGmsaName, $GMSAName) -Level Info
+    }
+
     Write-ScriptLog "Starting SharpHound Least Privilege gMSA creation script" -Level Info
-    Write-ScriptLog "Parameters: gMSA=$GMSAName, OU=$TargetOUDN, Collector=$CollectorComputer" -Level Info
+    $ouLogValue = if ([string]::IsNullOrEmpty($TargetOUDN)) { '<default>' } else { $TargetOUDN }
+    Write-ScriptLog "Parameters: gMSA=$GMSAName, OU=$ouLogValue, Collector=$CollectorComputer" -Level Info
 
     if ($WhatIfPreference) {
         Write-ScriptLog "Running in WhatIf mode - no changes will be made" -Level Warning
@@ -626,6 +695,32 @@ try {
     $forest = Get-ADForest
     $rootDomain = Get-ADDomain -Identity $forest.RootDomain
     Write-ScriptLog "Forest root domain: $($rootDomain.DNSRoot)" -Level Info
+
+    # Resolve paths for security groups and gMSA creation
+    if ($TargetOUDN) {
+        $groupContainerPath = $TargetOUDN
+        $gmsaContainerPath = $TargetOUDN
+    }
+    else {
+        $groupContainerPath = "CN=Users,$($rootDomain.DistinguishedName)"
+        $gmsaContainerPath = $rootDomain.ManagedServiceAccountsContainer
+
+        if ([string]::IsNullOrEmpty($gmsaContainerPath)) {
+            $gmsaContainerPath = "CN=Managed Service Accounts,$($rootDomain.DistinguishedName)"
+        }
+
+        try {
+            Get-ADObject -Identity $gmsaContainerPath -Server $rootDomain.PDCEmulator | Out-Null
+        }
+        catch {
+            throw "Default Managed Service Accounts container not found: $gmsaContainerPath. Specify -TargetOUDN or create the container."
+        }
+
+        Write-ScriptLog "Target OU not provided; using domain defaults for containers." -Level Info
+    }
+
+    Write-ScriptLog "gMSA will be created in: $gmsaContainerPath" -Level Info
+    Write-ScriptLog "Security groups will be created in: $groupContainerPath" -Level Info
 
     $domainsArray = foreach ($domain in $forest.Domains) {
         try {
@@ -658,12 +753,12 @@ try {
 
     $groups = @{}
     foreach ($groupName in $groupDefinitions.Keys) {
-        $groups[$groupName] = New-SharpHoundSecurityGroup -Name $groupName -Description $groupDefinitions[$groupName] -Path $TargetOUDN -Server $rootDomain.PDCEmulator
+        $groups[$groupName] = New-SharpHoundSecurityGroup -Name $groupName -Description $groupDefinitions[$groupName] -Path $groupContainerPath -Server $rootDomain.PDCEmulator
     }
 
     # Create gMSA
     Write-ScriptLog "Creating Group Managed Service Account..." -Level Info
-    $gmsa = New-SharpHoundGMSA -Name $GMSAName -Path $TargetOUDN -PrincipalsAllowedToRetrieveManagedPassword "$($GMSAName)_pwdRead" -Server $rootDomain.PDCEmulator
+    $gmsa = New-SharpHoundGMSA -Name $GMSAName -Path $gmsaContainerPath -PrincipalsAllowedToRetrieveManagedPassword "$($GMSAName)_pwdRead" -Server $rootDomain.PDCEmulator -UserPrincipalName $gmsaUserPrincipalName
 
     # Configure group memberships
     Write-ScriptLog "Configuring group memberships..." -Level Info
@@ -804,7 +899,8 @@ try {
                 'SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL',
                 'SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0',
                 'SYSTEM\CurrentControlSet\Control\Lsa',
-                'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters'
+                'SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters',
+                'SYSTEM\CurrentControlSet\Services\Netlogon\Parameters'
             )
 
             $memberRegistryPaths = @(
