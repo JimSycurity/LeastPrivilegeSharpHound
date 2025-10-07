@@ -23,23 +23,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "07799db3-dd88-4324-8dff-f792607d8106",
+                                    "RunspaceId":  "22a9ac16-94d9-4743-bc5b-9c2cd8daad22",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1670318960,
+                                      "Ticks":  745993986,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  31,
-                                      "Minutes":  2,
-                                      "Seconds":  47,
-                                      "TotalDays":  0.001933239537037037,
-                                      "TotalHours":  0.046397748888888889,
-                                      "TotalMilliseconds":  167031.896,
-                                      "TotalMinutes":  2.7838649333333332,
-                                      "TotalSeconds":  167.031896
+                                      "Milliseconds":  599,
+                                      "Minutes":  1,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00086341896527777776,
+                                      "TotalHours":  0.020722055166666666,
+                                      "TotalMilliseconds":  74599.3986,
+                                      "TotalMinutes":  1.24332331,
+                                      "TotalSeconds":  74.5993986
                                   }
                  },
                  {
@@ -61,23 +64,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "e86957d5-82db-4473-9998-7e8f1872c903",
+                                    "RunspaceId":  "745f4329-a5bb-42e5-9105-28163cc378ea",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1667846617,
+                                      "Ticks":  743725292,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  784,
-                                      "Minutes":  2,
-                                      "Seconds":  46,
-                                      "TotalDays":  0.0019303780289351851,
-                                      "TotalHours":  0.046329072694444445,
-                                      "TotalMilliseconds":  166784.6617,
-                                      "TotalMinutes":  2.7797443616666668,
-                                      "TotalSeconds":  166.7846617
+                                      "Milliseconds":  372,
+                                      "Minutes":  1,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.000860793162037037,
+                                      "TotalHours":  0.020659035888888889,
+                                      "TotalMilliseconds":  74372.5292,
+                                      "TotalMinutes":  1.2395421533333333,
+                                      "TotalSeconds":  74.3725292
                                   }
                  },
                  {
@@ -99,23 +105,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "25ffd95f-73bc-4331-b12a-c76406884c65",
+                                    "RunspaceId":  "f4aadcaa-bec3-4376-ab54-9e42d4858fa7",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1665340728,
+                                      "Ticks":  741302616,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  534,
-                                      "Minutes":  2,
-                                      "Seconds":  46,
-                                      "TotalDays":  0.0019274776944444444,
-                                      "TotalHours":  0.046259464666666666,
-                                      "TotalMilliseconds":  166534.0728,
-                                      "TotalMinutes":  2.77556788,
-                                      "TotalSeconds":  166.5340728
+                                      "Milliseconds":  130,
+                                      "Minutes":  1,
+                                      "Seconds":  14,
+                                      "TotalDays":  0.00085798913888888886,
+                                      "TotalHours":  0.020591739333333331,
+                                      "TotalMilliseconds":  74130.2616,
+                                      "TotalMinutes":  1.23550436,
+                                      "TotalSeconds":  74.1302616
                                   }
                  },
                  {
@@ -137,23 +146,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "1deecfc9-4da9-4778-95f5-72db97310b23",
+                                    "RunspaceId":  "76ebeb81-168d-4b7e-8297-ad9da037c928",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1662090465,
+                                      "Ticks":  738292387,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  209,
-                                      "Minutes":  2,
-                                      "Seconds":  46,
-                                      "TotalDays":  0.0019237158159722222,
-                                      "TotalHours":  0.046169179583333331,
-                                      "TotalMilliseconds":  166209.0465,
-                                      "TotalMinutes":  2.770150775,
-                                      "TotalSeconds":  166.2090465
+                                      "Milliseconds":  829,
+                                      "Minutes":  1,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00085450507754629629,
+                                      "TotalHours":  0.02050812186111111,
+                                      "TotalMilliseconds":  73829.2387,
+                                      "TotalMinutes":  1.2304873116666666,
+                                      "TotalSeconds":  73.829238699999991
                                   }
                  },
                  {
@@ -175,23 +187,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "994336f6-2b3d-4e86-9b66-e6ca4c8477ef",
+                                    "RunspaceId":  "85313ec6-3dfc-489f-aa32-13fd00ef62e6",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1658603441,
+                                      "Ticks":  734334472,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  860,
-                                      "Minutes":  2,
-                                      "Seconds":  45,
-                                      "TotalDays":  0.0019196799085648148,
-                                      "TotalHours":  0.046072317805555554,
-                                      "TotalMilliseconds":  165860.34410000002,
-                                      "TotalMinutes":  2.7643390683333333,
-                                      "TotalSeconds":  165.8603441
+                                      "Milliseconds":  433,
+                                      "Minutes":  1,
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00084992415740740737,
+                                      "TotalHours":  0.020398179777777779,
+                                      "TotalMilliseconds":  73433.44720000001,
+                                      "TotalMinutes":  1.2238907866666666,
+                                      "TotalSeconds":  73.4334472
                                   }
                  },
                  {
@@ -213,23 +228,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0828aa06-3498-4905-b74d-82f92aaccb22",
+                                    "RunspaceId":  "9655b9df-bca7-4f76-8e49-0e739ef1c849",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1162465307,
+                                      "Ticks":  518257247,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  246,
-                                      "Minutes":  1,
-                                      "Seconds":  56,
-                                      "TotalDays":  0.0013454459571759258,
-                                      "TotalHours":  0.032290702972222224,
-                                      "TotalMilliseconds":  116246.5307,
-                                      "TotalMinutes":  1.9374421783333333,
-                                      "TotalSeconds":  116.2465307
+                                      "Milliseconds":  825,
+                                      "Minutes":  0,
+                                      "Seconds":  51,
+                                      "TotalDays":  0.00059983477662037038,
+                                      "TotalHours":  0.014396034638888888,
+                                      "TotalMilliseconds":  51825.7247,
+                                      "TotalMinutes":  0.86376207833333341,
+                                      "TotalSeconds":  51.825724699999995
                                   }
                  },
                  {
@@ -251,23 +269,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "4e433fc9-9166-4fbf-b1c9-052ca1730502",
+                                    "RunspaceId":  "0b790124-1d33-419a-ba85-2babb928ec71",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1160057574,
+                                      "Ticks":  515963020,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  5,
-                                      "Minutes":  1,
-                                      "Seconds":  56,
-                                      "TotalDays":  0.0013426592291666667,
-                                      "TotalHours":  0.0322238215,
-                                      "TotalMilliseconds":  116005.7574,
-                                      "TotalMinutes":  1.93342929,
-                                      "TotalSeconds":  116.0057574
+                                      "Milliseconds":  596,
+                                      "Minutes":  0,
+                                      "Seconds":  51,
+                                      "TotalDays":  0.00059717942129629623,
+                                      "TotalHours":  0.014332306111111111,
+                                      "TotalMilliseconds":  51596.302,
+                                      "TotalMinutes":  0.85993836666666668,
+                                      "TotalSeconds":  51.596301999999994
                                   }
                  },
                  {
@@ -289,23 +310,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "6c176ac7-02e0-47f0-a73b-2d7d231e83db",
+                                    "RunspaceId":  "91a4e3be-e8d3-4719-b7fb-c4263a214cca",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1156135257,
+                                      "Ticks":  513594261,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  613,
-                                      "Minutes":  1,
-                                      "Seconds":  55,
-                                      "TotalDays":  0.0013381195104166666,
-                                      "TotalHours":  0.03211486825,
-                                      "TotalMilliseconds":  115613.5257,
-                                      "TotalMinutes":  1.9268920950000001,
-                                      "TotalSeconds":  115.6135257
+                                      "Milliseconds":  359,
+                                      "Minutes":  0,
+                                      "Seconds":  51,
+                                      "TotalDays":  0.00059443780208333331,
+                                      "TotalHours":  0.01426650725,
+                                      "TotalMilliseconds":  51359.426100000004,
+                                      "TotalMinutes":  0.855990435,
+                                      "TotalSeconds":  51.3594261
                                   }
                  },
                  {
@@ -327,23 +351,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "7f26f39d-b62a-46b7-8eda-79056c10d479",
+                                    "RunspaceId":  "a272b11e-c3fc-4c82-a080-12aa859c43ef",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1153343643,
+                                      "Ticks":  511122307,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  334,
-                                      "Minutes":  1,
-                                      "Seconds":  55,
-                                      "TotalDays":  0.0013348884756944443,
-                                      "TotalHours":  0.032037323416666666,
-                                      "TotalMilliseconds":  115334.3643,
-                                      "TotalMinutes":  1.922239405,
-                                      "TotalSeconds":  115.33436429999999
+                                      "Milliseconds":  112,
+                                      "Minutes":  0,
+                                      "Seconds":  51,
+                                      "TotalDays":  0.000591576744212963,
+                                      "TotalHours":  0.01419784186111111,
+                                      "TotalMilliseconds":  51112.2307,
+                                      "TotalMinutes":  0.85187051166666672,
+                                      "TotalSeconds":  51.1122307
                                   }
                  },
                  {
@@ -365,23 +392,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0672c049-0efb-484b-907c-b4cd8178e5af",
+                                    "RunspaceId":  "36eb3b3b-8b97-4c0c-a78c-7641a93d6ce6",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1150554486,
+                                      "Ticks":  508803503,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  55,
-                                      "Minutes":  1,
-                                      "Seconds":  55,
-                                      "TotalDays":  0.0013316602847222221,
-                                      "TotalHours":  0.031959846833333333,
-                                      "TotalMilliseconds":  115055.4486,
-                                      "TotalMinutes":  1.91759081,
-                                      "TotalSeconds":  115.05544859999999
+                                      "Milliseconds":  880,
+                                      "Minutes":  0,
+                                      "Seconds":  50,
+                                      "TotalDays":  0.00058889294328703706,
+                                      "TotalHours":  0.014133430638888889,
+                                      "TotalMilliseconds":  50880.350300000006,
+                                      "TotalMinutes":  0.84800583833333332,
+                                      "TotalSeconds":  50.880350299999996
                                   }
                  },
                  {
@@ -403,23 +433,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "01da7303-2af8-48cd-ac5c-1166f1ea3249",
+                                    "RunspaceId":  "ecd0ae5f-b2f3-46c3-bd02-b78697ac396e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1147955016,
+                                      "Ticks":  491229088,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  795,
-                                      "Minutes":  1,
-                                      "Seconds":  54,
-                                      "TotalDays":  0.0013286516388888888,
-                                      "TotalHours":  0.031887639333333329,
-                                      "TotalMilliseconds":  114795.5016,
-                                      "TotalMinutes":  1.91325836,
-                                      "TotalSeconds":  114.7955016
+                                      "Milliseconds":  122,
+                                      "Minutes":  0,
+                                      "Seconds":  49,
+                                      "TotalDays":  0.00056855218518518517,
+                                      "TotalHours":  0.013645252444444443,
+                                      "TotalMilliseconds":  49122.908800000005,
+                                      "TotalMinutes":  0.81871514666666667,
+                                      "TotalSeconds":  49.1229088
                                   }
                  },
                  {
@@ -441,23 +474,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "efb7dea1-3d12-4488-8f52-305312684ec5",
+                                    "RunspaceId":  "9eeace83-e6c8-4072-b034-5b263461ccac",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  1145153653,
+                                      "Ticks":  479010174,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  515,
-                                      "Minutes":  1,
-                                      "Seconds":  54,
-                                      "TotalDays":  0.0013254093206018518,
-                                      "TotalHours":  0.03180982369444444,
-                                      "TotalMilliseconds":  114515.3653,
-                                      "TotalMinutes":  1.9085894216666668,
-                                      "TotalSeconds":  114.5153653
+                                      "Milliseconds":  901,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.000554409923611111,
+                                      "TotalHours":  0.013305838166666667,
+                                      "TotalMilliseconds":  47901.017400000004,
+                                      "TotalMinutes":  0.79835029,
+                                      "TotalSeconds":  47.9010174
                                   }
                  },
                  {
@@ -479,23 +515,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "9e0dd8d5-2244-4b08-b3c1-e27141934b31",
+                                    "RunspaceId":  "7a961ce5-6867-4039-883f-7c3bc247662f",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  929610137,
+                                      "Ticks":  473774729,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  961,
-                                      "Minutes":  1,
-                                      "Seconds":  32,
-                                      "TotalDays":  0.0010759376585648148,
-                                      "TotalHours":  0.025822503805555553,
-                                      "TotalMilliseconds":  92961.01370000001,
-                                      "TotalMinutes":  1.5493502283333334,
-                                      "TotalSeconds":  92.9610137
+                                      "Milliseconds":  377,
+                                      "Minutes":  0,
+                                      "Seconds":  47,
+                                      "TotalDays":  0.00054835038078703707,
+                                      "TotalHours":  0.013160409138888888,
+                                      "TotalMilliseconds":  47377.4729,
+                                      "TotalMinutes":  0.7896245483333334,
+                                      "TotalSeconds":  47.3774729
                                   }
                  },
                  {
@@ -517,23 +556,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f10c5de3-79f3-48fb-b20b-4af8fc1b6e07",
+                                    "RunspaceId":  "47153ba2-a8e0-4d65-905c-dfa5bce627b4",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  926427080,
+                                      "Ticks":  466439267,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  642,
-                                      "Minutes":  1,
-                                      "Seconds":  32,
-                                      "TotalDays":  0.0010722535648148147,
-                                      "TotalHours":  0.025734085555555553,
-                                      "TotalMilliseconds":  92642.708,
-                                      "TotalMinutes":  1.5440451333333334,
-                                      "TotalSeconds":  92.642708
+                                      "Milliseconds":  643,
+                                      "Minutes":  0,
+                                      "Seconds":  46,
+                                      "TotalDays":  0.00053986026273148151,
+                                      "TotalHours":  0.012956646305555555,
+                                      "TotalMilliseconds":  46643.9267,
+                                      "TotalMinutes":  0.77739877833333337,
+                                      "TotalSeconds":  46.643926699999994
                                   }
                  },
                  {
@@ -555,23 +597,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "64786f48-bf31-4385-982e-068c587c62f1",
+                                    "RunspaceId":  "94b80f7a-d714-4ba2-a42e-736f2f467691",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  924272215,
+                                      "Ticks":  464466728,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  427,
-                                      "Minutes":  1,
-                                      "Seconds":  32,
-                                      "TotalDays":  0.0010697595081018518,
-                                      "TotalHours":  0.025674228194444444,
-                                      "TotalMilliseconds":  92427.2215,
-                                      "TotalMinutes":  1.5404536916666667,
-                                      "TotalSeconds":  92.4272215
+                                      "Milliseconds":  446,
+                                      "Minutes":  0,
+                                      "Seconds":  46,
+                                      "TotalDays":  0.00053757723148148146,
+                                      "TotalHours":  0.012901853555555554,
+                                      "TotalMilliseconds":  46446.6728,
+                                      "TotalMinutes":  0.77411121333333333,
+                                      "TotalSeconds":  46.446672799999995
                                   }
                  },
                  {
@@ -593,23 +638,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "3eae97bf-c306-4c32-b9b1-0f3d125d7d2e",
+                                    "RunspaceId":  "f58b8b29-898d-4392-9ae6-78ca76cdef89",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  921843712,
+                                      "Ticks":  461987151,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  184,
-                                      "Minutes":  1,
-                                      "Seconds":  32,
-                                      "TotalDays":  0.0010669487407407407,
-                                      "TotalHours":  0.025606769777777778,
-                                      "TotalMilliseconds":  92184.371200000009,
-                                      "TotalMinutes":  1.5364061866666667,
-                                      "TotalSeconds":  92.1843712
+                                      "Milliseconds":  198,
+                                      "Minutes":  0,
+                                      "Seconds":  46,
+                                      "TotalDays":  0.00053470735069444445,
+                                      "TotalHours":  0.012832976416666666,
+                                      "TotalMilliseconds":  46198.7151,
+                                      "TotalMinutes":  0.769978585,
+                                      "TotalSeconds":  46.1987151
                                   }
                  },
                  {
@@ -631,23 +679,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a679a28a-0bdb-4b81-8bc7-b9684fcd5029",
+                                    "RunspaceId":  "62213f7b-ad4d-4faa-8654-b4cecc561ce5",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  919634828,
+                                      "Ticks":  459598744,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  963,
-                                      "Minutes":  1,
-                                      "Seconds":  31,
-                                      "TotalDays":  0.0010643921620370369,
-                                      "TotalHours":  0.025545411888888887,
-                                      "TotalMilliseconds":  91963.4828,
-                                      "TotalMinutes":  1.5327247133333333,
-                                      "TotalSeconds":  91.9634828
+                                      "Milliseconds":  959,
+                                      "Minutes":  0,
+                                      "Seconds":  45,
+                                      "TotalDays":  0.00053194299074074073,
+                                      "TotalHours":  0.012766631777777777,
+                                      "TotalMilliseconds":  45959.8744,
+                                      "TotalMinutes":  0.76599790666666667,
+                                      "TotalSeconds":  45.9598744
                                   }
                  },
                  {
@@ -669,23 +720,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "324a6138-2213-4c67-9ecf-26f591aeb4d0",
+                                    "RunspaceId":  "87f2ddae-ca15-44d1-92e5-e69e17d08216",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  913590684,
+                                      "Ticks":  454058143,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  359,
-                                      "Minutes":  1,
-                                      "Seconds":  31,
-                                      "TotalDays":  0.001057396625,
-                                      "TotalHours":  0.025377518999999998,
-                                      "TotalMilliseconds":  91359.0684,
-                                      "TotalMinutes":  1.52265114,
-                                      "TotalSeconds":  91.3590684
+                                      "Milliseconds":  405,
+                                      "Minutes":  0,
+                                      "Seconds":  45,
+                                      "TotalDays":  0.00052553025810185181,
+                                      "TotalHours":  0.012612726194444444,
+                                      "TotalMilliseconds":  45405.814300000005,
+                                      "TotalMinutes":  0.75676357166666663,
+                                      "TotalSeconds":  45.405814299999996
                                   }
                  },
                  {
@@ -707,23 +761,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f0036b45-801c-4314-8f9d-28a1d16659af",
+                                    "RunspaceId":  "aad1e2df-4189-4022-ab4c-9275f9fdc225",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  910961638,
+                                      "Ticks":  436509959,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  96,
-                                      "Minutes":  1,
-                                      "Seconds":  31,
-                                      "TotalDays":  0.0010543537476851851,
-                                      "TotalHours":  0.025304489944444442,
-                                      "TotalMilliseconds":  91096.163800000009,
-                                      "TotalMinutes":  1.5182693966666667,
-                                      "TotalSeconds":  91.0961638
+                                      "Milliseconds":  650,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.00050521985995370374,
+                                      "TotalHours":  0.012125276638888889,
+                                      "TotalMilliseconds":  43650.9959,
+                                      "TotalMinutes":  0.72751659833333338,
+                                      "TotalSeconds":  43.6509959
                                   }
                  },
                  {
@@ -745,23 +802,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f80493bc-7d63-45ec-8902-f98490de97d6",
+                                    "RunspaceId":  "33fa6c9a-b1a4-4181-bd93-700ed3d8192f",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  908508046,
+                                      "Ticks":  433795166,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  850,
-                                      "Minutes":  1,
-                                      "Seconds":  30,
-                                      "TotalDays":  0.0010515139421296295,
-                                      "TotalHours":  0.025236334611111109,
-                                      "TotalMilliseconds":  90850.8046,
-                                      "TotalMinutes":  1.5141800766666667,
-                                      "TotalSeconds":  90.850804599999989
+                                      "Milliseconds":  379,
+                                      "Minutes":  0,
+                                      "Seconds":  43,
+                                      "TotalDays":  0.000502077738425926,
+                                      "TotalHours":  0.012049865722222221,
+                                      "TotalMilliseconds":  43379.5166,
+                                      "TotalMinutes":  0.72299194333333339,
+                                      "TotalSeconds":  43.379516599999995
                                   }
                  },
                  {
@@ -783,23 +843,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "51160031-20f7-46f7-a44b-c8f54a408c40",
+                                    "RunspaceId":  "7a37960e-9c67-494d-a909-c44e8ee567c8",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  906178391,
+                                      "Ticks":  410439790,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  617,
-                                      "Minutes":  1,
-                                      "Seconds":  30,
-                                      "TotalDays":  0.0010488175821759258,
-                                      "TotalHours":  0.025171621972222221,
-                                      "TotalMilliseconds":  90617.8391,
-                                      "TotalMinutes":  1.5102973183333335,
-                                      "TotalSeconds":  90.6178391
+                                      "Milliseconds":  43,
+                                      "Minutes":  0,
+                                      "Seconds":  41,
+                                      "TotalDays":  0.00047504605324074072,
+                                      "TotalHours":  0.011401105277777778,
+                                      "TotalMilliseconds":  41043.979,
+                                      "TotalMinutes":  0.68406631666666673,
+                                      "TotalSeconds":  41.043979
                                   }
                  },
                  {
@@ -821,23 +884,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "4ece3bc9-bc01-434a-b2d1-e8f6eaf8beef",
+                                    "RunspaceId":  "c3843599-7706-4c6e-9307-5a9c9217979d",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  903575929,
+                                      "Ticks":  409188664,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  357,
-                                      "Minutes":  1,
-                                      "Seconds":  30,
-                                      "TotalDays":  0.0010458054733796297,
-                                      "TotalHours":  0.025099331361111109,
-                                      "TotalMilliseconds":  90357.5929,
-                                      "TotalMinutes":  1.5059598816666666,
-                                      "TotalSeconds":  90.3575929
+                                      "Milliseconds":  918,
+                                      "Minutes":  0,
+                                      "Seconds":  40,
+                                      "TotalDays":  0.00047359799074074072,
+                                      "TotalHours":  0.011366351777777776,
+                                      "TotalMilliseconds":  40918.8664,
+                                      "TotalMinutes":  0.68198110666666667,
+                                      "TotalSeconds":  40.9188664
                                   }
                  },
                  {
@@ -859,23 +925,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f90dbdf9-c5f4-4543-87cc-d9e4c0b8b3eb",
+                                    "RunspaceId":  "22b37dc6-1508-4958-a537-f4ff11f99e94",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  895913233,
+                                      "Ticks":  401395334,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  591,
-                                      "Minutes":  1,
-                                      "Seconds":  29,
-                                      "TotalDays":  0.0010369366122685185,
-                                      "TotalHours":  0.024886478694444443,
-                                      "TotalMilliseconds":  89591.3233,
-                                      "TotalMinutes":  1.4931887216666666,
-                                      "TotalSeconds":  89.5913233
+                                      "Milliseconds":  139,
+                                      "Minutes":  0,
+                                      "Seconds":  40,
+                                      "TotalDays":  0.00046457793287037034,
+                                      "TotalHours":  0.011149870388888889,
+                                      "TotalMilliseconds":  40139.5334,
+                                      "TotalMinutes":  0.6689922233333333,
+                                      "TotalSeconds":  40.1395334
                                   }
                  },
                  {
@@ -897,23 +966,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "4fa9640d-91fd-4221-9cdf-9e425271ca07",
+                                    "RunspaceId":  "36a08b1c-6353-4a4d-a500-9dd5fa8bd637",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  893451285,
+                                      "Ticks":  398524451,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  345,
-                                      "Minutes":  1,
-                                      "Seconds":  29,
-                                      "TotalDays":  0.0010340871354166665,
-                                      "TotalHours":  0.02481809125,
-                                      "TotalMilliseconds":  89345.1285,
-                                      "TotalMinutes":  1.489085475,
-                                      "TotalSeconds":  89.3451285
+                                      "Milliseconds":  852,
+                                      "Minutes":  0,
+                                      "Seconds":  39,
+                                      "TotalDays":  0.00046125515162037033,
+                                      "TotalHours":  0.011070123638888889,
+                                      "TotalMilliseconds":  39852.445100000004,
+                                      "TotalMinutes":  0.6642074183333333,
+                                      "TotalSeconds":  39.8524451
                                   }
                  },
                  {
@@ -935,23 +1007,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "e88aaa87-e80b-4277-9706-2845b69c88ca",
+                                    "RunspaceId":  "85677499-2272-4c2d-a741-e3501ecb8210",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  891332861,
+                                      "Ticks":  395586979,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  133,
-                                      "Minutes":  1,
-                                      "Seconds":  29,
-                                      "TotalDays":  0.0010316352557870371,
-                                      "TotalHours":  0.024759246138888889,
-                                      "TotalMilliseconds":  89133.2861,
-                                      "TotalMinutes":  1.4855547683333334,
-                                      "TotalSeconds":  89.133286099999992
+                                      "Milliseconds":  558,
+                                      "Minutes":  0,
+                                      "Seconds":  39,
+                                      "TotalDays":  0.00045785529976851851,
+                                      "TotalHours":  0.010988527194444445,
+                                      "TotalMilliseconds":  39558.6979,
+                                      "TotalMinutes":  0.65931163166666673,
+                                      "TotalSeconds":  39.5586979
                                   }
                  },
                  {
@@ -973,23 +1048,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "599a0670-2b91-47eb-9cc2-e2f5bfc14f0d",
+                                    "RunspaceId":  "9b1d490a-d22f-4b48-af00-59e5634eaff2",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  888770070,
+                                      "Ticks":  392688492,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  877,
-                                      "Minutes":  1,
-                                      "Seconds":  28,
-                                      "TotalDays":  0.0010286690625,
-                                      "TotalHours":  0.0246880575,
-                                      "TotalMilliseconds":  88877.007,
-                                      "TotalMinutes":  1.48128345,
-                                      "TotalSeconds":  88.877006999999992
+                                      "Milliseconds":  268,
+                                      "Minutes":  0,
+                                      "Seconds":  39,
+                                      "TotalDays":  0.00045450056944444444,
+                                      "TotalHours":  0.010908013666666666,
+                                      "TotalMilliseconds":  39268.849200000004,
+                                      "TotalMinutes":  0.65448082,
+                                      "TotalSeconds":  39.2688492
                                   }
                  },
                  {
@@ -1011,23 +1089,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "3107a7c7-a92f-4645-ad7c-03591c46ad51",
+                                    "RunspaceId":  "307b86dd-3603-4b7a-a400-2ef57066246e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  881279483,
+                                      "Ticks":  390647608,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  127,
-                                      "Minutes":  1,
-                                      "Seconds":  28,
-                                      "TotalDays":  0.0010199994016203704,
-                                      "TotalHours":  0.024479985638888889,
-                                      "TotalMilliseconds":  88127.9483,
-                                      "TotalMinutes":  1.4687991383333334,
-                                      "TotalSeconds":  88.1279483
+                                      "Milliseconds":  64,
+                                      "Minutes":  0,
+                                      "Seconds":  39,
+                                      "TotalDays":  0.00045213843518518518,
+                                      "TotalHours":  0.010851322444444445,
+                                      "TotalMilliseconds":  39064.760800000004,
+                                      "TotalMinutes":  0.65107934666666667,
+                                      "TotalSeconds":  39.064760799999995
                                   }
                  },
                  {
@@ -1049,23 +1130,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "6e80e77b-e164-449b-95c1-ceab89c6fda9",
+                                    "RunspaceId":  "a8499a4f-70f2-4dea-a402-fa2d8b0b792e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  879213005,
+                                      "Ticks":  383104875,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  921,
-                                      "Minutes":  1,
-                                      "Seconds":  27,
-                                      "TotalDays":  0.0010176076446759259,
-                                      "TotalHours":  0.024422583472222221,
-                                      "TotalMilliseconds":  87921.3005,
-                                      "TotalMinutes":  1.4653550083333333,
-                                      "TotalSeconds":  87.9213005
+                                      "Milliseconds":  310,
+                                      "Minutes":  0,
+                                      "Seconds":  38,
+                                      "TotalDays":  0.00044340842013888886,
+                                      "TotalHours":  0.010641802083333332,
+                                      "TotalMilliseconds":  38310.4875,
+                                      "TotalMinutes":  0.638508125,
+                                      "TotalSeconds":  38.3104875
                                   }
                  },
                  {
@@ -1087,23 +1171,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "8ffcc28a-3872-445f-a5cd-22a73896b937",
+                                    "RunspaceId":  "e443571a-ec16-455b-85ab-9a8e10e0977d",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  876966287,
+                                      "Ticks":  380688229,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  696,
-                                      "Minutes":  1,
-                                      "Seconds":  27,
-                                      "TotalDays":  0.0010150072766203703,
-                                      "TotalHours":  0.024360174638888888,
-                                      "TotalMilliseconds":  87696.6287,
-                                      "TotalMinutes":  1.4616104783333335,
-                                      "TotalSeconds":  87.696628699999991
+                                      "Milliseconds":  68,
+                                      "Minutes":  0,
+                                      "Seconds":  38,
+                                      "TotalDays":  0.0004406113761574074,
+                                      "TotalHours":  0.010574673027777778,
+                                      "TotalMilliseconds":  38068.8229,
+                                      "TotalMinutes":  0.63448038166666665,
+                                      "TotalSeconds":  38.0688229
                                   }
                  },
                  {
@@ -1125,23 +1212,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "586d278e-87d4-41de-8a7e-da2fb5a7d349",
+                                    "RunspaceId":  "84c3a959-444e-4e56-bfcc-6c3b57127ca5",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  874057869,
+                                      "Ticks":  378604563,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  405,
-                                      "Minutes":  1,
-                                      "Seconds":  27,
-                                      "TotalDays":  0.0010116410520833333,
-                                      "TotalHours":  0.02427938525,
-                                      "TotalMilliseconds":  87405.7869,
-                                      "TotalMinutes":  1.456763115,
-                                      "TotalSeconds":  87.4057869
+                                      "Milliseconds":  860,
+                                      "Minutes":  0,
+                                      "Seconds":  37,
+                                      "TotalDays":  0.00043819972569444443,
+                                      "TotalHours":  0.010516793416666666,
+                                      "TotalMilliseconds":  37860.456300000005,
+                                      "TotalMinutes":  0.631007605,
+                                      "TotalSeconds":  37.860456299999996
                                   }
                  },
                  {
@@ -1163,23 +1253,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f6849e26-94d3-4837-8bf0-47293ade7a82",
+                                    "RunspaceId":  "6a3f95ac-d6f2-47a5-bc5a-57a04acdd0ce",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  866698628,
+                                      "Ticks":  375972086,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  669,
-                                      "Minutes":  1,
-                                      "Seconds":  26,
-                                      "TotalDays":  0.0010031234120370369,
-                                      "TotalHours":  0.024074961888888888,
-                                      "TotalMilliseconds":  86669.8628,
-                                      "TotalMinutes":  1.4444977133333334,
-                                      "TotalSeconds":  86.66986279999999
+                                      "Milliseconds":  597,
+                                      "Minutes":  0,
+                                      "Seconds":  37,
+                                      "TotalDays":  0.00043515287731481477,
+                                      "TotalHours":  0.010443669055555556,
+                                      "TotalMilliseconds":  37597.208600000005,
+                                      "TotalMinutes":  0.62662014333333338,
+                                      "TotalSeconds":  37.597208599999995
                                   }
                  },
                  {
@@ -1201,23 +1294,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "1a4ce317-2c87-4819-8bd1-9868f8a8db2a",
+                                    "RunspaceId":  "840e745c-2d78-49e8-9b7d-bbc323fc89bc",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  864570844,
+                                      "Ticks":  373168267,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  457,
-                                      "Minutes":  1,
-                                      "Seconds":  26,
-                                      "TotalDays":  0.001000660699074074,
-                                      "TotalHours":  0.024015856777777778,
-                                      "TotalMilliseconds":  86457.0844,
-                                      "TotalMinutes":  1.4409514066666667,
-                                      "TotalSeconds":  86.4570844
+                                      "Milliseconds":  316,
+                                      "Minutes":  0,
+                                      "Seconds":  37,
+                                      "TotalDays":  0.00043190771643518514,
+                                      "TotalHours":  0.010365785194444444,
+                                      "TotalMilliseconds":  37316.826700000005,
+                                      "TotalMinutes":  0.62194711166666672,
+                                      "TotalSeconds":  37.3168267
                                   }
                  },
                  {
@@ -1239,23 +1335,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "29be77da-e5f7-4997-96bf-0ea9f066bfea",
+                                    "RunspaceId":  "d46b87b2-06ff-4d23-9099-ed6915e62b68",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  862038960,
+                                      "Ticks":  365595280,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  203,
-                                      "Minutes":  1,
-                                      "Seconds":  26,
-                                      "TotalDays":  0.00099773027777777783,
-                                      "TotalHours":  0.023945526666666665,
-                                      "TotalMilliseconds":  86203.896000000008,
-                                      "TotalMinutes":  1.4367316,
-                                      "TotalSeconds":  86.203896
+                                      "Milliseconds":  559,
+                                      "Minutes":  0,
+                                      "Seconds":  36,
+                                      "TotalDays":  0.00042314268518518517,
+                                      "TotalHours":  0.010155424444444444,
+                                      "TotalMilliseconds":  36559.528,
+                                      "TotalMinutes":  0.60932546666666665,
+                                      "TotalSeconds":  36.559528
                                   }
                  },
                  {
@@ -1277,23 +1376,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f4150534-d98c-4b71-8303-8a753e99bf82",
+                                    "RunspaceId":  "e375a25d-f05e-40f9-9412-ae066eb941b3",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  859259400,
+                                      "Ticks":  363503078,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  925,
-                                      "Minutes":  1,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.00099451319444444431,
-                                      "TotalHours":  0.023868316666666667,
-                                      "TotalMilliseconds":  85925.94,
-                                      "TotalMinutes":  1.432099,
-                                      "TotalSeconds":  85.92594
+                                      "Milliseconds":  350,
+                                      "Minutes":  0,
+                                      "Seconds":  36,
+                                      "TotalDays":  0.00042072115509259256,
+                                      "TotalHours":  0.010097307722222221,
+                                      "TotalMilliseconds":  36350.3078,
+                                      "TotalMinutes":  0.60583846333333335,
+                                      "TotalSeconds":  36.350307799999996
                                   }
                  },
                  {
@@ -1315,23 +1417,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "9f62e071-3bcd-4986-bef5-b4de22232b5b",
+                                    "RunspaceId":  "bcceacf4-81db-4231-bd5c-3cf772ee87ae",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  856332082,
+                                      "Ticks":  360952742,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  633,
-                                      "Minutes":  1,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.00099112509490740727,
-                                      "TotalHours":  0.023787002277777778,
-                                      "TotalMilliseconds":  85633.208200000008,
-                                      "TotalMinutes":  1.4272201366666668,
-                                      "TotalSeconds":  85.6332082
+                                      "Milliseconds":  95,
+                                      "Minutes":  0,
+                                      "Seconds":  36,
+                                      "TotalDays":  0.00041776937731481477,
+                                      "TotalHours":  0.010026465055555555,
+                                      "TotalMilliseconds":  36095.2742,
+                                      "TotalMinutes":  0.60158790333333334,
+                                      "TotalSeconds":  36.0952742
                                   }
                  },
                  {
@@ -1353,23 +1458,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "ee677519-50d2-4a16-ab67-e6b49aedbcac",
+                                    "RunspaceId":  "4bd26645-5d73-42fe-b11b-367d6f7e689e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  848801702,
+                                      "Ticks":  357376511,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  880,
-                                      "Minutes":  1,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00098240937731481487,
-                                      "TotalHours":  0.023577825055555553,
-                                      "TotalMilliseconds":  84880.170200000008,
-                                      "TotalMinutes":  1.4146695033333334,
-                                      "TotalSeconds":  84.8801702
+                                      "Milliseconds":  737,
+                                      "Minutes":  0,
+                                      "Seconds":  35,
+                                      "TotalDays":  0.00041363022106481479,
+                                      "TotalHours":  0.009927125305555555,
+                                      "TotalMilliseconds":  35737.6511,
+                                      "TotalMinutes":  0.59562751833333338,
+                                      "TotalSeconds":  35.7376511
                                   }
                  },
                  {
@@ -1391,23 +1499,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "ed62aa73-90b4-428d-b15a-095feb6392ca",
+                                    "RunspaceId":  "4b8a8ac4-fe92-47c4-b5a9-0a92fa4f5d76",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  846339175,
+                                      "Ticks":  354158811,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  633,
-                                      "Minutes":  1,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00097955923032407412,
-                                      "TotalHours":  0.023509421527777775,
-                                      "TotalMilliseconds":  84633.91750000001,
-                                      "TotalMinutes":  1.4105652916666667,
-                                      "TotalSeconds":  84.6339175
+                                      "Milliseconds":  415,
+                                      "Minutes":  0,
+                                      "Seconds":  35,
+                                      "TotalDays":  0.00040990603124999996,
+                                      "TotalHours":  0.00983774475,
+                                      "TotalMilliseconds":  35415.8811,
+                                      "TotalMinutes":  0.59026468500000007,
+                                      "TotalSeconds":  35.4158811
                                   }
                  },
                  {
@@ -1429,23 +1540,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "2f3ab597-0757-4b9a-a7f4-d4448d6ba8f3",
+                                    "RunspaceId":  "76b0e1a1-bc45-4da6-b4ef-b435dfb0b5f2",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  843772126,
+                                      "Ticks":  346762684,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  377,
-                                      "Minutes":  1,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00097658810879629621,
-                                      "TotalHours":  0.023438114611111109,
-                                      "TotalMilliseconds":  84377.2126,
-                                      "TotalMinutes":  1.4062868766666667,
-                                      "TotalSeconds":  84.377212599999993
+                                      "Milliseconds":  676,
+                                      "Minutes":  0,
+                                      "Seconds":  34,
+                                      "TotalDays":  0.00040134569907407407,
+                                      "TotalHours":  0.0096322967777777782,
+                                      "TotalMilliseconds":  34676.2684,
+                                      "TotalMinutes":  0.57793780666666672,
+                                      "TotalSeconds":  34.6762684
                                   }
                  },
                  {
@@ -1467,23 +1581,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "dd7ae4d1-5d92-4bfb-8cdb-8802d9c3f2a4",
+                                    "RunspaceId":  "7c56a91f-b114-4d02-bd34-75ba0511ca94",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  841588797,
+                                      "Ticks":  344262059,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  158,
-                                      "Minutes":  1,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00097406110763888882,
-                                      "TotalHours":  0.023377466583333333,
-                                      "TotalMilliseconds":  84158.8797,
-                                      "TotalMinutes":  1.402647995,
-                                      "TotalSeconds":  84.1588797
+                                      "Milliseconds":  426,
+                                      "Minutes":  0,
+                                      "Seconds":  34,
+                                      "TotalDays":  0.00039845145717592588,
+                                      "TotalHours":  0.0095628349722222221,
+                                      "TotalMilliseconds":  34426.2059,
+                                      "TotalMinutes":  0.57377009833333337,
+                                      "TotalSeconds":  34.4262059
                                   }
                  },
                  {
@@ -1505,23 +1622,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "442d46d3-59ef-4c6a-a84f-b0f3de3a8436",
+                                    "RunspaceId":  "90f5a813-c054-4a12-aaf6-f21d8510f7d0",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  838668234,
+                                      "Ticks":  341879883,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  866,
-                                      "Minutes":  1,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.00097068082638888888,
-                                      "TotalHours":  0.023296339833333332,
-                                      "TotalMilliseconds":  83866.823400000008,
-                                      "TotalMinutes":  1.39778039,
-                                      "TotalSeconds":  83.8668234
+                                      "Milliseconds":  187,
+                                      "Minutes":  0,
+                                      "Seconds":  34,
+                                      "TotalDays":  0.00039569430902777774,
+                                      "TotalHours":  0.0094966634166666671,
+                                      "TotalMilliseconds":  34187.988300000005,
+                                      "TotalMinutes":  0.569799805,
+                                      "TotalSeconds":  34.1879883
                                   }
                  },
                  {
@@ -1543,23 +1663,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "d95947e4-236c-4c9e-870a-3d7a762b9bbc",
+                                    "RunspaceId":  "6e280997-09ce-4299-be82-ef31ac6d7bce",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  831159564,
+                                      "Ticks":  339257889,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  115,
-                                      "Minutes":  1,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.000961990236111111,
-                                      "TotalHours":  0.023087765666666666,
-                                      "TotalMilliseconds":  83115.95640000001,
-                                      "TotalMinutes":  1.38526594,
-                                      "TotalSeconds":  83.1159564
+                                      "Milliseconds":  925,
+                                      "Minutes":  0,
+                                      "Seconds":  33,
+                                      "TotalDays":  0.00039265959374999997,
+                                      "TotalHours":  0.00942383025,
+                                      "TotalMilliseconds":  33925.7889,
+                                      "TotalMinutes":  0.565429815,
+                                      "TotalSeconds":  33.9257889
                                   }
                  },
                  {
@@ -1581,23 +1704,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "d70094f5-6d5a-4752-a05e-db16eaa60417",
+                                    "RunspaceId":  "3622615e-382f-4e51-b65d-4e3cd0829eb9",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  829139994,
+                                      "Ticks":  336409137,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  913,
-                                      "Minutes":  1,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00095965277083333333,
-                                      "TotalHours":  0.0230316665,
-                                      "TotalMilliseconds":  82913.9994,
-                                      "TotalMinutes":  1.38189999,
-                                      "TotalSeconds":  82.9139994
+                                      "Milliseconds":  640,
+                                      "Minutes":  0,
+                                      "Seconds":  33,
+                                      "TotalDays":  0.0003893624270833333,
+                                      "TotalHours":  0.00934469825,
+                                      "TotalMilliseconds":  33640.913700000005,
+                                      "TotalMinutes":  0.560681895,
+                                      "TotalSeconds":  33.6409137
                                   }
                  },
                  {
@@ -1619,23 +1745,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a1565076-b40a-42d3-b45a-fba0677e0809",
+                                    "RunspaceId":  "5336a288-4804-4a89-9d4e-12f921aee8dd",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  510036909,
+                                      "Ticks":  328906209,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  3,
+                                      "Milliseconds":  890,
                                       "Minutes":  0,
-                                      "Seconds":  51,
-                                      "TotalDays":  0.00059032049652777774,
-                                      "TotalHours":  0.014167691916666666,
-                                      "TotalMilliseconds":  51003.6909,
-                                      "TotalMinutes":  0.850061515,
-                                      "TotalSeconds":  51.003690899999995
+                                      "Seconds":  32,
+                                      "TotalDays":  0.00038067848263888889,
+                                      "TotalHours":  0.0091362835833333333,
+                                      "TotalMilliseconds":  32890.6209,
+                                      "TotalMinutes":  0.548177015,
+                                      "TotalSeconds":  32.8906209
                                   }
                  },
                  {
@@ -1657,23 +1786,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "4b4dbc2e-fa9b-411f-884b-4e02571ec3b1",
+                                    "RunspaceId":  "066d4476-db72-46b5-aba6-b3e7251e0e4d",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  507715038,
+                                      "Ticks":  326736063,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  771,
+                                      "Milliseconds":  673,
                                       "Minutes":  0,
-                                      "Seconds":  50,
-                                      "TotalDays":  0.00058763314583333331,
-                                      "TotalHours":  0.014103195499999999,
-                                      "TotalMilliseconds":  50771.503800000006,
-                                      "TotalMinutes":  0.84619173,
-                                      "TotalSeconds":  50.7715038
+                                      "Seconds":  32,
+                                      "TotalDays":  0.00037816673958333331,
+                                      "TotalHours":  0.00907600175,
+                                      "TotalMilliseconds":  32673.606300000003,
+                                      "TotalMinutes":  0.544560105,
+                                      "TotalSeconds":  32.673606299999996
                                   }
                  },
                  {
@@ -1695,23 +1827,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "07365607-ac26-45c4-9471-888d5c3c2ab4",
+                                    "RunspaceId":  "209af6bd-0670-45c0-a92b-8e4e2fc7e415",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  291494533,
+                                      "Ticks":  324096211,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  149,
+                                      "Milliseconds":  409,
                                       "Minutes":  0,
-                                      "Seconds":  29,
-                                      "TotalDays":  0.00033737793171296295,
-                                      "TotalHours":  0.0080970703611111111,
-                                      "TotalMilliseconds":  29149.4533,
-                                      "TotalMinutes":  0.48582422166666667,
-                                      "TotalSeconds":  29.149453299999998
+                                      "Seconds":  32,
+                                      "TotalDays":  0.00037511135532407406,
+                                      "TotalHours":  0.0090026725277777778,
+                                      "TotalMilliseconds":  32409.6211,
+                                      "TotalMinutes":  0.54016035166666665,
+                                      "TotalSeconds":  32.409621099999995
                                   }
                  },
                  {
@@ -1733,23 +1868,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "02b59a03-3654-42bc-bcd5-61e9ba8d7f98",
+                                    "RunspaceId":  "89100d5d-b773-4adf-b9c7-239c785d553b",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  289192027,
+                                      "Ticks":  321914980,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  919,
+                                      "Milliseconds":  191,
                                       "Minutes":  0,
-                                      "Seconds":  28,
-                                      "TotalDays":  0.00033471299421296296,
-                                      "TotalHours":  0.00803311186111111,
-                                      "TotalMilliseconds":  28919.2027,
-                                      "TotalMinutes":  0.48198671166666668,
-                                      "TotalSeconds":  28.9192027
+                                      "Seconds":  32,
+                                      "TotalDays":  0.00037258678240740742,
+                                      "TotalHours":  0.0089420827777777767,
+                                      "TotalMilliseconds":  32191.498000000003,
+                                      "TotalMinutes":  0.53652496666666671,
+                                      "TotalSeconds":  32.191497999999996
                                   }
                  },
                  {
@@ -1771,23 +1909,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "3196352d-4957-4aa4-bf0f-f402a7b1dbdc",
+                                    "RunspaceId":  "f0432dc2-db2c-43eb-a716-78a4d45c6329",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  287130230,
+                                      "Ticks":  317746766,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  713,
+                                      "Milliseconds":  774,
                                       "Minutes":  0,
-                                      "Seconds":  28,
-                                      "TotalDays":  0.00033232665509259256,
-                                      "TotalHours":  0.0079758397222222215,
-                                      "TotalMilliseconds":  28713.023,
-                                      "TotalMinutes":  0.47855038333333333,
-                                      "TotalSeconds":  28.713023
+                                      "Seconds":  31,
+                                      "TotalDays":  0.00036776246064814815,
+                                      "TotalHours":  0.0088262990555555559,
+                                      "TotalMilliseconds":  31774.676600000003,
+                                      "TotalMinutes":  0.5295779433333333,
+                                      "TotalSeconds":  31.7746766
                                   }
                  },
                  {
@@ -1809,23 +1950,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "87d2e9c0-3248-4401-8ea7-1a40edba7424",
+                                    "RunspaceId":  "3ec8915b-bd71-4fc7-9315-d37dd7a2283b",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  284498929,
+                                      "Ticks":  314212102,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  449,
+                                      "Milliseconds":  421,
                                       "Minutes":  0,
-                                      "Seconds":  28,
-                                      "TotalDays":  0.00032928116782407404,
-                                      "TotalHours":  0.0079027480277777777,
-                                      "TotalMilliseconds":  28449.892900000003,
-                                      "TotalMinutes":  0.4741648816666667,
-                                      "TotalSeconds":  28.4498929
+                                      "Seconds":  31,
+                                      "TotalDays":  0.00036367141435185186,
+                                      "TotalHours":  0.0087281139444444437,
+                                      "TotalMilliseconds":  31421.2102,
+                                      "TotalMinutes":  0.52368683666666671,
+                                      "TotalSeconds":  31.421210199999997
                                   }
                  },
                  {
@@ -1847,23 +1991,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "37520de6-0916-4818-823f-873973d0379a",
+                                    "RunspaceId":  "28697024-29ac-4382-a783-a0cd715c9581",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  282237008,
+                                      "Ticks":  311901494,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  223,
+                                      "Milliseconds":  190,
                                       "Minutes":  0,
-                                      "Seconds":  28,
-                                      "TotalDays":  0.00032666320370370368,
-                                      "TotalHours":  0.0078399168888888884,
-                                      "TotalMilliseconds":  28223.700800000002,
-                                      "TotalMinutes":  0.47039501333333333,
-                                      "TotalSeconds":  28.2237008
+                                      "Seconds":  31,
+                                      "TotalDays":  0.00036099709953703703,
+                                      "TotalHours":  0.0086639303888888883,
+                                      "TotalMilliseconds":  31190.149400000002,
+                                      "TotalMinutes":  0.51983582333333334,
+                                      "TotalSeconds":  31.1901494
                                   }
                  },
                  {
@@ -1885,23 +2032,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "055d69af-c31a-41e2-b8bb-2c59cb412329",
+                                    "RunspaceId":  "30ee15ce-e1c9-4b81-8ffe-ae683ff1aeee",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  270096248,
+                                      "Ticks":  308420076,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  9,
+                                      "Milliseconds":  842,
                                       "Minutes":  0,
-                                      "Seconds":  27,
-                                      "TotalDays":  0.00031261139814814815,
-                                      "TotalHours":  0.0075026735555555552,
-                                      "TotalMilliseconds":  27009.6248,
-                                      "TotalMinutes":  0.45016041333333334,
-                                      "TotalSeconds":  27.009624799999997
+                                      "Seconds":  30,
+                                      "TotalDays":  0.00035696768055555557,
+                                      "TotalHours":  0.0085672243333333332,
+                                      "TotalMilliseconds":  30842.0076,
+                                      "TotalMinutes":  0.51403346,
+                                      "TotalSeconds":  30.8420076
                                   }
                  },
                  {
@@ -1923,23 +2073,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0ebb4ae0-672d-4f27-8675-33f12f1e71b6",
+                                    "RunspaceId":  "b55eb5ff-54ed-403e-be4e-57a30358e97a",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  267841478,
+                                      "Ticks":  304731942,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  784,
+                                      "Milliseconds":  473,
                                       "Minutes":  0,
-                                      "Seconds":  26,
-                                      "TotalDays":  0.00031000171064814815,
-                                      "TotalHours":  0.0074400410555555555,
-                                      "TotalMilliseconds":  26784.147800000002,
-                                      "TotalMinutes":  0.44640246333333333,
-                                      "TotalSeconds":  26.7841478
+                                      "Seconds":  30,
+                                      "TotalDays":  0.00035269900694444441,
+                                      "TotalHours":  0.0084647761666666668,
+                                      "TotalMilliseconds":  30473.1942,
+                                      "TotalMinutes":  0.50788657,
+                                      "TotalSeconds":  30.4731942
                                   }
                  },
                  {
@@ -1961,23 +2114,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f9ce7ed7-6d41-46b1-aa39-a9c645083dd4",
+                                    "RunspaceId":  "c9d97dc8-2ac5-43e0-b167-0d29b38bfd25",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  265061706,
+                                      "Ticks":  302141945,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  506,
+                                      "Milliseconds":  214,
                                       "Minutes":  0,
-                                      "Seconds":  26,
-                                      "TotalDays":  0.00030678438194444444,
-                                      "TotalHours":  0.0073628251666666665,
-                                      "TotalMilliseconds":  26506.1706,
-                                      "TotalMinutes":  0.44176951000000003,
-                                      "TotalSeconds":  26.506170599999997
+                                      "Seconds":  30,
+                                      "TotalDays":  0.00034970132523148145,
+                                      "TotalHours":  0.0083928318055555545,
+                                      "TotalMilliseconds":  30214.1945,
+                                      "TotalMinutes":  0.50356990833333337,
+                                      "TotalSeconds":  30.214194499999998
                                   }
                  },
                  {
@@ -1999,23 +2155,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "9e54454b-205b-4aaa-a854-1567697d5bc1",
+                                    "RunspaceId":  "b9e514cb-aa72-4fcf-867d-890880d10fa8",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  257391286,
+                                      "Ticks":  298908704,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  739,
+                                      "Milliseconds":  890,
                                       "Minutes":  0,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.00029790658101851852,
-                                      "TotalHours":  0.0071497579444444442,
-                                      "TotalMilliseconds":  25739.1286,
-                                      "TotalMinutes":  0.4289854766666667,
-                                      "TotalSeconds":  25.739128599999997
+                                      "Seconds":  29,
+                                      "TotalDays":  0.00034595914814814811,
+                                      "TotalHours":  0.0083030195555555547,
+                                      "TotalMilliseconds":  29890.8704,
+                                      "TotalMinutes":  0.49818117333333334,
+                                      "TotalSeconds":  29.890870399999997
                                   }
                  },
                  {
@@ -2037,23 +2196,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "7244460d-aff5-4f1b-924f-6b8a75f6835f",
+                                    "RunspaceId":  "a9705af9-304b-4a24-8b28-d91a5ea8e5f8",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  254948920,
+                                      "Ticks":  295960488,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  494,
+                                      "Milliseconds":  596,
                                       "Minutes":  0,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.00029507976851851853,
-                                      "TotalHours":  0.0070819144444444438,
-                                      "TotalMilliseconds":  25494.892,
-                                      "TotalMinutes":  0.42491486666666667,
-                                      "TotalSeconds":  25.494892
+                                      "Seconds":  29,
+                                      "TotalDays":  0.00034254686111111112,
+                                      "TotalHours":  0.0082211246666666661,
+                                      "TotalMilliseconds":  29596.0488,
+                                      "TotalMinutes":  0.49326748000000004,
+                                      "TotalSeconds":  29.5960488
                                   }
                  },
                  {
@@ -2075,23 +2237,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "762e69e2-fb70-4f93-9de2-2c0e75dfa369",
+                                    "RunspaceId":  "c835a5af-11fe-4277-b565-6c1277be931f",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  252591980,
+                                      "Ticks":  288341977,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  259,
+                                      "Milliseconds":  834,
                                       "Minutes":  0,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.00029235182870370369,
-                                      "TotalHours":  0.0070164438888888885,
-                                      "TotalMilliseconds":  25259.198,
-                                      "TotalMinutes":  0.42098663333333336,
-                                      "TotalSeconds":  25.259197999999998
+                                      "Seconds":  28,
+                                      "TotalDays":  0.00033372914004629629,
+                                      "TotalHours":  0.0080094993611111113,
+                                      "TotalMilliseconds":  28834.1977,
+                                      "TotalMinutes":  0.48056996166666666,
+                                      "TotalSeconds":  28.834197699999997
                                   }
                  },
                  {
@@ -2113,23 +2278,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "cc2ed7f6-4179-4b11-91e6-42dc22366a19",
+                                    "RunspaceId":  "a039aa27-443c-4616-b0e8-2393a7df86e8",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  250157488,
+                                      "Ticks":  286060067,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  15,
+                                      "Milliseconds":  606,
                                       "Minutes":  0,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.0002895341296296296,
-                                      "TotalHours":  0.0069488191111111109,
-                                      "TotalMilliseconds":  25015.7488,
-                                      "TotalMinutes":  0.41692914666666669,
-                                      "TotalSeconds":  25.015748799999997
+                                      "Seconds":  28,
+                                      "TotalDays":  0.00033108804050925925,
+                                      "TotalHours":  0.0079461129722222211,
+                                      "TotalMilliseconds":  28606.0067,
+                                      "TotalMinutes":  0.47676677833333336,
+                                      "TotalSeconds":  28.6060067
                                   }
                  },
                  {
@@ -2151,23 +2319,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "8fe92022-3510-472a-b580-41fc6e19ccfb",
+                                    "RunspaceId":  "9089dc7f-b30a-41bd-b54e-f90ddcb1d2d8",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  247477458,
+                                      "Ticks":  283740160,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  747,
+                                      "Milliseconds":  374,
                                       "Minutes":  0,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00028643224305555554,
-                                      "TotalHours":  0.0068743738333333334,
-                                      "TotalMilliseconds":  24747.7458,
-                                      "TotalMinutes":  0.41246243,
-                                      "TotalSeconds":  24.7477458
+                                      "Seconds":  28,
+                                      "TotalDays":  0.00032840296296296294,
+                                      "TotalHours":  0.0078816711111111114,
+                                      "TotalMilliseconds":  28374.016,
+                                      "TotalMinutes":  0.47290026666666668,
+                                      "TotalSeconds":  28.374015999999997
                                   }
                  },
                  {
@@ -2189,23 +2360,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "d0633df2-2877-458b-ba50-c01511c003a5",
+                                    "RunspaceId":  "b095bfb3-a5af-4499-9f41-4c73dcd86f9c",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  239824630,
+                                      "Ticks":  281488804,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  982,
+                                      "Milliseconds":  148,
                                       "Minutes":  0,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.00027757480324074074,
-                                      "TotalHours":  0.0066617952777777772,
-                                      "TotalMilliseconds":  23982.463,
-                                      "TotalMinutes":  0.39970771666666666,
-                                      "TotalSeconds":  23.982463
+                                      "Seconds":  28,
+                                      "TotalDays":  0.00032579722685185182,
+                                      "TotalHours":  0.0078191334444444437,
+                                      "TotalMilliseconds":  28148.880400000002,
+                                      "TotalMinutes":  0.46914800666666667,
+                                      "TotalSeconds":  28.1488804
                                   }
                  },
                  {
@@ -2227,23 +2401,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "8d8f3bf2-f1b8-48a1-aa0a-f7bd97147686",
+                                    "RunspaceId":  "256571c9-ca5c-407c-a31f-bbecd4892b45",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  236854522,
+                                      "Ticks":  278886853,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  685,
+                                      "Milliseconds":  888,
                                       "Minutes":  0,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.00027413717824074072,
-                                      "TotalHours":  0.0065792922777777778,
-                                      "TotalMilliseconds":  23685.4522,
-                                      "TotalMinutes":  0.39475753666666669,
-                                      "TotalSeconds":  23.6854522
+                                      "Seconds":  27,
+                                      "TotalDays":  0.0003227857094907407,
+                                      "TotalHours":  0.0077468570277777777,
+                                      "TotalMilliseconds":  27888.6853,
+                                      "TotalMinutes":  0.46481142166666667,
+                                      "TotalSeconds":  27.8886853
                                   }
                  },
                  {
@@ -2265,23 +2442,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "e5390538-979b-4ca5-8713-ec88550cd34e",
+                                    "RunspaceId":  "14fc4e87-ad72-4f32-9523-81d00ee0d4b7",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  234314299,
+                                      "Ticks":  271398071,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  431,
+                                      "Milliseconds":  139,
                                       "Minutes":  0,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.00027119710532407405,
-                                      "TotalHours":  0.0065087305277777771,
-                                      "TotalMilliseconds":  23431.429900000003,
-                                      "TotalMinutes":  0.39052383166666665,
-                                      "TotalSeconds":  23.431429899999998
+                                      "Seconds":  27,
+                                      "TotalDays":  0.00031411813773148144,
+                                      "TotalHours":  0.0075388353055555555,
+                                      "TotalMilliseconds":  27139.8071,
+                                      "TotalMinutes":  0.45233011833333336,
+                                      "TotalSeconds":  27.1398071
                                   }
                  },
                  {
@@ -2303,23 +2483,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "58cc4236-e0a7-4e46-9ee7-ef879d12588a",
+                                    "RunspaceId":  "d4e1e70c-2cc2-41bc-9193-5ea6366e9e17",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  228440181,
+                                      "Ticks":  265846521,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  844,
+                                      "Milliseconds":  584,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00026439835763888888,
-                                      "TotalHours":  0.0063455605833333331,
-                                      "TotalMilliseconds":  22844.0181,
-                                      "TotalMinutes":  0.380733635,
-                                      "TotalSeconds":  22.8440181
+                                      "Seconds":  26,
+                                      "TotalDays":  0.00030769273263888888,
+                                      "TotalHours":  0.0073846255833333327,
+                                      "TotalMilliseconds":  26584.652100000003,
+                                      "TotalMinutes":  0.443077535,
+                                      "TotalSeconds":  26.5846521
                                   }
                  },
                  {
@@ -2341,23 +2524,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "7ce529a8-c6c1-46fa-9d6a-afe14a080be2",
+                                    "RunspaceId":  "9ef9a263-f0b9-4efa-a2ad-633f4543f5cc",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  226221307,
+                                      "Ticks":  263606548,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  622,
+                                      "Milliseconds":  360,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00026183021643518516,
-                                      "TotalHours":  0.0062839251944444442,
-                                      "TotalMilliseconds":  22622.1307,
-                                      "TotalMinutes":  0.37703551166666666,
-                                      "TotalSeconds":  22.6221307
+                                      "Seconds":  26,
+                                      "TotalDays":  0.00030510017129629631,
+                                      "TotalHours":  0.007322404111111111,
+                                      "TotalMilliseconds":  26360.6548,
+                                      "TotalMinutes":  0.43934424666666666,
+                                      "TotalSeconds":  26.3606548
                                   }
                  },
                  {
@@ -2379,23 +2565,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "cddbe2d9-5e2d-41a7-91c8-6c4bd3b706b5",
+                                    "RunspaceId":  "d839f9e6-0ae9-435f-8682-668ff2884dba",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  223838337,
+                                      "Ticks":  261207305,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  383,
+                                      "Milliseconds":  120,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00025907214930555555,
-                                      "TotalHours":  0.0062177315833333328,
-                                      "TotalMilliseconds":  22383.833700000003,
-                                      "TotalMinutes":  0.37306389500000003,
-                                      "TotalSeconds":  22.3838337
+                                      "Seconds":  26,
+                                      "TotalDays":  0.00030232326967592592,
+                                      "TotalHours":  0.0072557584722222216,
+                                      "TotalMilliseconds":  26120.7305,
+                                      "TotalMinutes":  0.43534550833333335,
+                                      "TotalSeconds":  26.1207305
                                   }
                  },
                  {
@@ -2417,23 +2606,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f070f92f-a805-4316-87d6-a4a95b3d43e5",
+                                    "RunspaceId":  "60beb21c-76b2-4091-ac03-fc8baada481e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  221385919,
+                                      "Ticks":  258257984,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  138,
+                                      "Milliseconds":  825,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00025623370254629628,
-                                      "TotalHours":  0.0061496088611111112,
-                                      "TotalMilliseconds":  22138.5919,
-                                      "TotalMinutes":  0.36897653166666666,
-                                      "TotalSeconds":  22.138591899999998
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029890970370370369,
+                                      "TotalHours":  0.0071738328888888885,
+                                      "TotalMilliseconds":  25825.7984,
+                                      "TotalMinutes":  0.43042997333333333,
+                                      "TotalSeconds":  25.8257984
                                   }
                  },
                  {
@@ -2455,23 +2647,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "70f90791-e68e-4603-a631-778ed48d857e",
+                                    "RunspaceId":  "19ef3dd0-575f-47b6-9d3b-ee373c53366d",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  218420740,
+                                      "Ticks":  255255313,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  842,
+                                      "Milliseconds":  525,
                                       "Minutes":  0,
-                                      "Seconds":  21,
-                                      "TotalDays":  0.0002528017824074074,
-                                      "TotalHours":  0.0060672427777777775,
-                                      "TotalMilliseconds":  21842.074,
-                                      "TotalMinutes":  0.36403456666666667,
-                                      "TotalSeconds":  21.842074
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029543439004629628,
+                                      "TotalHours":  0.0070904253611111107,
+                                      "TotalMilliseconds":  25525.531300000002,
+                                      "TotalMinutes":  0.42542552166666669,
+                                      "TotalSeconds":  25.525531299999997
                                   }
                  },
                  {
@@ -2493,23 +2688,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "15fa3825-aac8-4c44-b716-04470de295ce",
+                                    "RunspaceId":  "7bf81230-2905-4936-9f03-85c9b9f43504",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  30361482,
+                                      "Ticks":  247518883,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  36,
+                                      "Milliseconds":  751,
                                       "Minutes":  0,
-                                      "Seconds":  3,
-                                      "TotalDays":  3.5140604166666666E-05,
-                                      "TotalHours":  0.0008433745,
-                                      "TotalMilliseconds":  3036.1482,
-                                      "TotalMinutes":  0.050602470000000004,
-                                      "TotalSeconds":  3.0361482
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00028648018865740739,
+                                      "TotalHours":  0.0068755245277777773,
+                                      "TotalMilliseconds":  24751.888300000002,
+                                      "TotalMinutes":  0.41253147166666665,
+                                      "TotalSeconds":  24.751888299999997
                                   }
                  },
                  {
@@ -2531,23 +2729,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "27eb6389-b9db-4c4e-bcdc-b28870430c94",
+                                    "RunspaceId":  "d1243c38-3835-4621-ad09-375c62fba6bf",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  27607549,
+                                      "Ticks":  245506521,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  760,
+                                      "Milliseconds":  550,
                                       "Minutes":  0,
-                                      "Seconds":  2,
-                                      "TotalDays":  3.1953181712962959E-05,
-                                      "TotalHours":  0.00076687636111111106,
-                                      "TotalMilliseconds":  2760.7549,
-                                      "TotalMinutes":  0.04601258166666667,
-                                      "TotalSeconds":  2.7607549
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00028415106597222222,
+                                      "TotalHours":  0.0068196255833333332,
+                                      "TotalMilliseconds":  24550.652100000003,
+                                      "TotalMinutes":  0.409177535,
+                                      "TotalSeconds":  24.5506521
                                   }
                  },
                  {
@@ -2569,23 +2770,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "e70f6934-51cb-4647-b04d-b5c79020fefa",
+                                    "RunspaceId":  "d8af08be-7527-4206-9d78-2895d0b0acfc",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  24780342,
+                                      "Ticks":  243018944,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  478,
+                                      "Milliseconds":  301,
                                       "Minutes":  0,
-                                      "Seconds":  2,
-                                      "TotalDays":  2.8680951388888887E-05,
-                                      "TotalHours":  0.00068834283333333332,
-                                      "TotalMilliseconds":  2478.0342,
-                                      "TotalMinutes":  0.04130057,
-                                      "TotalSeconds":  2.4780341999999997
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00028127192592592592,
+                                      "TotalHours":  0.0067505262222222221,
+                                      "TotalMilliseconds":  24301.8944,
+                                      "TotalMinutes":  0.40503157333333334,
+                                      "TotalSeconds":  24.3018944
                                   }
                  },
                  {
@@ -2607,23 +2811,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "5f1b8bb0-97fd-4956-a8b3-cea614893b45",
+                                    "RunspaceId":  "ac44563e-1147-441e-ae7e-5dc0ffa516de",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  21737613,
+                                      "Ticks":  240303017,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  173,
+                                      "Milliseconds":  30,
                                       "Minutes":  0,
-                                      "Seconds":  2,
-                                      "TotalDays":  2.5159274305555555E-05,
-                                      "TotalHours":  0.0006038225833333333,
-                                      "TotalMilliseconds":  2173.7613,
-                                      "TotalMinutes":  0.036229355,
-                                      "TotalSeconds":  2.1737613
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00027812849189814813,
+                                      "TotalHours":  0.0066750838055555555,
+                                      "TotalMilliseconds":  24030.3017,
+                                      "TotalMinutes":  0.40050502833333335,
+                                      "TotalSeconds":  24.0303017
                                   }
                  },
                  {
@@ -2645,23 +2852,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "4a1e5c60-332a-4dc7-9dfd-320f3ce92bc2",
+                                    "RunspaceId":  "d2f4c62b-0bd8-4394-b846-bec5ac5e9876",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  19365254,
+                                      "Ticks":  232660244,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  936,
+                                      "Milliseconds":  266,
                                       "Minutes":  0,
-                                      "Seconds":  1,
-                                      "TotalDays":  2.2413488425925925E-05,
-                                      "TotalHours":  0.00053792372222222218,
-                                      "TotalMilliseconds":  1936.5254,
-                                      "TotalMinutes":  0.032275423333333331,
-                                      "TotalSeconds":  1.9365253999999998
+                                      "Seconds":  23,
+                                      "TotalDays":  0.00026928268981481478,
+                                      "TotalHours":  0.0064627845555555556,
+                                      "TotalMilliseconds":  23266.024400000002,
+                                      "TotalMinutes":  0.38776707333333332,
+                                      "TotalSeconds":  23.2660244
                                   }
                  },
                  {
@@ -2683,23 +2893,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "20d7fd56-ce08-4c6a-b7af-9f41ce1fbba6",
+                                    "RunspaceId":  "2eb2586c-e7dc-4585-af19-bace7ef9a14e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  16671946,
+                                      "Ticks":  230086639,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  667,
+                                      "Milliseconds":  8,
                                       "Minutes":  0,
-                                      "Seconds":  1,
-                                      "TotalDays":  1.9296233796296294E-05,
-                                      "TotalHours":  0.00046310961111111111,
-                                      "TotalMilliseconds":  1667.1946,
-                                      "TotalMinutes":  0.027786576666666667,
-                                      "TotalSeconds":  1.6671946
+                                      "Seconds":  23,
+                                      "TotalDays":  0.00026630398032407405,
+                                      "TotalHours":  0.0063912955277777772,
+                                      "TotalMilliseconds":  23008.6639,
+                                      "TotalMinutes":  0.38347773166666665,
+                                      "TotalSeconds":  23.0086639
                                   }
                  },
                  {
@@ -2721,23 +2934,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "fee462c9-bfda-436c-8746-5f3d09af0b10",
+                                    "RunspaceId":  "187690ee-99a8-4c22-8c8e-71b4d8841a2e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  14456619,
+                                      "Ticks":  15776477,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  445,
+                                      "Milliseconds":  577,
                                       "Minutes":  0,
                                       "Seconds":  1,
-                                      "TotalDays":  1.6732197916666666E-05,
-                                      "TotalHours":  0.00040157275,
-                                      "TotalMilliseconds":  1445.6619,
-                                      "TotalMinutes":  0.024094365,
-                                      "TotalSeconds":  1.4456619
+                                      "TotalDays":  1.8259811342592593E-05,
+                                      "TotalHours":  0.00043823547222222219,
+                                      "TotalMilliseconds":  1577.6477,
+                                      "TotalMinutes":  0.026294128333333333,
+                                      "TotalSeconds":  1.5776477
                                   }
                  },
                  {
@@ -2759,23 +2975,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "07f38013-4ae2-491d-8fa4-dc767048fdf8",
+                                    "RunspaceId":  "515c84ff-f762-4066-82cb-8eabf013adc6",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  11922976,
+                                      "Ticks":  14968399,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  192,
+                                      "Milliseconds":  496,
                                       "Minutes":  0,
                                       "Seconds":  1,
-                                      "TotalDays":  1.379974074074074E-05,
-                                      "TotalHours":  0.00033119377777777776,
-                                      "TotalMilliseconds":  1192.2976,
-                                      "TotalMinutes":  0.019871626666666666,
-                                      "TotalSeconds":  1.1922975999999998
+                                      "TotalDays":  1.732453587962963E-05,
+                                      "TotalHours":  0.00041578886111111107,
+                                      "TotalMilliseconds":  1496.8399000000002,
+                                      "TotalMinutes":  0.024947331666666666,
+                                      "TotalSeconds":  1.4968399
                                   }
                  },
                  {
@@ -2797,23 +3016,26 @@
                                     "Errors":  [
                                                    "LsaOpenPolicy failed with status: 0xC0020017, Win32 Error: 1722"
                                                ],
+                                    "PrivilegeGrants":  [
+
+                                                        ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "c6fc70a0-419f-4d40-bdd1-457238beddc8",
+                                    "RunspaceId":  "776a68be-2ef7-42f3-b7e4-27a89266dee6",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  220361978,
+                                      "Ticks":  15744424,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  36,
+                                      "Milliseconds":  574,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00025504858564814816,
-                                      "TotalHours":  0.0061211660555555549,
-                                      "TotalMilliseconds":  22036.1978,
-                                      "TotalMinutes":  0.36726996333333334,
-                                      "TotalSeconds":  22.0361978
+                                      "Seconds":  1,
+                                      "TotalDays":  1.8222712962962962E-05,
+                                      "TotalHours":  0.0004373451111111111,
+                                      "TotalMilliseconds":  1574.4424000000001,
+                                      "TotalMinutes":  0.026240706666666669,
+                                      "TotalSeconds":  1.5744424
                                   }
                  }
              ]

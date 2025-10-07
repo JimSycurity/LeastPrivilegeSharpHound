@@ -17,9 +17,67 @@ begin {
             throw "Dependency not found: $Path"
         }
 
-        $loaded = [AppDomain]::CurrentDomain.GetAssemblies() | Where-Object { $_.Location -eq $Path }
+        $resolvedPath = (Resolve-Path -LiteralPath $Path).ProviderPath
+
+        if ($script:SharpHoundDependencyMap) {
+            try {
+                $assemblyIdentity = [System.Reflection.AssemblyName]::GetAssemblyName($resolvedPath).Name
+                $script:SharpHoundDependencyMap[$assemblyIdentity] = $resolvedPath
+            }
+            catch {
+                # Swallow metadata resolution failures and continue loading from disk.
+            }
+        }
+
+        $loaded = [AppDomain]::CurrentDomain.GetAssemblies() | Where-Object { $_.Location -eq $resolvedPath }
         if (-not $loaded) {
-            [void][System.Reflection.Assembly]::LoadFrom($Path)
+            [void][System.Reflection.Assembly]::LoadFrom($resolvedPath)
+        }
+    }
+
+    function Register-SharpHoundAssemblyResolver {
+        param([string]$DependencyRoot)
+
+        if (-not $script:SharpHoundDependencyMap) {
+            $script:SharpHoundDependencyMap = @{}
+        }
+        else {
+            $script:SharpHoundDependencyMap.Clear()
+        }
+
+        $dependencyDlls = Get-ChildItem -Path $DependencyRoot -Filter '*.dll' -File -ErrorAction SilentlyContinue
+        foreach ($dll in $dependencyDlls) {
+            try {
+                $assemblyIdentity = [System.Reflection.AssemblyName]::GetAssemblyName($dll.FullName).Name
+                $script:SharpHoundDependencyMap[$assemblyIdentity] = (Resolve-Path -LiteralPath $dll.FullName).ProviderPath
+            }
+            catch {
+                continue
+            }
+        }
+
+        if (-not $script:SharpHoundAssemblyResolverRegistered) {
+            $handler = [System.ResolveEventHandler]{
+                param($sender, $args)
+
+                if (-not $args.Name) {
+                    return $null
+                }
+
+                $requestedName = (New-Object System.Reflection.AssemblyName($args.Name)).Name
+                if ($script:SharpHoundDependencyMap.ContainsKey($requestedName)) {
+                    $candidatePath = $script:SharpHoundDependencyMap[$requestedName]
+                    if ($candidatePath -and (Test-Path -LiteralPath $candidatePath)) {
+                        return [System.Reflection.Assembly]::LoadFrom($candidatePath)
+                    }
+                }
+
+                return $null
+            }
+
+            [System.AppDomain]::CurrentDomain.add_AssemblyResolve($handler)
+            $script:SharpHoundAssemblyResolverRegistered = $true
+            $script:SharpHoundAssemblyResolveHandler = $handler
         }
     }
 
@@ -28,9 +86,15 @@ begin {
         throw "Expected dependency folder '$assemblyRoot' was not found."
     }
 
+    Register-SharpHoundAssemblyResolver -DependencyRoot $assemblyRoot
+
     Load-SharpHoundDependency -Path (Join-Path $assemblyRoot 'Microsoft.Extensions.Logging.Abstractions.dll')
     Load-SharpHoundDependency -Path (Join-Path $assemblyRoot 'SharpHoundRPC.dll')
     Load-SharpHoundDependency -Path (Join-Path $assemblyRoot 'SharpHoundCommonLib.dll')
+    Load-SharpHoundDependency -Path (Join-Path $assemblyRoot 'System.Memory.dll')
+    Load-SharpHoundDependency -Path (Join-Path $assemblyRoot 'System.Buffers.dll')
+    Load-SharpHoundDependency -Path (Join-Path $assemblyRoot 'System.Runtime.CompilerServices.Unsafe.dll')
+    Load-SharpHoundDependency -Path (Join-Path $assemblyRoot 'System.Numerics.Vectors.dll')
 
     $ntlmUnsupportedCode = '80090302'
     $badBindingsCode = '80090346'

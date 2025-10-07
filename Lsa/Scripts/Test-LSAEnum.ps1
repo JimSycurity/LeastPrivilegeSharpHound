@@ -59,7 +59,13 @@ param(
     [switch]$UseNetBIOS,
 
     [Parameter(Mandatory=$false)]
-    [switch]$Console
+    [switch]$Console,
+
+    [Parameter(Mandatory=$false)]
+    [switch]$EnableAuditPrivilege,
+
+    [Parameter(Mandatory=$false)]
+    [switch]$EnableServiceLogonRight
 )
 
 #region P/Invoke Definitions
@@ -139,6 +145,14 @@ namespace LSAUtil
 
         [DllImport("advapi32.dll")]
         public static extern uint LsaFreeMemory(IntPtr Buffer);
+
+        [DllImport("advapi32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        public static extern uint LsaAddAccountRights(
+            IntPtr PolicyHandle,
+            IntPtr AccountSid,
+            LSA_UNICODE_STRING[] UserRights,
+            int CountOfRights
+        );
 
         [DllImport("advapi32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         public static extern bool LookupAccountSid(
@@ -221,6 +235,102 @@ function ConvertFrom-Sid {
     }
 }
 
+function New-SidPointer {
+    param(
+        [string]$SidString
+    )
+
+    $sid = New-Object System.Security.Principal.SecurityIdentifier($SidString)
+    $bytes = New-Object byte[] ($sid.BinaryLength)
+    $sid.GetBinaryForm($bytes, 0)
+
+    $ptr = [System.Runtime.InteropServices.Marshal]::AllocHGlobal($bytes.Length)
+    [System.Runtime.InteropServices.Marshal]::Copy($bytes, 0, $ptr, $bytes.Length)
+
+    return [PSCustomObject]@{
+        Pointer = $ptr
+        Length  = $bytes.Length
+    }
+}
+
+function Grant-LsaAccountRight {
+    param(
+        [IntPtr]$PolicyHandle,
+        [string]$SidString,
+        [string[]]$Rights,
+        [switch]$Console
+    )
+
+    $granted = New-Object System.Collections.Generic.List[string]
+    $errors = New-Object System.Collections.ArrayList
+    $sidInfo = $null
+
+    try {
+        $sidInfo = New-SidPointer -SidString $SidString
+    }
+    catch {
+        $errorMsg = "Unable to convert SID $SidString to binary form: $($_.Exception.Message)"
+        [void]$errors.Add([PSCustomObject]@{
+            Right = $null
+            Message = $errorMsg
+        })
+        if ($Console) {
+            Write-Host "[!] $errorMsg" -ForegroundColor Red
+        }
+        return [PSCustomObject]@{
+            Granted = $granted
+            Errors  = $errors
+        }
+    }
+
+    try {
+        foreach ($right in $Rights) {
+            $lsaString = Initialize-LsaString -String $right
+            try {
+                $status = [LSAUtil.NativeMethods]::LsaAddAccountRights(
+                    $PolicyHandle,
+                    $sidInfo.Pointer,
+                    [LSAUtil.LSA_UNICODE_STRING[]]@($lsaString),
+                    1
+                )
+
+                if ($status -eq 0) {
+                    $granted.Add($right) | Out-Null
+                    if ($Console) {
+                        Write-Host "[+] Granted $right to SID $SidString" -ForegroundColor Green
+                    }
+                }
+                else {
+                    $winError = [LSAUtil.NativeMethods]::LsaNtStatusToWinError($status)
+                    $message = "Failed to grant $right (NTSTATUS 0x$($status.ToString('X8')), Win32 $winError)"
+                    [void]$errors.Add([PSCustomObject]@{
+                        Right = $right
+                        Message = $message
+                    })
+                    if ($Console) {
+                        Write-Host "[!] $message" -ForegroundColor Red
+                    }
+                }
+            }
+            finally {
+                if ($lsaString.Buffer -ne [IntPtr]::Zero) {
+                    [System.Runtime.InteropServices.Marshal]::FreeHGlobal($lsaString.Buffer)
+                }
+            }
+        }
+    }
+    finally {
+        if ($sidInfo -and $sidInfo.Pointer -ne [IntPtr]::Zero) {
+            [System.Runtime.InteropServices.Marshal]::FreeHGlobal($sidInfo.Pointer)
+        }
+    }
+
+    return [PSCustomObject]@{
+        Granted = $granted
+        Errors  = $errors
+    }
+}
+
 #endregion
 
 #region Main Script
@@ -230,6 +340,7 @@ $targetSystem = if ($ComputerName -eq $env:COMPUTERNAME) { "Local System" } else
 # Initialize results object with ArrayLists for proper collection management
 $rightsList = New-Object System.Collections.ArrayList
 $errorsList = New-Object System.Collections.ArrayList
+$grantsList = New-Object System.Collections.ArrayList
 
 $results = [PSCustomObject]@{
     ComputerName = $ComputerName
@@ -241,6 +352,7 @@ $results = [PSCustomObject]@{
     SuccessCount = 0
     FailureCount = 0
     Errors = $errorsList
+    PrivilegeGrants = $grantsList
     CanEnumerateUserRights = $false
 }
 
@@ -315,6 +427,9 @@ $systemName = Initialize-LsaString -String $systemNameString
 
 # Open LSA Policy with minimal required access
 $desiredAccess = [int][LSAUtil.LSA_AccessPolicy]::POLICY_LOOKUP_NAMES -bor [int][LSAUtil.LSA_AccessPolicy]::POLICY_VIEW_LOCAL_INFORMATION
+if ($EnableAuditPrivilege -or $EnableServiceLogonRight) {
+    $desiredAccess = $desiredAccess -bor [int][LSAUtil.LSA_AccessPolicy]::POLICY_CREATE_ACCOUNT
+}
 $policyHandle = [IntPtr]::Zero
 
 $result = [LSAUtil.NativeMethods]::LsaOpenPolicy(
@@ -354,6 +469,57 @@ $results.LSAPolicyOpened = $true
 if ($Console) {
     Write-Host "[+] Successfully opened LSA Policy handle: 0x$($policyHandle.ToString('X'))" -ForegroundColor Green
     Write-Host ""
+}
+
+if ($EnableAuditPrivilege -or $EnableServiceLogonRight) {
+    if ($Console) {
+        Write-Host "[*] Privilege enablement requested. Attempting to grant rights to current user..." -ForegroundColor Yellow
+    }
+
+    try {
+        $currentSid = [System.Security.Principal.WindowsIdentity]::GetCurrent().User.Value
+    }
+    catch {
+        $sidError = "Unable to determine current user SID: $($_.Exception.Message)"
+        [void]$results.Errors.Add($sidError)
+        if ($Console) {
+            Write-Host "[!] $sidError" -ForegroundColor Red
+        }
+        $currentSid = $null
+    }
+
+    if ($null -ne $currentSid) {
+        $requestedRights = @()
+        if ($EnableAuditPrivilege) {
+            $requestedRights += "SeAuditPrivilege"
+        }
+        if ($EnableServiceLogonRight) {
+            $requestedRights += "SeServiceLogonRight"
+        }
+
+        $grantOutcome = Grant-LsaAccountRight -PolicyHandle $policyHandle -SidString $currentSid -Rights $requestedRights -Console:$Console
+
+        foreach ($grantedRight in $grantOutcome.Granted) {
+            [void]$grantsList.Add([PSCustomObject]@{
+                Right = $grantedRight
+                Status = "Granted"
+                Message = "Granted to $($results.UserContext)"
+            })
+        }
+
+        foreach ($grantError in $grantOutcome.Errors) {
+            [void]$grantsList.Add([PSCustomObject]@{
+                Right = $grantError.Right
+                Status = "Error"
+                Message = $grantError.Message
+            })
+            [void]$results.Errors.Add($grantError.Message)
+        }
+
+        if ($Console) {
+            Write-Host ""  # spacer
+        }
+    }
 }
 
 # Common user rights to enumerate
