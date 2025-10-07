@@ -16,14 +16,15 @@ Repository of scriptlets, lab data, and documentation on achieving least-privile
 - **Are there any conflicts between BHE data collection and protection of MDE (e.g. for session collection)?**
   - More research required
 - **What other information can we gain from connecting to all systems (e.g. SMB signing configuration)?**
-  - More research required
+  - SMB signing configuration and NTLM registry settings, which both contribute to NTLM relay edges.
 - **What attack paths are opened with this (e.g. are credentials of the collection user left on the systems through interactive logon, …)?**
-  - All collection methods utilize [Network logon types](https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types), which do not cache credentials on the remote system. If a remote host configured for collection is configured with Kerberos Unconstrainted Delegation, then a Kerberos TGT for the service account may be captured on that host. To prevent this, ensure the collection service account is marked [sensitive and cannot be delegated](https://learn.microsoft.com/en-us/archive/blogs/poshchap/security-focus-analysing-account-is-sensitive-and-cannot-be-delegated-for-privileged-accounts). Additionally, if using a gMSA service account you may wish to test configuring it as a member of the [Protected Users](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/how-to-configure-protected-accounts) group for additional protections.
+  - All collection methods utilize [Network logon types](https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types), which do not cache credentials on the remote system. If a remote host configured for collection is configured with Kerberos Unconstrainted Delegation, then a Kerberos TGT for the service account may be captured on that host. To prevent this, ensure the collection service account is marked [sensitive and cannot be delegated](https://learn.microsoft.com/en-us/archive/blogs/poshchap/security-focus-analysing-account-is-sensitive-and-cannot-be-delegated-for-privileged-accounts). Additionally, if using a gMSA service account you may wish to test configuring it as a member of the [Protected Users](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/how-to-configure-protected-accounts) group for additional protections. Thorough testing in your environment will be necessary to ensure a gMSA in Protected Users operates properly.
 
 - **What hardening can we apply?**
   - Apply tiering principles to all SharpHound collection accounts
   - Utilize User Rights Assignments to deny interactive login and remote interactive login to all SharpHound collection accounts
   - Limit network traffic (SMB & RPC) required by SharpHound to only SharpHound collector hosts wherever possible.
+  - Prevent Kerberos delegation of the SharpHound collection accounts
 
 ## [Registry Configuration](/RemoteRegistry/README.md)
 

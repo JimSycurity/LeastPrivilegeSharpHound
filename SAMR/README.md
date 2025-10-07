@@ -15,6 +15,14 @@ SharpHound utilizes SamConnect() to collect Local Group data. By default, local 
 - The Microsoft supported method to modify this registry value is via the Group Policy Setting [Network access: Restrict clients allowed to make remote calls to SAM](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls)
 - By default, Domain Controllers allow anonymous access to the Netlogon, samr, and lsarpc Named Pipes per: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-named-pipes-that-can-be-accessed-anonymously
 
+The script `Get-LocalGroupsTest.ps1` emulates the method that SharpHound uses to gather local group membership.
+
+The JSON files in `SAMR\Data\Get-LocalGroupsTest` are results from the `Get-LocalGroupsTest.ps1` script ran against a small domain in my lab using a series of security principals that are members of nearly every domain and local security group possible.
+
+Note that, by default, on domain controllers members of the domain builtin Administrators group, Domain Admins, and Enterprise admins (in the root domain of the forest) are able to enumerate local groups.
+
+On member devices, by default, members of the local Administrators group and Domain Admins are able to enumerate local groups.
+
 # Resources:
 
 - https://bloodhound.specterops.io/collect-data/permissions#local-group-membership

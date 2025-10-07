@@ -95,6 +95,18 @@ Per the same blog, additional sensitive registry keys:
 
 TODO: It bears further investigation to determine if a standard user account granted Read permissions on WinReg could possibly read these keys.
 
+The script `Test-SharpHoundRemoteRegistryCollection.ps` is designed to mimic how SharpHound collects data on remote hosts from the registry and also provide more contextual information about what can and cannot be read by the security principal invoking the script.
+
+The JSON files in `RemoteRegistry\Data\Test-SharpHoundRemoteRegistryCollection` are results from the `Test-SharpHoundRemoteRegistryCollection.ps` script ran against a small domain in my lab using a series of security principals that are members of nearly every domain and local security group possible.
+
+On domain controllers, even a standard user account that is only a member of Domain Users can remotely enumerate some of the Windows registry.
+
+On an AD CS CA server (pki01), any authenticated user, including a standard user account can read all of the registry keys related to CertSvc.
+
+By default, on domain controllers members of the domain builtin Administrators group, the domain builtin Backup Operators group, Domain Admins, and Enterprise Admins (in the root domain of the forest) can enumerate all registry keys via remote registry.
+
+By default, on member devices members of the local Administrators group, the local Backup Operators group, and Domain Admins can enumerate all registry keys via remote registry.
+
 # Resources:
 
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-remotely-accessible-registry-paths

@@ -13,12 +13,20 @@ SharpHound utilizes LSAOpenPolicy() and LSAEnumerateAccountsWithUserRight() to c
 
 # Notes:
 
-Based on queries with Claude.ai, it was suggested as a posibility that assigning a security principal SeAuditPrivilege or SeServiceLogonRight would provide sufficiant LSA read access. In initial testing, this did not appear to be the case. However, I did not validate that these rights were active during the attempt, just assigned.
+Based on queries with Claude.ai, it was suggested as a posibility that assigning a security principal SeAuditPrivilege or SeServiceLogonRight would provide sufficiant LSA read access. In initial testing, this did not appear to be the case. However, I did not validate at the time that these rights were active during the attempt, just assigned.
 
 Additional suggestions from Claude were to delegate specific LSA permssions using LSAAddAccountRights() to grant:
 
 - POLICY_VIEW_LOCAL_INFORMATION
 - POLICY_LOOKUP_NAMES
+
+The script `Test-LSAEnum.ps1` is designed to mimic how SharpHound collects User Rights Assignment data via LSAOpenPolicy and LSAEnumerateAccountsWithUserRight.
+
+The JSON files in `Lsa\Data\Test-LSAEnum` are results from the `Test-LSAEnum.ps1` script ran against a small lab environment using a series of security principals that are members of nearly every domain and local security group possible.
+
+The JSON files in `Lsa\Data\Test-LSAEnumv2` are results from the `Test-LSAEnum.ps1` script ran against a small lab environment using a series of security principals that are members of nearly every domain and local security group possible, but also attempting to activate the SeAuditPrivilege and SeServiceLogonRight privileges.
+
+Regardless of the configuration, only members of the Administrators group (domain builtin for DCs and local for domain members) were able to enumerate User Rights via LSA.
 
 # References:
 

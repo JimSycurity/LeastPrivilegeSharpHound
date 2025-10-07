@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Remote Registry Report - corp1-web01 - 10/07/2025 16:20:59</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: 'Cascadia Code', 'Courier New', monospace;
+            font-size: 14px;
+            padding: 20px;
+        }
+        .header {
+            background-color: #0c0c0c;
+            border: 1px solid #464647;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            color: #569cd6;
+        }
+        .header h1 {
+            margin: 0;
+            color: #4fc1ff;
+        }
+        .header-info {
+            margin-top: 10px;
+            color: #9cdcfe;
+        }
+        .collapsible {
+            background-color: #2d2d30;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 15px;
+            width: 100%;
+            border: 1px solid #464647;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.2s;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            font-family: 'Cascadia Code', 'Courier New', monospace;
+        }
+        .collapsible:hover {
+            background-color: #3e3e42;
+        }
+        .collapsible:after {
+            content: '\002B';
+            color: #aaa;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+        .active:after {
+            content: "\2212";
+        }
+        .content {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #0c0c0c;
+            border: 1px solid #464647;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .content-inner {
+            padding: 15px;
+            white-space: pre;
+            overflow-x: auto;
+        }
+        .path-success {
+            color: #4ec9b0;
+        }
+        .path-error {
+            color: #f48771;
+        }
+        .summary {
+            background-color: #0c0c0c;
+            border: 1px solid #464647;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+            color: #4ec9b0;
+        }
+        .controls {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #2d2d30;
+            border-radius: 5px;
+        }
+        .control-button {
+            background-color: #0e639c;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-family: 'Cascadia Code', 'Courier New', monospace;
+        }
+        .control-button:hover {
+            background-color: #1177bb;
+        }
+    </style>
+    <script>
+        function toggleAll(expand) {
+            var collapsibles = document.getElementsByClassName("collapsible");
+            for (var i = 0; i < collapsibles.length; i++) {
+                var content = collapsibles[i].nextElementSibling;
+                if (expand) {
+                    collapsibles[i].classList.add("active");
+                    content.style.maxHeight = content.scrollHeight + "px";
+                } else {
+                    collapsibles[i].classList.remove("active");
+                    content.style.maxHeight = "0";
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var coll = document.getElementsByClassName("collapsible");
+            for (var i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight && content.style.maxHeight !== "0px"){
+                        content.style.maxHeight = "0";
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Remote Registry Enumeration Report</h1>
+        <div class="header-info">
+            <strong>Computer:</strong> corp1-web01<br/>
+            <strong>Generated:</strong> 10/07/2025 16:20:59<br/>
+            <strong>Total Paths:</strong> 6<br/>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="control-button" onclick="toggleAll(true)">Expand All</button>
+        <button class="control-button" onclick="toggleAll(false)">Collapse All</button>
+    </div><span style='color: #FFFFFF'>Connecting&nbsp;to&nbsp;registry&nbsp;on&nbsp;computer:&nbsp;corp1-web01</span><br/><span style='color: #FFFFFF'>Registry&nbsp;paths&nbsp;to&nbsp;enumerate:&nbsp;6</span><br/><span style='color: #696969'>------------------------------------------------------------</span><br/><span style='color: #FFFFFF'>
+</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFF00'>Processing&nbsp;path&nbsp;[1/6]:&nbsp;HKLM\SYSTEM\CurrentControlSet\Services\Kdc</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFFFF'>
+</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFF00'>Processing&nbsp;path&nbsp;[2/6]:&nbsp;HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFFFF'>
+</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFF00'>Processing&nbsp;path&nbsp;[3/6]:&nbsp;HKLM\SYSTEM\CurrentControlSet\Services\CertSvc\Configuration</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFFFF'>
+</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFF00'>Processing&nbsp;path&nbsp;[4/6]:&nbsp;HKLM\SYSTEM\CurrentControlSet\Control\Lsa</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFFFF'>
+</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFF00'>Processing&nbsp;path&nbsp;[5/6]:&nbsp;HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFFFF'>
+</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFF00'>Processing&nbsp;path&nbsp;[6/6]:&nbsp;HKLM\SOFTWARE\Policies\Microsoft\Windows</span><br/><span style='color: #00FFFF'>============================================================</span><br/><span style='color: #FFFFFF'>
+</span><br/><span style='color: #00FF00'>============================================================</span><br/><span style='color: #00FF00'>Registry&nbsp;enumeration&nbsp;completed&nbsp;for&nbsp;all&nbsp;paths.</span><br/><span style='color: #00FF00'>Total&nbsp;paths&nbsp;processed:&nbsp;6</span><br/><span style='color: #00FF00'>============================================================</span><br/><button class="collapsible"><span class="path-error">[N]</span> HKLM\SYSTEM\CurrentControlSet\Services\Kdc - Exception calling "OpenRemoteBaseKey" with "2" argument(s): "The network path was not found.
+"</button>
+<div class="content">
+    <div class="content-inner">
+<span style='color: #808080'>Opening&nbsp;remote&nbsp;registry&nbsp;hive:&nbsp;LocalMachine</span><br/><span style='color: #FF0000'>Error&nbsp;processing&nbsp;path&nbsp;&#39;HKLM\SYSTEM\CurrentControlSet\Services\Kdc&#39;:&nbsp;Exception&nbsp;calling&nbsp;&quot;OpenRemoteBaseKey&quot;&nbsp;with&nbsp;&quot;2&quot;&nbsp;argument(s):&nbsp;&quot;The&nbsp;network&nbsp;path&nbsp;was&nbsp;not&nbsp;found.
+&quot;</span><br/>
+    </div>
+</div><button class="collapsible"><span class="path-error">[N]</span> HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL - Exception calling "OpenRemoteBaseKey" with "2" argument(s): "The network path was not found.
+"</button>
+<div class="content">
+    <div class="content-inner">
+<span style='color: #808080'>Opening&nbsp;remote&nbsp;registry&nbsp;hive:&nbsp;LocalMachine</span><br/><span style='color: #FF0000'>Error&nbsp;processing&nbsp;path&nbsp;&#39;HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL&#39;:&nbsp;Exception&nbsp;calling&nbsp;&quot;OpenRemoteBaseKey&quot;&nbsp;with&nbsp;&quot;2&quot;&nbsp;argument(s):&nbsp;&quot;The&nbsp;network&nbsp;path&nbsp;was&nbsp;not&nbsp;found.
+&quot;</span><br/>
+    </div>
+</div><button class="collapsible"><span class="path-error">[N]</span> HKLM\SYSTEM\CurrentControlSet\Services\CertSvc\Configuration - Exception calling "OpenRemoteBaseKey" with "2" argument(s): "The network path was not found.
+"</button>
+<div class="content">
+    <div class="content-inner">
+<span style='color: #808080'>Opening&nbsp;remote&nbsp;registry&nbsp;hive:&nbsp;LocalMachine</span><br/><span style='color: #FF0000'>Error&nbsp;processing&nbsp;path&nbsp;&#39;HKLM\SYSTEM\CurrentControlSet\Services\CertSvc\Configuration&#39;:&nbsp;Exception&nbsp;calling&nbsp;&quot;OpenRemoteBaseKey&quot;&nbsp;with&nbsp;&quot;2&quot;&nbsp;argument(s):&nbsp;&quot;The&nbsp;network&nbsp;path&nbsp;was&nbsp;not&nbsp;found.
+&quot;</span><br/>
+    </div>
+</div><button class="collapsible"><span class="path-error">[N]</span> HKLM\SYSTEM\CurrentControlSet\Control\Lsa - Exception calling "OpenRemoteBaseKey" with "2" argument(s): "The network path was not found.
+"</button>
+<div class="content">
+    <div class="content-inner">
+<span style='color: #808080'>Opening&nbsp;remote&nbsp;registry&nbsp;hive:&nbsp;LocalMachine</span><br/><span style='color: #FF0000'>Error&nbsp;processing&nbsp;path&nbsp;&#39;HKLM\SYSTEM\CurrentControlSet\Control\Lsa&#39;:&nbsp;Exception&nbsp;calling&nbsp;&quot;OpenRemoteBaseKey&quot;&nbsp;with&nbsp;&quot;2&quot;&nbsp;argument(s):&nbsp;&quot;The&nbsp;network&nbsp;path&nbsp;was&nbsp;not&nbsp;found.
+&quot;</span><br/>
+    </div>
+</div><button class="collapsible"><span class="path-error">[N]</span> HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters - Exception calling "OpenRemoteBaseKey" with "2" argument(s): "The network path was not found.
+"</button>
+<div class="content">
+    <div class="content-inner">
+<span style='color: #808080'>Opening&nbsp;remote&nbsp;registry&nbsp;hive:&nbsp;LocalMachine</span><br/><span style='color: #FF0000'>Error&nbsp;processing&nbsp;path&nbsp;&#39;HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters&#39;:&nbsp;Exception&nbsp;calling&nbsp;&quot;OpenRemoteBaseKey&quot;&nbsp;with&nbsp;&quot;2&quot;&nbsp;argument(s):&nbsp;&quot;The&nbsp;network&nbsp;path&nbsp;was&nbsp;not&nbsp;found.
+&quot;</span><br/>
+    </div>
+</div><button class="collapsible"><span class="path-error">[N]</span> HKLM\SOFTWARE\Policies\Microsoft\Windows - Exception calling "OpenRemoteBaseKey" with "2" argument(s): "The network path was not found.
+"</button>
+<div class="content">
+    <div class="content-inner">
+<span style='color: #808080'>Opening&nbsp;remote&nbsp;registry&nbsp;hive:&nbsp;LocalMachine</span><br/><span style='color: #FF0000'>Error&nbsp;processing&nbsp;path&nbsp;&#39;HKLM\SOFTWARE\Policies\Microsoft\Windows&#39;:&nbsp;Exception&nbsp;calling&nbsp;&quot;OpenRemoteBaseKey&quot;&nbsp;with&nbsp;&quot;2&quot;&nbsp;argument(s):&nbsp;&quot;The&nbsp;network&nbsp;path&nbsp;was&nbsp;not&nbsp;found.
+&quot;</span><br/>
+    </div>
+</div>    <div class="summary">
+        <strong>Enumeration Complete</strong><br/>
+        Total paths processed: 6
+    </div>
+</body>
+</html>

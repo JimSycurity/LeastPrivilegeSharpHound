@@ -28,21 +28,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "4f78b849-db5b-4a66-8caf-5268ce2f33d7",
+                                    "RunspaceId":  "51c2bbc9-ff91-4b06-8caa-c7d37701fdc7",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  511033609,
+                                      "Ticks":  507207360,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  103,
+                                      "Milliseconds":  720,
                                       "Minutes":  0,
-                                      "Seconds":  51,
-                                      "TotalDays":  0.00059147408449074072,
-                                      "TotalHours":  0.014195378027777776,
-                                      "TotalMilliseconds":  51103.3609,
-                                      "TotalMinutes":  0.85172268166666665,
-                                      "TotalSeconds":  51.1033609
+                                      "Seconds":  50,
+                                      "TotalDays":  0.00058704555555555557,
+                                      "TotalHours":  0.014089093333333334,
+                                      "TotalMilliseconds":  50720.736000000004,
+                                      "TotalMinutes":  0.8453456,
+                                      "TotalSeconds":  50.720735999999995
                                   }
                  },
                  {
@@ -69,21 +69,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "c17683d1-1b9f-43ed-b77a-a518234a3909",
+                                    "RunspaceId":  "329a20bf-3ae2-4d68-bd0b-f6439e5d00ee",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  508547808,
+                                      "Ticks":  504806497,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  854,
+                                      "Milliseconds":  480,
                                       "Minutes":  0,
                                       "Seconds":  50,
-                                      "TotalDays":  0.000588597,
-                                      "TotalHours":  0.014126327999999999,
-                                      "TotalMilliseconds":  50854.7808,
-                                      "TotalMinutes":  0.84757968000000006,
-                                      "TotalSeconds":  50.8547808
+                                      "TotalDays":  0.00058426677893518519,
+                                      "TotalHours":  0.014022402694444444,
+                                      "TotalMilliseconds":  50480.6497,
+                                      "TotalMinutes":  0.8413441616666667,
+                                      "TotalSeconds":  50.4806497
                                   }
                  },
                  {
@@ -110,21 +110,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "fe5e974c-f0ca-4431-bb69-6273c35f2eff",
+                                    "RunspaceId":  "fd32aa88-9e6c-4961-a833-15cc6c0f12f5",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  504241645,
+                                      "Ticks":  502320900,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  424,
+                                      "Milliseconds":  232,
                                       "Minutes":  0,
                                       "Seconds":  50,
-                                      "TotalDays":  0.00058361301504629632,
-                                      "TotalHours":  0.014006712361111111,
-                                      "TotalMilliseconds":  50424.1645,
-                                      "TotalMinutes":  0.84040274166666673,
-                                      "TotalSeconds":  50.424164499999996
+                                      "TotalDays":  0.00058138993055555554,
+                                      "TotalHours":  0.013953358333333332,
+                                      "TotalMilliseconds":  50232.090000000004,
+                                      "TotalMinutes":  0.8372015,
+                                      "TotalSeconds":  50.23209
                                   }
                  },
                  {
@@ -151,21 +151,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "557e09cf-f83e-4ce3-89f9-fc3f8bd009dc",
+                                    "RunspaceId":  "e30a4ceb-05da-486f-acb0-8dadf3903d23",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  500507906,
+                                      "Ticks":  499332174,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  50,
+                                      "Milliseconds":  933,
                                       "Minutes":  0,
-                                      "Seconds":  50,
-                                      "TotalDays":  0.00057929155787037035,
-                                      "TotalHours":  0.013902997388888888,
-                                      "TotalMilliseconds":  50050.7906,
-                                      "TotalMinutes":  0.83417984333333339,
-                                      "TotalSeconds":  50.0507906
+                                      "Seconds":  49,
+                                      "TotalDays":  0.00057793075694444445,
+                                      "TotalHours":  0.013870338166666666,
+                                      "TotalMilliseconds":  49933.2174,
+                                      "TotalMinutes":  0.83222029,
+                                      "TotalSeconds":  49.9332174
                                   }
                  },
                  {
@@ -192,21 +192,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "ef040b2c-ed58-490f-aaf0-c0fb71268d72",
+                                    "RunspaceId":  "c2b6e8f3-85ab-42c8-9c7b-891c72d5d12e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  496884601,
+                                      "Ticks":  495835978,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  688,
+                                      "Milliseconds":  583,
                                       "Minutes":  0,
                                       "Seconds":  49,
-                                      "TotalDays":  0.000575097917824074,
-                                      "TotalHours":  0.013802350027777778,
-                                      "TotalMilliseconds":  49688.460100000004,
-                                      "TotalMinutes":  0.82814100166666671,
-                                      "TotalSeconds":  49.6884601
+                                      "TotalDays":  0.00057388423379629632,
+                                      "TotalHours":  0.01377322161111111,
+                                      "TotalMilliseconds":  49583.5978,
+                                      "TotalMinutes":  0.82639329666666672,
+                                      "TotalSeconds":  49.5835978
                                   }
                  },
                  {
@@ -233,21 +233,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "8064b62e-53c1-4fae-a5bd-e5027bc50906",
+                                    "RunspaceId":  "f3f68f3b-b1e1-4558-8d22-e1dc26555881",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  253816518,
+                                      "Ticks":  278368702,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  381,
+                                      "Milliseconds":  836,
                                       "Minutes":  0,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.00029376911805555555,
-                                      "TotalHours":  0.0070504588333333328,
-                                      "TotalMilliseconds":  25381.6518,
-                                      "TotalMinutes":  0.42302753,
-                                      "TotalSeconds":  25.3816518
+                                      "Seconds":  27,
+                                      "TotalDays":  0.00032218599768518518,
+                                      "TotalHours":  0.0077324639444444438,
+                                      "TotalMilliseconds":  27836.8702,
+                                      "TotalMinutes":  0.46394783666666667,
+                                      "TotalSeconds":  27.8368702
                                   }
                  },
                  {
@@ -274,21 +274,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "19ec429c-9ac6-41c5-adea-b81688478bdc",
+                                    "RunspaceId":  "49bee818-cf6a-450b-8e20-459057c96276",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  251461211,
+                                      "Ticks":  276865491,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  146,
+                                      "Milliseconds":  686,
                                       "Minutes":  0,
-                                      "Seconds":  25,
-                                      "TotalDays":  0.00029104306828703705,
-                                      "TotalHours":  0.0069850336388888887,
-                                      "TotalMilliseconds":  25146.1211,
-                                      "TotalMinutes":  0.41910201833333333,
-                                      "TotalSeconds":  25.1461211
+                                      "Seconds":  27,
+                                      "TotalDays":  0.00032044617013888887,
+                                      "TotalHours":  0.0076907080833333334,
+                                      "TotalMilliseconds":  27686.5491,
+                                      "TotalMinutes":  0.461442485,
+                                      "TotalSeconds":  27.686549099999997
                                   }
                  },
                  {
@@ -315,21 +315,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "fc80023c-6bd6-4072-8ba3-daea1372cec5",
+                                    "RunspaceId":  "51b3f786-787a-45ea-aa48-8d4ab0aa24d6",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  249074339,
+                                      "Ticks":  274356603,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  907,
+                                      "Milliseconds":  435,
                                       "Minutes":  0,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00028828048495370368,
-                                      "TotalHours":  0.0069187316388888889,
-                                      "TotalMilliseconds":  24907.4339,
-                                      "TotalMinutes":  0.41512389833333335,
-                                      "TotalSeconds":  24.907433899999997
+                                      "Seconds":  27,
+                                      "TotalDays":  0.00031754236458333333,
+                                      "TotalHours":  0.00762101675,
+                                      "TotalMilliseconds":  27435.6603,
+                                      "TotalMinutes":  0.457261005,
+                                      "TotalSeconds":  27.4356603
                                   }
                  },
                  {
@@ -356,21 +356,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "1783d7d3-ddb4-4cc4-98ae-2181a5c5a806",
+                                    "RunspaceId":  "6efadd00-1c35-450f-898e-f5423d2f0b68",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  246474380,
+                                      "Ticks":  271659363,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  647,
+                                      "Milliseconds":  165,
                                       "Minutes":  0,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00028527127314814812,
-                                      "TotalHours":  0.0068465105555555556,
-                                      "TotalMilliseconds":  24647.438000000002,
-                                      "TotalMinutes":  0.41079063333333332,
-                                      "TotalSeconds":  24.647437999999998
+                                      "Seconds":  27,
+                                      "TotalDays":  0.00031442055902777778,
+                                      "TotalHours":  0.0075460934166666667,
+                                      "TotalMilliseconds":  27165.9363,
+                                      "TotalMinutes":  0.452765605,
+                                      "TotalSeconds":  27.1659363
                                   }
                  },
                  {
@@ -397,21 +397,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0a8299ba-6a6a-4da3-90c6-5bbc4fd58154",
+                                    "RunspaceId":  "c133eb7d-2a8f-43b9-ba5f-7234fcfcd068",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  244288638,
+                                      "Ticks":  268749328,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  428,
+                                      "Milliseconds":  874,
                                       "Minutes":  0,
-                                      "Seconds":  24,
-                                      "TotalDays":  0.00028274147916666667,
-                                      "TotalHours":  0.0067857955,
-                                      "TotalMilliseconds":  24428.863800000003,
-                                      "TotalMinutes":  0.40714773,
-                                      "TotalSeconds":  24.4288638
+                                      "Seconds":  26,
+                                      "TotalDays":  0.00031105246296296297,
+                                      "TotalHours":  0.0074652591111111109,
+                                      "TotalMilliseconds":  26874.932800000002,
+                                      "TotalMinutes":  0.44791554666666666,
+                                      "TotalSeconds":  26.8749328
                                   }
                  },
                  {
@@ -438,21 +438,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "29b19aa8-4fb4-4e47-b065-6b418ab523c6",
+                                    "RunspaceId":  "a82333d4-e57c-479e-abc4-e0fc3315dd0a",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  237183263,
+                                      "Ticks":  260808088,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  718,
+                                      "Milliseconds":  80,
                                       "Minutes":  0,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.00027451766550925925,
-                                      "TotalHours":  0.0065884239722222224,
-                                      "TotalMilliseconds":  23718.3263,
-                                      "TotalMinutes":  0.39530543833333331,
-                                      "TotalSeconds":  23.718326299999998
+                                      "Seconds":  26,
+                                      "TotalDays":  0.00030186121296296297,
+                                      "TotalHours":  0.0072446691111111112,
+                                      "TotalMilliseconds":  26080.808800000003,
+                                      "TotalMinutes":  0.43468014666666666,
+                                      "TotalSeconds":  26.0808088
                                   }
                  },
                  {
@@ -479,21 +479,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "b2b48016-587a-46a4-8961-5508535563be",
+                                    "RunspaceId":  "d1faf52f-feb4-49be-9adf-66949b14c1a5",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  234723726,
+                                      "Ticks":  259188960,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  472,
+                                      "Milliseconds":  918,
                                       "Minutes":  0,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.00027167097916666665,
-                                      "TotalHours":  0.0065201035,
-                                      "TotalMilliseconds":  23472.372600000002,
-                                      "TotalMinutes":  0.39120621,
-                                      "TotalSeconds":  23.4723726
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029998722222222222,
+                                      "TotalHours":  0.0071996933333333332,
+                                      "TotalMilliseconds":  25918.896,
+                                      "TotalMinutes":  0.4319816,
+                                      "TotalSeconds":  25.918896
                                   }
                  },
                  {
@@ -520,21 +520,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "692ef7c9-914d-4979-9fe7-50185c090c58",
+                                    "RunspaceId":  "b8d743dd-6f8e-4cdb-b654-887ffc092f60",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  232477761,
+                                      "Ticks":  256755525,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  247,
+                                      "Milliseconds":  675,
                                       "Minutes":  0,
-                                      "Seconds":  23,
-                                      "TotalDays":  0.00026907148263888888,
-                                      "TotalHours":  0.0064577155833333332,
-                                      "TotalMilliseconds":  23247.776100000003,
-                                      "TotalMinutes":  0.387462935,
-                                      "TotalSeconds":  23.2477761
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029717074652777778,
+                                      "TotalHours":  0.0071320979166666666,
+                                      "TotalMilliseconds":  25675.5525,
+                                      "TotalMinutes":  0.427925875,
+                                      "TotalSeconds":  25.6755525
                                   }
                  },
                  {
@@ -561,21 +561,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "8b4bd354-230d-4b83-b64d-a0b9b6eeefba",
+                                    "RunspaceId":  "c85ef4c2-9613-4add-82d3-4cea1a303b8c",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  229947558,
+                                      "Ticks":  254125781,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  994,
+                                      "Milliseconds":  412,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00026614300694444441,
-                                      "TotalHours":  0.0063874321666666668,
-                                      "TotalMilliseconds":  22994.755800000003,
-                                      "TotalMinutes":  0.38324593,
-                                      "TotalSeconds":  22.9947558
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029412706134259256,
+                                      "TotalHours":  0.0070590494722222218,
+                                      "TotalMilliseconds":  25412.578100000002,
+                                      "TotalMinutes":  0.42354296833333333,
+                                      "TotalSeconds":  25.412578099999998
                                   }
                  },
                  {
@@ -602,21 +602,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "9887a623-a04e-4527-aa9a-4d6a80669e38",
+                                    "RunspaceId":  "72939907-edfd-438a-a30e-b37aad8e251c",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  227209747,
+                                      "Ticks":  251413450,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  720,
+                                      "Milliseconds":  141,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00026297424421296297,
-                                      "TotalHours":  0.0063113818611111108,
-                                      "TotalMilliseconds":  22720.974700000002,
-                                      "TotalMinutes":  0.37868291166666668,
-                                      "TotalSeconds":  22.7209747
+                                      "Seconds":  25,
+                                      "TotalDays":  0.00029098778935185182,
+                                      "TotalHours":  0.0069837069444444438,
+                                      "TotalMilliseconds":  25141.345,
+                                      "TotalMinutes":  0.41902241666666667,
+                                      "TotalSeconds":  25.141344999999998
                                   }
                  },
                  {
@@ -643,21 +643,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "8497c52a-fc02-4273-862b-9326bf096f42",
+                                    "RunspaceId":  "97ec8ff6-2dfc-4c5a-ad94-d9e2f5bc44de",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  224414031,
+                                      "Ticks":  244115157,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  441,
+                                      "Milliseconds":  411,
                                       "Minutes":  0,
-                                      "Seconds":  22,
-                                      "TotalDays":  0.00025973846180555552,
-                                      "TotalHours":  0.0062337230833333333,
-                                      "TotalMilliseconds":  22441.4031,
-                                      "TotalMinutes":  0.374023385,
-                                      "TotalSeconds":  22.4414031
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00028254069097222222,
+                                      "TotalHours":  0.0067809765833333332,
+                                      "TotalMilliseconds":  24411.5157,
+                                      "TotalMinutes":  0.406858595,
+                                      "TotalSeconds":  24.4115157
                                   }
                  },
                  {
@@ -684,21 +684,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0843ef49-9833-49fe-9e2d-6cc8a2d9a979",
+                                    "RunspaceId":  "2d7bc913-7049-4a9c-a598-3f69054f21e4",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  206880312,
+                                      "Ticks":  241489158,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  688,
+                                      "Milliseconds":  148,
                                       "Minutes":  0,
-                                      "Seconds":  20,
-                                      "TotalDays":  0.00023944480555555554,
-                                      "TotalHours":  0.0057466753333333329,
-                                      "TotalMilliseconds":  20688.0312,
-                                      "TotalMinutes":  0.34480052,
-                                      "TotalSeconds":  20.688031199999998
+                                      "Seconds":  24,
+                                      "TotalDays":  0.00027950134027777778,
+                                      "TotalHours":  0.0067080321666666666,
+                                      "TotalMilliseconds":  24148.915800000002,
+                                      "TotalMinutes":  0.40248193,
+                                      "TotalSeconds":  24.148915799999997
                                   }
                  },
                  {
@@ -725,21 +725,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "c5134a2e-b5cd-48fd-9c4a-ef211f65918d",
+                                    "RunspaceId":  "2cdcac63-142d-4b41-9da0-def3f8a77718",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  201926703,
+                                      "Ticks":  235360485,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  192,
+                                      "Milliseconds":  536,
                                       "Minutes":  0,
-                                      "Seconds":  20,
-                                      "TotalDays":  0.00023371146180555555,
-                                      "TotalHours":  0.0056090750833333331,
-                                      "TotalMilliseconds":  20192.6703,
-                                      "TotalMinutes":  0.336544505,
-                                      "TotalSeconds":  20.1926703
+                                      "Seconds":  23,
+                                      "TotalDays":  0.00027240796875,
+                                      "TotalHours":  0.00653779125,
+                                      "TotalMilliseconds":  23536.0485,
+                                      "TotalMinutes":  0.39226747500000003,
+                                      "TotalSeconds":  23.5360485
                                   }
                  },
                  {
@@ -766,21 +766,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "9c9b1adb-4998-46c0-ab9e-1983bdcd8ddb",
+                                    "RunspaceId":  "3664a638-de90-45b6-be00-4095a7b415c0",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  199806148,
+                                      "Ticks":  232848701,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  980,
+                                      "Milliseconds":  284,
                                       "Minutes":  0,
-                                      "Seconds":  19,
-                                      "TotalDays":  0.00023125711574074073,
-                                      "TotalHours":  0.0055501707777777772,
-                                      "TotalMilliseconds":  19980.6148,
-                                      "TotalMinutes":  0.33301024666666668,
-                                      "TotalSeconds":  19.980614799999998
+                                      "Seconds":  23,
+                                      "TotalDays":  0.0002695008113425926,
+                                      "TotalHours":  0.0064680194722222216,
+                                      "TotalMilliseconds":  23284.8701,
+                                      "TotalMinutes":  0.38808116833333334,
+                                      "TotalSeconds":  23.2848701
                                   }
                  },
                  {
@@ -807,21 +807,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "795194ef-1c3b-415d-8f78-3bd621fc088c",
+                                    "RunspaceId":  "7603d8bb-9346-4028-8568-e5af6e7a5757",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  197207359,
+                                      "Ticks":  230522376,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  720,
+                                      "Milliseconds":  52,
                                       "Minutes":  0,
-                                      "Seconds":  19,
-                                      "TotalDays":  0.00022824925810185185,
-                                      "TotalHours":  0.0054779821944444442,
-                                      "TotalMilliseconds":  19720.7359,
-                                      "TotalMinutes":  0.32867893166666667,
-                                      "TotalSeconds":  19.720735899999998
+                                      "Seconds":  23,
+                                      "TotalDays":  0.00026680830555555552,
+                                      "TotalHours":  0.0064033993333333329,
+                                      "TotalMilliseconds":  23052.2376,
+                                      "TotalMinutes":  0.38420396,
+                                      "TotalSeconds":  23.052237599999998
                                   }
                  },
                  {
@@ -848,21 +848,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0bec96bf-b56d-4fc9-8510-05986ebbef7a",
+                                    "RunspaceId":  "ccce02b4-afb8-4d04-8430-c32f5df7d9d9",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  194422689,
+                                      "Ticks":  227740453,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  442,
+                                      "Milliseconds":  774,
                                       "Minutes":  0,
-                                      "Seconds":  19,
-                                      "TotalDays":  0.00022502626041666666,
-                                      "TotalHours":  0.00540063025,
-                                      "TotalMilliseconds":  19442.2689,
-                                      "TotalMinutes":  0.324037815,
-                                      "TotalSeconds":  19.4422689
+                                      "Seconds":  22,
+                                      "TotalDays":  0.00026358848726851849,
+                                      "TotalHours":  0.0063261236944444441,
+                                      "TotalMilliseconds":  22774.0453,
+                                      "TotalMinutes":  0.37956742166666668,
+                                      "TotalSeconds":  22.774045299999997
                                   }
                  },
                  {
@@ -889,21 +889,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "e78114cc-9595-4ccf-a283-f62d8341d208",
+                                    "RunspaceId":  "ff775af9-7d46-450d-9401-1f5ac20afbbc",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  191638787,
+                                      "Ticks":  225040480,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  163,
+                                      "Milliseconds":  504,
                                       "Minutes":  0,
-                                      "Seconds":  19,
-                                      "TotalDays":  0.00022180415162037037,
-                                      "TotalHours":  0.0053232996388888889,
-                                      "TotalMilliseconds":  19163.8787,
-                                      "TotalMinutes":  0.31939797833333333,
-                                      "TotalSeconds":  19.163878699999998
+                                      "Seconds":  22,
+                                      "TotalDays":  0.00026046351851851849,
+                                      "TotalHours":  0.0062511244444444442,
+                                      "TotalMilliseconds":  22504.048000000003,
+                                      "TotalMinutes":  0.37506746666666668,
+                                      "TotalSeconds":  22.504047999999997
                                   }
                  },
                  {
@@ -930,21 +930,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "b4089e78-22ba-4905-a4da-fd5e8faf4add",
+                                    "RunspaceId":  "9e12cfb2-d949-4de0-84cb-2f81ec240bb7",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  184013457,
+                                      "Ticks":  217759882,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  401,
+                                      "Milliseconds":  775,
                                       "Minutes":  0,
-                                      "Seconds":  18,
-                                      "TotalDays":  0.00021297853819444445,
-                                      "TotalHours":  0.0051114849166666665,
-                                      "TotalMilliseconds":  18401.3457,
-                                      "TotalMinutes":  0.306689095,
-                                      "TotalSeconds":  18.4013457
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00025203690046296295,
+                                      "TotalHours":  0.0060488856111111109,
+                                      "TotalMilliseconds":  21775.9882,
+                                      "TotalMinutes":  0.36293313666666666,
+                                      "TotalSeconds":  21.7759882
                                   }
                  },
                  {
@@ -971,21 +971,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a1aa6ff5-80d6-4c6a-b038-a2b8d7f7a238",
+                                    "RunspaceId":  "1ec1e24a-1c0a-48d9-910b-6482f8a8cefe",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  181353680,
+                                      "Ticks":  215196503,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  135,
+                                      "Milliseconds":  519,
                                       "Minutes":  0,
-                                      "Seconds":  18,
-                                      "TotalDays":  0.00020990009259259259,
-                                      "TotalHours":  0.0050376022222222219,
-                                      "TotalMilliseconds":  18135.368000000002,
-                                      "TotalMinutes":  0.30225613333333334,
-                                      "TotalSeconds":  18.135368
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00024907002662037035,
+                                      "TotalHours":  0.0059776806388888888,
+                                      "TotalMilliseconds":  21519.6503,
+                                      "TotalMinutes":  0.35866083833333334,
+                                      "TotalSeconds":  21.5196503
                                   }
                  },
                  {
@@ -1012,21 +1012,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a5fa1493-250a-407c-b582-55ca8212273a",
+                                    "RunspaceId":  "f00454cd-83c0-420a-a05b-05006db54ad3",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  178814361,
+                                      "Ticks":  212550499,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  881,
+                                      "Milliseconds":  255,
                                       "Minutes":  0,
-                                      "Seconds":  17,
-                                      "TotalDays":  0.0002069610659722222,
-                                      "TotalHours":  0.0049670655833333327,
-                                      "TotalMilliseconds":  17881.436100000003,
-                                      "TotalMinutes":  0.298023935,
-                                      "TotalSeconds":  17.8814361
+                                      "Seconds":  21,
+                                      "TotalDays":  0.00024600752199074074,
+                                      "TotalHours":  0.0059041805277777774,
+                                      "TotalMilliseconds":  21255.0499,
+                                      "TotalMinutes":  0.35425083166666665,
+                                      "TotalSeconds":  21.2550499
                                   }
                  },
                  {
@@ -1053,21 +1053,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "e61c76da-d67e-4ead-80b1-3b09a611c0b3",
+                                    "RunspaceId":  "1dce449a-e6d2-4ceb-acd5-fc31b8d9bd76",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  175890588,
+                                      "Ticks":  209819901,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  589,
+                                      "Milliseconds":  981,
                                       "Minutes":  0,
-                                      "Seconds":  17,
-                                      "TotalDays":  0.00020357706944444442,
-                                      "TotalHours":  0.0048858496666666666,
-                                      "TotalMilliseconds":  17589.058800000003,
-                                      "TotalMinutes":  0.29315098,
-                                      "TotalSeconds":  17.5890588
+                                      "Seconds":  20,
+                                      "TotalDays":  0.00024284710763888888,
+                                      "TotalHours":  0.0058283305833333335,
+                                      "TotalMilliseconds":  20981.990100000003,
+                                      "TotalMinutes":  0.349699835,
+                                      "TotalSeconds":  20.981990099999997
                                   }
                  },
                  {
@@ -1094,21 +1094,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "023d0d2b-8c70-4965-bac4-ec4907e3a9f1",
+                                    "RunspaceId":  "eecce1fe-b78f-4616-b458-e0444865ae04",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  168169979,
+                                      "Ticks":  202463849,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  816,
+                                      "Milliseconds":  246,
                                       "Minutes":  0,
-                                      "Seconds":  16,
-                                      "TotalDays":  0.00019464117939814815,
-                                      "TotalHours":  0.0046713883055555551,
-                                      "TotalMilliseconds":  16816.997900000002,
-                                      "TotalMinutes":  0.28028329833333332,
-                                      "TotalSeconds":  16.8169979
+                                      "Seconds":  20,
+                                      "TotalDays":  0.0002343331585648148,
+                                      "TotalHours":  0.0056239958055555551,
+                                      "TotalMilliseconds":  20246.3849,
+                                      "TotalMinutes":  0.33743974833333334,
+                                      "TotalSeconds":  20.2463849
                                   }
                  },
                  {
@@ -1135,21 +1135,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0bf195cf-1d46-40a2-93d4-227fdb4f87a8",
+                                    "RunspaceId":  "74618f17-74db-4d21-8aa4-f4eddbaab126",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  165586306,
+                                      "Ticks":  199981812,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  558,
+                                      "Milliseconds":  998,
                                       "Minutes":  0,
-                                      "Seconds":  16,
-                                      "TotalDays":  0.00019165081712962961,
-                                      "TotalHours":  0.0045996196111111106,
-                                      "TotalMilliseconds":  16558.6306,
-                                      "TotalMinutes":  0.27597717666666666,
-                                      "TotalSeconds":  16.5586306
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00023146043055555555,
+                                      "TotalHours":  0.0055550503333333329,
+                                      "TotalMilliseconds":  19998.181200000003,
+                                      "TotalMinutes":  0.33330302,
+                                      "TotalSeconds":  19.998181199999998
                                   }
                  },
                  {
@@ -1176,21 +1176,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0e8d50dd-6177-4d0c-9dfa-ecbbfeeb9aa1",
+                                    "RunspaceId":  "af933207-75b8-4e4d-b2c7-61c675f11a48",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  163126883,
+                                      "Ticks":  197269803,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  312,
+                                      "Milliseconds":  726,
                                       "Minutes":  0,
-                                      "Seconds":  16,
-                                      "TotalDays":  0.00018880426273148147,
-                                      "TotalHours":  0.0045313023055555558,
-                                      "TotalMilliseconds":  16312.688300000002,
-                                      "TotalMinutes":  0.27187813833333335,
-                                      "TotalSeconds":  16.312688299999998
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00022832153125,
+                                      "TotalHours":  0.0054797167499999995,
+                                      "TotalMilliseconds":  19726.9803,
+                                      "TotalMinutes":  0.328783005,
+                                      "TotalSeconds":  19.726980299999997
                                   }
                  },
                  {
@@ -1217,21 +1217,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a536f7ff-d046-4639-aa30-e9240a75fcfc",
+                                    "RunspaceId":  "c1142f30-b758-49d6-9502-120ca05c3279",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  160051369,
+                                      "Ticks":  194270458,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  5,
+                                      "Milliseconds":  427,
                                       "Minutes":  0,
-                                      "Seconds":  16,
-                                      "TotalDays":  0.00018524464004629628,
-                                      "TotalHours":  0.0044458713611111112,
-                                      "TotalMilliseconds":  16005.136900000001,
-                                      "TotalMinutes":  0.26675228166666665,
-                                      "TotalSeconds":  16.0051369
+                                      "Seconds":  19,
+                                      "TotalDays":  0.00022485006712962962,
+                                      "TotalHours":  0.0053964016111111108,
+                                      "TotalMilliseconds":  19427.0458,
+                                      "TotalMinutes":  0.32378409666666669,
+                                      "TotalSeconds":  19.4270458
                                   }
                  },
                  {
@@ -1258,21 +1258,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "b1aa9ef7-2ea0-4252-ab1d-06d40b1c0709",
+                                    "RunspaceId":  "f41debd6-bacc-482b-b678-4efc656b78a2",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  156397346,
+                                      "Ticks":  186924300,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  639,
+                                      "Milliseconds":  692,
                                       "Minutes":  0,
-                                      "Seconds":  15,
-                                      "TotalDays":  0.00018101544675925925,
-                                      "TotalHours":  0.0043443707222222223,
-                                      "TotalMilliseconds":  15639.734600000002,
-                                      "TotalMinutes":  0.26066224333333332,
-                                      "TotalSeconds":  15.639734599999999
+                                      "Seconds":  18,
+                                      "TotalDays":  0.00021634756944444443,
+                                      "TotalHours":  0.0051923416666666668,
+                                      "TotalMilliseconds":  18692.43,
+                                      "TotalMinutes":  0.3115405,
+                                      "TotalSeconds":  18.692429999999998
                                   }
                  },
                  {
@@ -1299,21 +1299,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "835a35d0-5d82-4c23-be42-d648b82a42f6",
+                                    "RunspaceId":  "b3884a88-5f00-4e6e-81af-bacd0eaa3e82",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  153895322,
+                                      "Ticks":  184559208,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  389,
+                                      "Milliseconds":  455,
                                       "Minutes":  0,
-                                      "Seconds":  15,
-                                      "TotalDays":  0.00017811958564814813,
-                                      "TotalHours":  0.004274870055555555,
-                                      "TotalMilliseconds":  15389.532200000001,
-                                      "TotalMinutes":  0.25649220333333334,
-                                      "TotalSeconds":  15.3895322
+                                      "Seconds":  18,
+                                      "TotalDays":  0.00021361019444444444,
+                                      "TotalHours":  0.0051266446666666668,
+                                      "TotalMilliseconds":  18455.9208,
+                                      "TotalMinutes":  0.30759868,
+                                      "TotalSeconds":  18.455920799999998
                                   }
                  },
                  {
@@ -1340,21 +1340,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a49ee6dd-c14a-4365-b88f-5b58f486e626",
+                                    "RunspaceId":  "9822a885-54f1-4783-af47-0cada56dbde1",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  151582560,
+                                      "Ticks":  181403634,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  158,
+                                      "Milliseconds":  140,
                                       "Minutes":  0,
-                                      "Seconds":  15,
-                                      "TotalDays":  0.00017544277777777778,
-                                      "TotalHours":  0.0042106266666666666,
-                                      "TotalMilliseconds":  15158.256000000001,
-                                      "TotalMinutes":  0.2526376,
-                                      "TotalSeconds":  15.158256
+                                      "Seconds":  18,
+                                      "TotalDays":  0.0002099579097222222,
+                                      "TotalHours":  0.0050389898333333336,
+                                      "TotalMilliseconds":  18140.363400000002,
+                                      "TotalMinutes":  0.30233939,
+                                      "TotalSeconds":  18.1403634
                                   }
                  },
                  {
@@ -1381,21 +1381,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "9af0f7fd-a87d-4fd7-9bbe-94c885192caf",
+                                    "RunspaceId":  "0391454a-170e-4550-a3f6-c7a638207d82",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  148822332,
+                                      "Ticks":  178856696,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  882,
+                                      "Milliseconds":  885,
                                       "Minutes":  0,
-                                      "Seconds":  14,
-                                      "TotalDays":  0.00017224806944444443,
-                                      "TotalHours":  0.0041339536666666664,
-                                      "TotalMilliseconds":  14882.2332,
-                                      "TotalMinutes":  0.24803722,
-                                      "TotalSeconds":  14.8822332
+                                      "Seconds":  17,
+                                      "TotalDays":  0.0002070100648148148,
+                                      "TotalHours":  0.0049682415555555555,
+                                      "TotalMilliseconds":  17885.6696,
+                                      "TotalMinutes":  0.29809449333333332,
+                                      "TotalSeconds":  17.8856696
                                   }
                  },
                  {
@@ -1422,21 +1422,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "25664dc3-a86e-4b94-838d-4993834ee7a6",
+                                    "RunspaceId":  "2660e7fc-8079-4060-b65b-895e05fac75e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  146277032,
+                                      "Ticks":  176175752,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  627,
+                                      "Milliseconds":  617,
                                       "Minutes":  0,
-                                      "Seconds":  14,
-                                      "TotalDays":  0.00016930212037037035,
-                                      "TotalHours":  0.0040632508888888887,
-                                      "TotalMilliseconds":  14627.7032,
-                                      "TotalMinutes":  0.24379505333333334,
-                                      "TotalSeconds":  14.6277032
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00020390712037037035,
+                                      "TotalHours":  0.0048937708888888883,
+                                      "TotalMilliseconds":  17617.5752,
+                                      "TotalMinutes":  0.29362625333333336,
+                                      "TotalSeconds":  17.617575199999997
                                   }
                  },
                  {
@@ -1463,21 +1463,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0a0bc7bc-b5a4-4e3e-aad5-a3720795b3e4",
+                                    "RunspaceId":  "ac087e30-cba4-4f0b-95aa-2af6932a16bb",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  138710074,
+                                      "Ticks":  173612212,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  871,
+                                      "Milliseconds":  361,
                                       "Minutes":  0,
-                                      "Seconds":  13,
-                                      "TotalDays":  0.00016054406712962961,
-                                      "TotalHours":  0.0038530576111111109,
-                                      "TotalMilliseconds":  13871.0074,
-                                      "TotalMinutes":  0.23118345666666668,
-                                      "TotalSeconds":  13.8710074
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00020094006018518519,
+                                      "TotalHours":  0.0048225614444444443,
+                                      "TotalMilliseconds":  17361.2212,
+                                      "TotalMinutes":  0.28935368666666667,
+                                      "TotalSeconds":  17.3612212
                                   }
                  },
                  {
@@ -1504,21 +1504,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "5b53e969-7ef5-4414-9807-d031c70be748",
+                                    "RunspaceId":  "2abc1ad0-ba1d-4399-a40b-ce69a94b8471",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  136223012,
+                                      "Ticks":  170882462,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  622,
+                                      "Milliseconds":  88,
                                       "Minutes":  0,
-                                      "Seconds":  13,
-                                      "TotalDays":  0.00015766552314814815,
-                                      "TotalHours":  0.0037839725555555556,
-                                      "TotalMilliseconds":  13622.3012,
-                                      "TotalMinutes":  0.22703835333333333,
-                                      "TotalSeconds":  13.622301199999999
+                                      "Seconds":  17,
+                                      "TotalDays":  0.00019778062731481481,
+                                      "TotalHours":  0.0047467350555555551,
+                                      "TotalMilliseconds":  17088.2462,
+                                      "TotalMinutes":  0.28480410333333334,
+                                      "TotalSeconds":  17.0882462
                                   }
                  },
                  {
@@ -1545,21 +1545,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a092e1ca-42bc-4ef5-82b7-654b5a30b304",
+                                    "RunspaceId":  "831c97d6-ed62-4a7c-b1e6-7352ffec8778",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  133718082,
+                                      "Ticks":  162509571,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  371,
+                                      "Milliseconds":  250,
                                       "Minutes":  0,
-                                      "Seconds":  13,
-                                      "TotalDays":  0.0001547662986111111,
-                                      "TotalHours":  0.0037143911666666666,
-                                      "TotalMilliseconds":  13371.808200000001,
-                                      "TotalMinutes":  0.22286347,
-                                      "TotalSeconds":  13.3718082
+                                      "Seconds":  16,
+                                      "TotalDays":  0.00018808978125,
+                                      "TotalHours":  0.00451415475,
+                                      "TotalMilliseconds":  16250.957100000001,
+                                      "TotalMinutes":  0.270849285,
+                                      "TotalSeconds":  16.2509571
                                   }
                  },
                  {
@@ -1586,21 +1586,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "b67d4fde-d4a5-4c10-908e-76863919eb1d",
+                                    "RunspaceId":  "d55eb8d5-b2ff-4e2a-9f3d-1528b95888fe",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  131492636,
+                                      "Ticks":  160095521,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  149,
+                                      "Milliseconds":  9,
                                       "Minutes":  0,
-                                      "Seconds":  13,
-                                      "TotalDays":  0.00015219055092592591,
-                                      "TotalHours":  0.0036525732222222221,
-                                      "TotalMilliseconds":  13149.2636,
-                                      "TotalMinutes":  0.21915439333333334,
-                                      "TotalSeconds":  13.1492636
+                                      "Seconds":  16,
+                                      "TotalDays":  0.00018529574189814815,
+                                      "TotalHours":  0.0044470978055555551,
+                                      "TotalMilliseconds":  16009.5521,
+                                      "TotalMinutes":  0.26682586833333333,
+                                      "TotalSeconds":  16.0095521
                                   }
                  },
                  {
@@ -1627,21 +1627,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "65de0e06-ec32-4f55-8408-b257687db6d2",
+                                    "RunspaceId":  "3abd0775-d962-4eb2-9b78-c14c5f1c5186",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  128474117,
+                                      "Ticks":  157126047,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  847,
+                                      "Milliseconds":  712,
                                       "Minutes":  0,
-                                      "Seconds":  12,
-                                      "TotalDays":  0.00014869689467592593,
-                                      "TotalHours":  0.0035687254722222223,
-                                      "TotalMilliseconds":  12847.4117,
-                                      "TotalMinutes":  0.21412352833333334,
-                                      "TotalSeconds":  12.847411699999999
+                                      "Seconds":  15,
+                                      "TotalDays":  0.00018185885069444443,
+                                      "TotalHours":  0.0043646124166666668,
+                                      "TotalMilliseconds":  15712.6047,
+                                      "TotalMinutes":  0.261876745,
+                                      "TotalSeconds":  15.7126047
                                   }
                  },
                  {
@@ -1668,21 +1668,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "6a5bd498-77bd-41ab-b8d9-edcee8ec35d7",
+                                    "RunspaceId":  "6cf9e795-fe9c-42fa-9b21-7f33e3c36575",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  121057889,
+                                      "Ticks":  154559322,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  105,
+                                      "Milliseconds":  455,
                                       "Minutes":  0,
-                                      "Seconds":  12,
-                                      "TotalDays":  0.00014011329745370371,
-                                      "TotalHours":  0.0033627191388888888,
-                                      "TotalMilliseconds":  12105.788900000001,
-                                      "TotalMinutes":  0.20176314833333334,
-                                      "TotalSeconds":  12.1057889
+                                      "Seconds":  15,
+                                      "TotalDays":  0.00017888810416666665,
+                                      "TotalHours":  0.0042933145,
+                                      "TotalMilliseconds":  15455.932200000001,
+                                      "TotalMinutes":  0.25759887,
+                                      "TotalSeconds":  15.4559322
                                   }
                  },
                  {
@@ -1709,21 +1709,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "7e981d4e-c890-42a9-8d6f-8613aaa194d3",
+                                    "RunspaceId":  "e1b75906-e92a-42b5-8504-8efd759aea81",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  118581210,
+                                      "Ticks":  151770731,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  858,
+                                      "Milliseconds":  177,
                                       "Minutes":  0,
-                                      "Seconds":  11,
-                                      "TotalDays":  0.00013724677083333333,
-                                      "TotalHours":  0.0032939225,
-                                      "TotalMilliseconds":  11858.121000000001,
-                                      "TotalMinutes":  0.19763535000000002,
-                                      "TotalSeconds":  11.858120999999999
+                                      "Seconds":  15,
+                                      "TotalDays":  0.00017566056828703704,
+                                      "TotalHours":  0.0042158536388888883,
+                                      "TotalMilliseconds":  15177.073100000001,
+                                      "TotalMinutes":  0.25295121833333334,
+                                      "TotalSeconds":  15.1770731
                                   }
                  },
                  {
@@ -1750,21 +1750,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0da6a7a9-2c0c-4a31-a018-b24bfb2e3a89",
+                                    "RunspaceId":  "da1b3b28-842f-4297-9a6b-60b7081a9fb4",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  116089975,
+                                      "Ticks":  144755682,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  608,
+                                      "Milliseconds":  475,
                                       "Minutes":  0,
-                                      "Seconds":  11,
-                                      "TotalDays":  0.00013436339699074074,
-                                      "TotalHours":  0.0032247215277777775,
-                                      "TotalMilliseconds":  11608.997500000001,
-                                      "TotalMinutes":  0.19348329166666667,
-                                      "TotalSeconds":  11.6089975
+                                      "Seconds":  14,
+                                      "TotalDays":  0.0001675412986111111,
+                                      "TotalHours":  0.0040209911666666664,
+                                      "TotalMilliseconds":  14475.568200000002,
+                                      "TotalMinutes":  0.24125947,
+                                      "TotalSeconds":  14.4755682
                                   }
                  },
                  {
@@ -1791,21 +1791,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "5842a717-888c-4f75-8add-3c42baf4a8e6",
+                                    "RunspaceId":  "7825405d-5438-4117-97a8-ea3a71280166",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  113441742,
+                                      "Ticks":  142376872,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  344,
+                                      "Milliseconds":  237,
                                       "Minutes":  0,
-                                      "Seconds":  11,
-                                      "TotalDays":  0.0001312983125,
-                                      "TotalHours":  0.0031511595,
-                                      "TotalMilliseconds":  11344.174200000001,
-                                      "TotalMinutes":  0.18906957,
-                                      "TotalSeconds":  11.3441742
+                                      "Seconds":  14,
+                                      "TotalDays":  0.0001647880462962963,
+                                      "TotalHours":  0.0039549131111111108,
+                                      "TotalMilliseconds":  14237.6872,
+                                      "TotalMinutes":  0.23729478666666667,
+                                      "TotalSeconds":  14.2376872
                                   }
                  },
                  {
@@ -1832,21 +1832,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "b8c70a5c-cc19-4496-a5bd-27aadf73b13b",
+                                    "RunspaceId":  "f3e71c36-8a92-4143-b5a0-9384590e6674",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  110718815,
+                                      "Ticks":  140306500,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  71,
+                                      "Milliseconds":  30,
                                       "Minutes":  0,
-                                      "Seconds":  11,
-                                      "TotalDays":  0.00012814677662037038,
-                                      "TotalHours":  0.0030755226388888886,
-                                      "TotalMilliseconds":  11071.881500000001,
-                                      "TotalMinutes":  0.18453135833333334,
-                                      "TotalSeconds":  11.0718815
+                                      "Seconds":  14,
+                                      "TotalDays":  0.0001623917824074074,
+                                      "TotalHours":  0.0038974027777777774,
+                                      "TotalMilliseconds":  14030.650000000001,
+                                      "TotalMinutes":  0.23384416666666666,
+                                      "TotalSeconds":  14.03065
                                   }
                  },
                  {
@@ -1873,21 +1873,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "8d7c3a3c-3fb7-4bca-b40d-e84df065dbbe",
+                                    "RunspaceId":  "04930b65-2b28-44fd-93bd-cc847cfc974d",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  103098047,
+                                      "Ticks":  137429727,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  309,
+                                      "Milliseconds":  742,
                                       "Minutes":  0,
-                                      "Seconds":  10,
-                                      "TotalDays":  0.00011932644328703703,
-                                      "TotalHours":  0.0028638346388888888,
-                                      "TotalMilliseconds":  10309.8047,
-                                      "TotalMinutes":  0.17183007833333333,
-                                      "TotalSeconds":  10.309804699999999
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00015906218402777776,
+                                      "TotalHours":  0.0038174924166666665,
+                                      "TotalMilliseconds":  13742.9727,
+                                      "TotalMinutes":  0.229049545,
+                                      "TotalSeconds":  13.7429727
                                   }
                  },
                  {
@@ -1914,21 +1914,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f4f51fa7-576d-4292-a3aa-8d8b1b8ff7ef",
+                                    "RunspaceId":  "15636a81-161c-41b6-b847-7ab0e38401f4",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  100557997,
+                                      "Ticks":  134850673,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  55,
+                                      "Milliseconds":  485,
                                       "Minutes":  0,
-                                      "Seconds":  10,
-                                      "TotalDays":  0.00011638657060185185,
-                                      "TotalHours":  0.0027932776944444445,
-                                      "TotalMilliseconds":  10055.7997,
-                                      "TotalMinutes":  0.16759666166666667,
-                                      "TotalSeconds":  10.0557997
+                                      "Seconds":  13,
+                                      "TotalDays":  0.00015607716782407407,
+                                      "TotalHours":  0.0037458520277777775,
+                                      "TotalMilliseconds":  13485.0673,
+                                      "TotalMinutes":  0.22475112166666666,
+                                      "TotalSeconds":  13.485067299999999
                                   }
                  },
                  {
@@ -1955,21 +1955,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "c8fa972b-4b60-4ee8-a1eb-34e7d28d5218",
+                                    "RunspaceId":  "a3188782-3863-46cf-8787-aea006134e15",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  98101231,
+                                      "Ticks":  127959828,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  810,
+                                      "Milliseconds":  795,
                                       "Minutes":  0,
-                                      "Seconds":  9,
-                                      "TotalDays":  0.00011354309143518518,
-                                      "TotalHours":  0.0027250341944444444,
-                                      "TotalMilliseconds":  9810.1231,
-                                      "TotalMinutes":  0.16350205166666668,
-                                      "TotalSeconds":  9.8101231
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00014810165277777778,
+                                      "TotalHours":  0.0035544396666666667,
+                                      "TotalMilliseconds":  12795.9828,
+                                      "TotalMinutes":  0.21326638,
+                                      "TotalSeconds":  12.795982799999999
                                   }
                  },
                  {
@@ -1996,21 +1996,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "e752bb4c-55a4-4f7e-80de-23081343fd31",
+                                    "RunspaceId":  "ef95a50e-f14d-47f9-879c-eed9c52d6459",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  95587774,
+                                      "Ticks":  125429296,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  558,
+                                      "Milliseconds":  542,
                                       "Minutes":  0,
-                                      "Seconds":  9,
-                                      "TotalDays":  0.00011063399768518518,
-                                      "TotalHours":  0.0026552159444444444,
-                                      "TotalMilliseconds":  9558.7774,
-                                      "TotalMinutes":  0.15931295666666667,
-                                      "TotalSeconds":  9.5587774
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00014517279629629629,
+                                      "TotalHours":  0.0034841471111111111,
+                                      "TotalMilliseconds":  12542.929600000001,
+                                      "TotalMinutes":  0.20904882666666666,
+                                      "TotalSeconds":  12.542929599999999
                                   }
                  },
                  {
@@ -2037,21 +2037,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "aaf41da0-7c2b-4eb7-873d-1a1276984d27",
+                                    "RunspaceId":  "25ad3e4b-7837-4c3f-b0ff-11627889e956",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  93303190,
+                                      "Ticks":  123076822,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  330,
+                                      "Milliseconds":  307,
                                       "Minutes":  0,
-                                      "Seconds":  9,
-                                      "TotalDays":  0.00010798980324074074,
-                                      "TotalHours":  0.0025917552777777776,
-                                      "TotalMilliseconds":  9330.3190000000013,
-                                      "TotalMinutes":  0.15550531666666667,
-                                      "TotalSeconds":  9.330319
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00014245002546296295,
+                                      "TotalHours":  0.003418800611111111,
+                                      "TotalMilliseconds":  12307.682200000001,
+                                      "TotalMinutes":  0.20512803666666668,
+                                      "TotalSeconds":  12.307682199999999
                                   }
                  },
                  {
@@ -2078,21 +2078,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "08e3d0ec-83ea-49da-bc7d-6819e95dec0c",
+                                    "RunspaceId":  "31efd850-394c-44cc-a352-11a419a3558c",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  85600917,
+                                      "Ticks":  120641550,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  560,
+                                      "Milliseconds":  64,
                                       "Minutes":  0,
-                                      "Seconds":  8,
-                                      "TotalDays":  9.9075135416666659E-05,
-                                      "TotalHours":  0.00237780325,
-                                      "TotalMilliseconds":  8560.0917,
-                                      "TotalMinutes":  0.142668195,
-                                      "TotalSeconds":  8.5600917
+                                      "Seconds":  12,
+                                      "TotalDays":  0.00013963142361111109,
+                                      "TotalHours":  0.0033511541666666664,
+                                      "TotalMilliseconds":  12064.155,
+                                      "TotalMinutes":  0.20106925,
+                                      "TotalSeconds":  12.064155
                                   }
                  },
                  {
@@ -2119,21 +2119,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "2fa26e06-dd47-4ac5-8a3f-07f7dbea66f5",
+                                    "RunspaceId":  "6b6a5093-2b20-4f4b-b3b1-64def4c9b8ee",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  83143899,
+                                      "Ticks":  117840162,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  314,
+                                      "Milliseconds":  784,
                                       "Minutes":  0,
-                                      "Seconds":  8,
-                                      "TotalDays":  9.6231364583333325E-05,
-                                      "TotalHours":  0.00230955275,
-                                      "TotalMilliseconds":  8314.3899,
-                                      "TotalMinutes":  0.138573165,
-                                      "TotalSeconds":  8.3143899
+                                      "Seconds":  11,
+                                      "TotalDays":  0.00013638907638888889,
+                                      "TotalHours":  0.0032733378333333332,
+                                      "TotalMilliseconds":  11784.0162,
+                                      "TotalMinutes":  0.19640027000000002,
+                                      "TotalSeconds":  11.7840162
                                   }
                  },
                  {
@@ -2160,21 +2160,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "31f06713-6c65-4df9-b848-79a3f49e654c",
+                                    "RunspaceId":  "38a48456-ee8f-430d-87b9-4ad9e64bef92",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  80570904,
+                                      "Ticks":  108483339,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  57,
+                                      "Milliseconds":  848,
                                       "Minutes":  0,
-                                      "Seconds":  8,
-                                      "TotalDays":  9.32533611111111E-05,
-                                      "TotalHours":  0.0022380806666666667,
-                                      "TotalMilliseconds":  8057.0904,
-                                      "TotalMinutes":  0.13428484000000002,
-                                      "TotalSeconds":  8.0570904
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00012555942013888887,
+                                      "TotalHours":  0.0030134260833333333,
+                                      "TotalMilliseconds":  10848.3339,
+                                      "TotalMinutes":  0.180805565,
+                                      "TotalSeconds":  10.8483339
                                   }
                  },
                  {
@@ -2201,21 +2201,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0a7de640-db65-4ff7-b1e5-c6198f62a690",
+                                    "RunspaceId":  "e1b75adb-e245-4c4c-b511-f9d61ad0e734",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  77891077,
+                                      "Ticks":  103407631,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  789,
+                                      "Milliseconds":  340,
                                       "Minutes":  0,
-                                      "Seconds":  7,
-                                      "TotalDays":  9.0151709490740733E-05,
-                                      "TotalHours":  0.0021636410277777775,
-                                      "TotalMilliseconds":  7789.1077000000005,
-                                      "TotalMinutes":  0.12981846166666666,
-                                      "TotalSeconds":  7.7891077
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00011968475810185184,
+                                      "TotalHours":  0.0028724341944444442,
+                                      "TotalMilliseconds":  10340.7631,
+                                      "TotalMinutes":  0.17234605166666667,
+                                      "TotalSeconds":  10.3407631
                                   }
                  },
                  {
@@ -2242,21 +2242,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "56df87eb-b8b8-45c3-87ce-b08671280ce9",
+                                    "RunspaceId":  "19834878-f2f3-4eb1-831b-45f64e369f88",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  74428813,
+                                      "Ticks":  100824220,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  442,
+                                      "Milliseconds":  82,
                                       "Minutes":  0,
-                                      "Seconds":  7,
-                                      "TotalDays":  8.6144459490740738E-05,
-                                      "TotalHours":  0.0020674670277777778,
-                                      "TotalMilliseconds":  7442.8813,
-                                      "TotalMinutes":  0.12404802166666667,
-                                      "TotalSeconds":  7.4428813
+                                      "Seconds":  10,
+                                      "TotalDays":  0.00011669469907407406,
+                                      "TotalHours":  0.0028006727777777777,
+                                      "TotalMilliseconds":  10082.422,
+                                      "TotalMinutes":  0.16804036666666666,
+                                      "TotalSeconds":  10.082422
                                   }
                  },
                  {
@@ -2283,21 +2283,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f3c99f2f-f32f-429d-9032-08d92b13fb63",
+                                    "RunspaceId":  "1d136a90-63de-4bd7-899e-f977321734f4",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  71818922,
+                                      "Ticks":  97995418,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  181,
+                                      "Milliseconds":  799,
                                       "Minutes":  0,
-                                      "Seconds":  7,
-                                      "TotalDays":  8.3123752314814812E-05,
-                                      "TotalHours":  0.0019949700555555554,
-                                      "TotalMilliseconds":  7181.8922,
-                                      "TotalMinutes":  0.11969820333333334,
-                                      "TotalSeconds":  7.1818922
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00011342062268518517,
+                                      "TotalHours":  0.0027220949444444445,
+                                      "TotalMilliseconds":  9799.5418,
+                                      "TotalMinutes":  0.16332569666666666,
+                                      "TotalSeconds":  9.7995418
                                   }
                  },
                  {
@@ -2324,21 +2324,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "baa06dd6-b283-4867-bb48-a23232a2976b",
+                                    "RunspaceId":  "4faaf3b0-82e1-4636-a38b-32db992bd837",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  69140824,
+                                      "Ticks":  94619129,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  914,
+                                      "Milliseconds":  461,
                                       "Minutes":  0,
-                                      "Seconds":  6,
-                                      "TotalDays":  8.0024101851851854E-05,
-                                      "TotalHours":  0.0019205784444444444,
-                                      "TotalMilliseconds":  6914.0824,
-                                      "TotalMinutes":  0.11523470666666667,
-                                      "TotalSeconds":  6.9140824
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010951288078703703,
+                                      "TotalHours":  0.0026283091388888888,
+                                      "TotalMilliseconds":  9461.9129000000012,
+                                      "TotalMinutes":  0.15769854833333333,
+                                      "TotalSeconds":  9.4619129
                                   }
                  },
                  {
@@ -2365,21 +2365,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f806008c-8ca8-46e5-b00b-32b6096d3b18",
+                                    "RunspaceId":  "2c591fb5-a020-409e-800d-8d3a7d9c273b",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  66174711,
+                                      "Ticks":  91108699,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  617,
+                                      "Milliseconds":  110,
                                       "Minutes":  0,
-                                      "Seconds":  6,
-                                      "TotalDays":  7.659110069444444E-05,
-                                      "TotalHours":  0.0018381864166666666,
-                                      "TotalMilliseconds":  6617.4711000000007,
-                                      "TotalMinutes":  0.110291185,
-                                      "TotalSeconds":  6.6174710999999995
+                                      "Seconds":  9,
+                                      "TotalDays":  0.00010544988310185184,
+                                      "TotalHours":  0.0025307971944444445,
+                                      "TotalMilliseconds":  9110.8699,
+                                      "TotalMinutes":  0.15184783166666668,
+                                      "TotalSeconds":  9.1108698999999991
                                   }
                  },
                  {
@@ -2406,21 +2406,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "540a9ef1-f30b-45ea-a677-bb9d7030468b",
+                                    "RunspaceId":  "bb520d8b-d2cf-43fe-a787-fc24edc68099",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  63376542,
+                                      "Ticks":  86597810,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  337,
+                                      "Milliseconds":  659,
                                       "Minutes":  0,
-                                      "Seconds":  6,
-                                      "TotalDays":  7.335247916666667E-05,
-                                      "TotalHours":  0.0017604595,
-                                      "TotalMilliseconds":  6337.6542,
-                                      "TotalMinutes":  0.10562757,
-                                      "TotalSeconds":  6.3376541999999993
+                                      "Seconds":  8,
+                                      "TotalDays":  0.00010022894675925925,
+                                      "TotalHours":  0.0024054947222222223,
+                                      "TotalMilliseconds":  8659.781,
+                                      "TotalMinutes":  0.14432968333333335,
+                                      "TotalSeconds":  8.6597809999999988
                                   }
                  },
                  {
@@ -2447,21 +2447,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "927c4f54-31d9-4fae-9980-4e0924da174c",
+                                    "RunspaceId":  "70544c39-bbfd-4879-86e5-bf8af0792a70",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  60392253,
+                                      "Ticks":  81822638,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  39,
+                                      "Milliseconds":  182,
                                       "Minutes":  0,
-                                      "Seconds":  6,
-                                      "TotalDays":  6.9898440972222226E-05,
-                                      "TotalHours":  0.0016775625833333333,
-                                      "TotalMilliseconds":  6039.2253,
-                                      "TotalMinutes":  0.100653755,
-                                      "TotalSeconds":  6.0392253
+                                      "Seconds":  8,
+                                      "TotalDays":  9.4702127314814807E-05,
+                                      "TotalHours":  0.0022728510555555556,
+                                      "TotalMilliseconds":  8182.2638000000006,
+                                      "TotalMinutes":  0.13637106333333335,
+                                      "TotalSeconds":  8.1822638
                                   }
                  },
                  {
@@ -2488,21 +2488,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "2bb05fa2-f957-4695-8fb9-5379f1e09b57",
+                                    "RunspaceId":  "18cd633f-8783-4227-b519-ef3a915f389b",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  54151860,
+                                      "Ticks":  74343243,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  415,
+                                      "Milliseconds":  434,
                                       "Minutes":  0,
-                                      "Seconds":  5,
-                                      "TotalDays":  6.267576388888889E-05,
-                                      "TotalHours":  0.0015042183333333332,
-                                      "TotalMilliseconds":  5415.1860000000006,
-                                      "TotalMinutes":  0.0902531,
-                                      "TotalSeconds":  5.4151859999999994
+                                      "Seconds":  7,
+                                      "TotalDays":  8.6045420138888883E-05,
+                                      "TotalHours":  0.0020650900833333332,
+                                      "TotalMilliseconds":  7434.3243,
+                                      "TotalMinutes":  0.123905405,
+                                      "TotalSeconds":  7.4343243
                                   }
                  },
                  {
@@ -2529,21 +2529,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "0731e3de-f768-4380-b7aa-b9af5b353d19",
+                                    "RunspaceId":  "917ecc70-1836-4a84-9c76-f9bba9b5e3ae",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  51898354,
+                                      "Ticks":  68579444,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  189,
+                                      "Milliseconds":  857,
                                       "Minutes":  0,
-                                      "Seconds":  5,
-                                      "TotalDays":  6.0067539351851849E-05,
-                                      "TotalHours":  0.0014416209444444443,
-                                      "TotalMilliseconds":  5189.8354,
-                                      "TotalMinutes":  0.086497256666666675,
-                                      "TotalSeconds":  5.1898354
+                                      "Seconds":  6,
+                                      "TotalDays":  7.9374356481481476E-05,
+                                      "TotalHours":  0.0019049845555555555,
+                                      "TotalMilliseconds":  6857.9444,
+                                      "TotalMinutes":  0.11429907333333333,
+                                      "TotalSeconds":  6.8579444
                                   }
                  },
                  {
@@ -2570,21 +2570,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "28127ae7-4220-4a4b-b7a0-fce6724daebe",
+                                    "RunspaceId":  "d1a4fd88-690d-4e93-b2b2-5b0ef88ea050",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  49312429,
+                                      "Ticks":  65982591,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  931,
+                                      "Milliseconds":  598,
                                       "Minutes":  0,
-                                      "Seconds":  4,
-                                      "TotalDays":  5.7074570601851849E-05,
-                                      "TotalHours":  0.0013697896944444444,
-                                      "TotalMilliseconds":  4931.2429,
-                                      "TotalMinutes":  0.08218738166666667,
-                                      "TotalSeconds":  4.9312429
+                                      "Seconds":  6,
+                                      "TotalDays":  7.6368739583333335E-05,
+                                      "TotalHours":  0.00183284975,
+                                      "TotalMilliseconds":  6598.2591,
+                                      "TotalMinutes":  0.10997098500000001,
+                                      "TotalSeconds":  6.5982591
                                   }
                  },
                  {
@@ -2611,21 +2611,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "eeba4195-cd4d-4bdb-baa3-06ac6d91ca90",
+                                    "RunspaceId":  "23af5a26-8573-45ad-98e2-8d141c7a211e",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  46510671,
+                                      "Ticks":  62322682,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  651,
+                                      "Milliseconds":  232,
                                       "Minutes":  0,
-                                      "Seconds":  4,
-                                      "TotalDays":  5.3831795138888888E-05,
-                                      "TotalHours":  0.0012919630833333332,
-                                      "TotalMilliseconds":  4651.0671,
-                                      "TotalMinutes":  0.077517785,
-                                      "TotalSeconds":  4.6510671
+                                      "Seconds":  6,
+                                      "TotalDays":  7.2132733796296289E-05,
+                                      "TotalHours":  0.001731185611111111,
+                                      "TotalMilliseconds":  6232.2682,
+                                      "TotalMinutes":  0.10387113666666667,
+                                      "TotalSeconds":  6.2322682
                                   }
                  },
                  {
@@ -2652,21 +2652,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "318a81c6-a48a-44ff-be01-f7088c7a9c18",
+                                    "RunspaceId":  "08ab75f0-11d4-478a-9994-b15f46e65f0f",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  44004171,
+                                      "Ticks":  59455808,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  400,
+                                      "Milliseconds":  945,
                                       "Minutes":  0,
-                                      "Seconds":  4,
-                                      "TotalDays":  5.0930753472222218E-05,
-                                      "TotalHours":  0.0012223380833333332,
-                                      "TotalMilliseconds":  4400.4171000000006,
-                                      "TotalMinutes":  0.073340285,
-                                      "TotalSeconds":  4.4004170999999994
+                                      "Seconds":  5,
+                                      "TotalDays":  6.8814592592592586E-05,
+                                      "TotalHours":  0.0016515502222222221,
+                                      "TotalMilliseconds":  5945.5808000000006,
+                                      "TotalMinutes":  0.099093013333333341,
+                                      "TotalSeconds":  5.9455808
                                   }
                  },
                  {
@@ -2693,21 +2693,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "2ac13e67-2d89-4de0-beb9-af4d3b9a1378",
+                                    "RunspaceId":  "41bff97f-866b-4cb3-a8cd-43d164f53a1f",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  36138092,
+                                      "Ticks":  51830417,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  613,
+                                      "Milliseconds":  183,
                                       "Minutes":  0,
-                                      "Seconds":  3,
-                                      "TotalDays":  4.182649537037037E-05,
-                                      "TotalHours":  0.0010038358888888889,
-                                      "TotalMilliseconds":  3613.8092,
-                                      "TotalMinutes":  0.060230153333333335,
-                                      "TotalSeconds":  3.6138092
+                                      "Seconds":  5,
+                                      "TotalDays":  5.9988908564814809E-05,
+                                      "TotalHours":  0.0014397338055555555,
+                                      "TotalMilliseconds":  5183.0417000000007,
+                                      "TotalMinutes":  0.086384028333333335,
+                                      "TotalSeconds":  5.1830416999999995
                                   }
                  },
                  {
@@ -2734,21 +2734,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "c5358707-5402-45b1-a3fd-fdccce8bb201",
+                                    "RunspaceId":  "468f8c9e-3ccc-403c-bd7f-e3490bb78cdb",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  33591749,
+                                      "Ticks":  48494811,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  359,
+                                      "Milliseconds":  849,
                                       "Minutes":  0,
-                                      "Seconds":  3,
-                                      "TotalDays":  3.8879339120370367E-05,
-                                      "TotalHours":  0.00093310413888888881,
-                                      "TotalMilliseconds":  3359.1749,
-                                      "TotalMinutes":  0.055986248333333336,
-                                      "TotalSeconds":  3.3591748999999997
+                                      "Seconds":  4,
+                                      "TotalDays":  5.6128253472222217E-05,
+                                      "TotalHours":  0.0013470780833333333,
+                                      "TotalMilliseconds":  4849.4811,
+                                      "TotalMinutes":  0.080824685000000007,
+                                      "TotalSeconds":  4.8494811
                                   }
                  },
                  {
@@ -2775,21 +2775,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a5bea010-9d83-47f2-a24c-c10bc9014834",
+                                    "RunspaceId":  "47d1cf84-0632-4cca-adf1-6866a87e46fb",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  31081106,
+                                      "Ticks":  46233632,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  108,
+                                      "Milliseconds":  623,
                                       "Minutes":  0,
-                                      "Seconds":  3,
-                                      "TotalDays":  3.5973502314814814E-05,
-                                      "TotalHours":  0.00086336405555555553,
-                                      "TotalMilliseconds":  3108.1106,
-                                      "TotalMinutes":  0.051801843333333333,
-                                      "TotalSeconds":  3.1081106
+                                      "Seconds":  4,
+                                      "TotalDays":  5.3511148148148144E-05,
+                                      "TotalHours":  0.0012842675555555555,
+                                      "TotalMilliseconds":  4623.3632,
+                                      "TotalMinutes":  0.077056053333333333,
+                                      "TotalSeconds":  4.6233632
                                   }
                  },
                  {
@@ -2816,21 +2816,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "79ea538f-1762-48c0-8386-646747deedcd",
+                                    "RunspaceId":  "46a38110-909a-497a-9476-bdf2255fd9e3",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  28475562,
+                                      "Ticks":  42284241,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  847,
+                                      "Milliseconds":  228,
                                       "Minutes":  0,
-                                      "Seconds":  2,
-                                      "TotalDays":  3.2957826388888888E-05,
-                                      "TotalHours":  0.00079098783333333327,
-                                      "TotalMilliseconds":  2847.5562,
-                                      "TotalMinutes":  0.04745927,
-                                      "TotalSeconds":  2.8475562
+                                      "Seconds":  4,
+                                      "TotalDays":  4.894009375E-05,
+                                      "TotalHours":  0.00117456225,
+                                      "TotalMilliseconds":  4228.4241,
+                                      "TotalMinutes":  0.070473735,
+                                      "TotalSeconds":  4.2284241
                                   }
                  },
                  {
@@ -2857,21 +2857,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "a6d98d15-8653-4562-917c-e36caf1d9427",
+                                    "RunspaceId":  "a2e0d65b-b3e8-4398-a6b3-fe19edbf07dc",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  20559423,
+                                      "Ticks":  31016685,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  55,
+                                      "Milliseconds":  101,
                                       "Minutes":  0,
-                                      "Seconds":  2,
-                                      "TotalDays":  2.3795628472222223E-05,
-                                      "TotalHours":  0.00057109508333333327,
-                                      "TotalMilliseconds":  2055.9423,
-                                      "TotalMinutes":  0.034265705,
-                                      "TotalSeconds":  2.0559423
+                                      "Seconds":  3,
+                                      "TotalDays":  3.589894097222222E-05,
+                                      "TotalHours":  0.00086157458333333329,
+                                      "TotalMilliseconds":  3101.6685,
+                                      "TotalMinutes":  0.051694475000000004,
+                                      "TotalSeconds":  3.1016684999999997
                                   }
                  },
                  {
@@ -2898,21 +2898,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f67653d8-13ba-4b56-9a9f-6d3ac2e92ccf",
+                                    "RunspaceId":  "a1b8cf8c-1ace-4c8c-ba9c-c897bd73e89b",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  17921851,
+                                      "Ticks":  25753072,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  792,
+                                      "Milliseconds":  575,
                                       "Minutes":  0,
-                                      "Seconds":  1,
-                                      "TotalDays":  2.0742883101851851E-05,
-                                      "TotalHours":  0.00049782919444444447,
-                                      "TotalMilliseconds":  1792.1851000000001,
-                                      "TotalMinutes":  0.029869751666666666,
-                                      "TotalSeconds":  1.7921851
+                                      "Seconds":  2,
+                                      "TotalDays":  2.9806796296296295E-05,
+                                      "TotalHours":  0.00071536311111111109,
+                                      "TotalMilliseconds":  2575.3072,
+                                      "TotalMinutes":  0.04292178666666667,
+                                      "TotalSeconds":  2.5753071999999997
                                   }
                  },
                  {
@@ -2939,21 +2939,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "262df5b5-85f3-46f4-ba51-74e730a8c344",
+                                    "RunspaceId":  "753e9856-b4d1-43ce-9b18-f24303440e82",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  15545924,
+                                      "Ticks":  21645724,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  554,
+                                      "Milliseconds":  164,
                                       "Minutes":  0,
-                                      "Seconds":  1,
-                                      "TotalDays":  1.7992967592592593E-05,
-                                      "TotalHours":  0.00043183122222222221,
-                                      "TotalMilliseconds":  1554.5924,
-                                      "TotalMinutes":  0.025909873333333333,
-                                      "TotalSeconds":  1.5545924
+                                      "Seconds":  2,
+                                      "TotalDays":  2.5052921296296295E-05,
+                                      "TotalHours":  0.00060127011111111108,
+                                      "TotalMilliseconds":  2164.5724,
+                                      "TotalMinutes":  0.036076206666666666,
+                                      "TotalSeconds":  2.1645724
                                   }
                  },
                  {
@@ -2980,21 +2980,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "f6201632-c09e-43a8-a2ac-d4ec096858f8",
+                                    "RunspaceId":  "59ffb244-5c0e-4e8c-944e-068720937371",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  12842497,
+                                      "Ticks":  228581590,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  284,
+                                      "Milliseconds":  858,
                                       "Minutes":  0,
-                                      "Seconds":  1,
-                                      "TotalDays":  1.4864001157407407E-05,
-                                      "TotalHours":  0.00035673602777777777,
-                                      "TotalMilliseconds":  1284.2497,
-                                      "TotalMinutes":  0.021404161666666668,
-                                      "TotalSeconds":  1.2842497
+                                      "Seconds":  22,
+                                      "TotalDays":  0.00026456202546296293,
+                                      "TotalHours":  0.0063494886111111109,
+                                      "TotalMilliseconds":  22858.159,
+                                      "TotalMinutes":  0.38096931666666667,
+                                      "TotalSeconds":  22.858159
                                   }
                  },
                  {
@@ -3021,21 +3021,21 @@
                                                         ],
                                     "CanEnumerateUserRights":  false,
                                     "PSComputerName":  "localhost",
-                                    "RunspaceId":  "7a11af06-abbe-4dfd-b0d6-f477f7c080d8",
+                                    "RunspaceId":  "bb18df5e-e150-4dd2-b216-e48479710f18",
                                     "PSShowComputerName":  false
                                 },
                      "Duration":  {
-                                      "Ticks":  10945436,
+                                      "Ticks":  225733383,
                                       "Days":  0,
                                       "Hours":  0,
-                                      "Milliseconds":  94,
+                                      "Milliseconds":  573,
                                       "Minutes":  0,
-                                      "Seconds":  1,
-                                      "TotalDays":  1.2668328703703704E-05,
-                                      "TotalHours":  0.00030403988888888885,
-                                      "TotalMilliseconds":  1094.5436,
-                                      "TotalMinutes":  0.018242393333333332,
-                                      "TotalSeconds":  1.0945436
+                                      "Seconds":  22,
+                                      "TotalDays":  0.00026126548958333335,
+                                      "TotalHours":  0.00627037175,
+                                      "TotalMilliseconds":  22573.3383,
+                                      "TotalMinutes":  0.37622230500000003,
+                                      "TotalSeconds":  22.5733383
                                   }
                  }
              ]

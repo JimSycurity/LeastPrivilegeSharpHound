@@ -45,9 +45,15 @@ From [BloodHound Inner Workings Part 2](https://blog.compass-security.com/2022/0
 > ((smb2) || (wkssvc)|| (dcerpc) || (smb)) && !(smb2.ioctl.function == 0x001401fc)
 > ```
 
-Presumably, we can connect to the IPC$ share on the remote host because we can connect to the winreg pipe.
+### Get-WorkstationUser.ps1
 
-If a low-privileged principal fails on executing an RPC call on the wkssvc pipe, is there a security descriptor on that RPC interface that prevents access?
+The script `Get-WorkstationUser.ps1` is designed to make NetWkstaUserEnum calls to remote computers.
+
+The JSON files in `Sessions\Data\Get-WorkstationUser` are results from the `Get-WorkstationUser.ps1` script ran against a small domain in my lab using a series of security principals that are members of nearly every domain and local security group possible.
+
+Note that on Domain Controllers (dc01, dc02, & dc06) the Print Operators group for the domain allows for session enumeration.
+
+On member devices (pki01, she02-04, smb01, ws01), the local Print Operators group allows for session enumeration.
 
 ### Print Operators
 
