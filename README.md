@@ -36,7 +36,7 @@ For remotely collecting registry data over the network via SharpHound there are 
 
 2. Modify the DACL of the HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg subkey by adding an Allow Read ACE with the trustee principal being a tier-appropriate domain local security group which is placed in a secure OU for that tier. Add the SharpHound collection service account for that tier into the corresponding security group. Security descriptors on the registry keys and subkeys provide granular control.
 
-There is no perfect solution here. Each is a tradeoff between granting some trust across the entire winreg named pipe to the SharpHound collector account for that tier vs granting trust across explicit registry paths in the winreg named pipe to any Authenticated User.
+There is no perfect solution here. Each is a tradeoff between granting some trust across the entire winreg named pipe to the SharpHound collector account for that tier vs granting trust across explicit registry paths in the winreg named pipe to any Authenticated User.  Based on my lab testing, using AllowExactPaths is likely the best solution.
 
 ## [Local Groups](/SAMR/README.md)
 
@@ -60,7 +60,7 @@ There is **no known least-privilege method** to accurately collect this data. Pa
 
 ## [Relay Attack Surface](/NTLM/README.md)
 
-No research performed.
+Minimal data was captured regarding LDAP, SMB, CA Enrollment HTTP(S) configurations.  Data for each is in the repo. The registry collection components for NTLM edges utilize WMI StdRegProv as the primary method for attempting to enumerate NTLM related registry key values and the Remote Registry winreg named pipe is a fallback if WMI does not work.
 
 ## [SMB Signing and Encryption](/SMB%20Protocol/README.md)
 
