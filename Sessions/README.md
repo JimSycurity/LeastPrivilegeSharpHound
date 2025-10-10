@@ -14,7 +14,10 @@ To be clear there are 3 session enumeration methods:
   - The Print Operators RID is hard coded into the RPC server for this call.  There is no security descriptor or rights assignment configurable.
 2. If this is a DACL or URA, what would be the best method to set least-privilege access by tier?
   - For Tier Zero, utilize a Tier Zero SharpHound collector and associated Tier Zero gMSA service account.  Add the T0 service account to the builtin domain local Print Operators group to collect session data from Domain Controllers. Utilize Group Policy Preferences (GPP) to add the T0 gMSA to the local Print Operators group and link the GPO to an OU containing the other Tier  Zero servers and PAWs.
-  - For all other tiers, utilize a tiered sharphound collector and associated gMSA service account.  Utilize GPP to add each tier's gMSA to the local Print Operator group. Link the GPO to the OU(s) which contain computers and servers of that specific tier.
+  - For all other tiers, utilize a tiered sharphound collector and associated gMSA service account.  Utilize GPP to add each tier's gMSA to the local Print Operator group. Link the GPO to the OU(s) which contain servers of that specific tier.
+
+> [!NOTE]
+> Windows desktop operating systems do not have a local Print Operators group. Logon sessions from desktop OSes need to be collected with a member of the local Administrators group on the endpoint, or using an alternativce session collection method like Event ID 4624.
 
 
 From [Deconstructing Logon Session Enumeration](https://posts.specterops.io/deconstructing-logon-session-enumeration-0426b8452ef5):
@@ -53,7 +56,7 @@ The JSON files in `Sessions\Data\Get-WorkstationUser` are results from the `Get-
 
 Note that on Domain Controllers (dc01, dc02, & dc06) the Print Operators group for the domain allows for session enumeration.
 
-On member devices (pki01, she02-04, smb01, ws01), the local Print Operators group allows for session enumeration.
+On member devices (pki01, she02-04, smb01), the local Print Operators group allows for session enumeration.
 
 ### Print Operators
 

@@ -1,4 +1,5 @@
-﻿{
+﻿// This collection item is flawed as it was collected from corp1-ws01 to corp1-ws01
+{
     "ComputerName":  "corp1-ws01",
     "ComputerDescription":  "CORP1 Win10 Workstation",
     "ScriptName":  "NetWkstaUserEnum",

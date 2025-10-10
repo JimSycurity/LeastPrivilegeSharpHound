@@ -6,7 +6,7 @@ Repository of scriptlets, lab data, and documentation on achieving least-privile
 
 - **What privileges are required for session enumeration?**
   - Membership in the local Administrators group on the remote host(s) where sessions are being collected is the default permission requirement.
-  - Adding the SharpHound collection account as a member of the builtin Print Operators group allows collection of this data. Group Policy Preferences can assist with configuring tiered collection. It is only necessary to add a collection account to the builtin domain Print Operators group if collecting sessions from Domain Controllers.
+  - Adding the SharpHound collection account as a member of the builtin Print Operators group allows collection of this data. Group Policy Preferences can assist with configuring tiered collection. It is only necessary to add a collection account to the builtin domain Print Operators group if collecting sessions from Domain Controllers. Unfortunately, the Print Operators group is not available on Windows desktop OSes.
 - **What privileges are required for local group collection?**
   - Membership in the local Administrators group on the remote host(s) where local group membership is being collected is the default permission requirement.
   - The SharpHound collection account can be configured with an Allow ACE on the DACL of the registry key HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam. The preferred method to do this is via the GPO setting [Network access: Restrict clients allowed to make remote calls to SAM](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls)
@@ -50,7 +50,7 @@ The preferred method of delegating read access to the SharpHound service account
 
 SharpHound Enterprise captures session data via NetwkstaUserEnum().
 
-Least-privilege collection can be achieved by adding the SharpHound collector account to the builtin Print Operators of the remote host. Membership in the builtin domainlocal Print Operators group is only necessary for collecting session data on Domain Controllers.
+Least-privilege collection can be achieved by adding the SharpHound collector account to the builtin Print Operators of the remote host on Windows Server operating systems. Membership in the builtin domainlocal Print Operators group is only necessary for collecting session data on Domain Controllers.
 
 ## [User Rights Assignments](/Lsa/README.md)
 
