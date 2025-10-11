@@ -6,7 +6,7 @@ Repository of scriptlets, lab data, and documentation on achieving least-privile
 
 - **What privileges are required for session enumeration?**
   - Membership in the local Administrators group on the remote host(s) where sessions are being collected is the default permission requirement.
-  - Adding the SharpHound collection account as a member of the builtin Print Operators group allows collection of this data. Group Policy Preferences can assist with configuring tiered collection. It is only necessary to add a collection account to the builtin domain Print Operators group if collecting sessions from Domain Controllers.
+  - Adding the SharpHound collection account as a member of the builtin Print Operators group allows collection of this data. Group Policy Preferences can assist with configuring tiered collection. It is only necessary to add a collection account to the builtin domain Print Operators group if collecting sessions from Domain Controllers. Unfortunately, the Print Operators group is not available on Windows desktop OSes.
 - **What privileges are required for local group collection?**
   - Membership in the local Administrators group on the remote host(s) where local group membership is being collected is the default permission requirement.
   - The SharpHound collection account can be configured with an Allow ACE on the DACL of the registry key HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\RestrictRemoteSam. The preferred method to do this is via the GPO setting [Network access: Restrict clients allowed to make remote calls to SAM](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/network-access-restrict-clients-allowed-to-make-remote-sam-calls)
@@ -16,14 +16,15 @@ Repository of scriptlets, lab data, and documentation on achieving least-privile
 - **Are there any conflicts between BHE data collection and protection of MDE (e.g. for session collection)?**
   - More research required
 - **What other information can we gain from connecting to all systems (e.g. SMB signing configuration)?**
-  - More research required
+  - SMB signing configuration and NTLM registry settings, which both contribute to NTLM relay edges.
 - **What attack paths are opened with this (e.g. are credentials of the collection user left on the systems through interactive logon, …)?**
-  - All collection methods utilize [Network logon types](https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types), which do not cache credentials on the remote system. If a remote host configured for collection is configured with Kerberos Unconstrainted Delegation, then a Kerberos TGT for the service account may be captured on that host. To prevent this, ensure the collection service account is marked [sensitive and cannot be delegated](https://learn.microsoft.com/en-us/archive/blogs/poshchap/security-focus-analysing-account-is-sensitive-and-cannot-be-delegated-for-privileged-accounts). Additionally, if using a gMSA service account you may wish to test configuring it as a member of the [Protected Users](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/how-to-configure-protected-accounts) group for additional protections.
+  - All collection methods utilize [Network logon types](https://learn.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types), which do not cache credentials on the remote system. If a remote host configured for collection is configured with Kerberos Unconstrainted Delegation, then a Kerberos TGT for the service account may be captured on that host. To prevent this, ensure the collection service account is marked [sensitive and cannot be delegated](https://learn.microsoft.com/en-us/archive/blogs/poshchap/security-focus-analysing-account-is-sensitive-and-cannot-be-delegated-for-privileged-accounts). Additionally, if using a gMSA service account you may wish to test configuring it as a member of the [Protected Users](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/how-to-configure-protected-accounts) group for additional protections. Thorough testing in your environment will be necessary to ensure a gMSA in Protected Users operates properly.
 
 - **What hardening can we apply?**
   - Apply tiering principles to all SharpHound collection accounts
   - Utilize User Rights Assignments to deny interactive login and remote interactive login to all SharpHound collection accounts
   - Limit network traffic (SMB & RPC) required by SharpHound to only SharpHound collector hosts wherever possible.
+  - Prevent Kerberos delegation of the SharpHound collection accounts
 
 ## [Registry Configuration](/RemoteRegistry/README.md)
 
@@ -35,7 +36,7 @@ For remotely collecting registry data over the network via SharpHound there are 
 
 2. Modify the DACL of the HKLM\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\winreg subkey by adding an Allow Read ACE with the trustee principal being a tier-appropriate domain local security group which is placed in a secure OU for that tier. Add the SharpHound collection service account for that tier into the corresponding security group. Security descriptors on the registry keys and subkeys provide granular control.
 
-There is no perfect solution here. Each is a tradeoff between granting some trust across the entire winreg named pipe to the SharpHound collector account for that tier vs granting trust across explicit registry paths in the winreg named pipe to any Authenticated User.
+There is no perfect solution here. Each is a tradeoff between granting some trust across the entire winreg named pipe to the SharpHound collector account for that tier vs granting trust across explicit registry paths in the winreg named pipe to any Authenticated User.  Based on my lab testing, using AllowExactPaths is likely the best solution.
 
 ## [Local Groups](/SAMR/README.md)
 
@@ -49,7 +50,7 @@ The preferred method of delegating read access to the SharpHound service account
 
 SharpHound Enterprise captures session data via NetwkstaUserEnum().
 
-Least-privilege collection can be achieved by adding the SharpHound collector account to the builtin Print Operators of the remote host. Membership in the builtin domainlocal Print Operators group is only necessary for collecting session data on Domain Controllers.
+Least-privilege collection can be achieved by adding the SharpHound collector account to the builtin Print Operators of the remote host on Windows Server operating systems. Membership in the builtin domainlocal Print Operators group is only necessary for collecting session data on Domain Controllers.
 
 ## [User Rights Assignments](/Lsa/README.md)
 
@@ -59,7 +60,7 @@ There is **no known least-privilege method** to accurately collect this data. Pa
 
 ## [Relay Attack Surface](/NTLM/README.md)
 
-No research performed.
+Minimal data was captured regarding LDAP, SMB, CA Enrollment HTTP(S) configurations.  Data for each is in the repo. The registry collection components for NTLM edges utilize WMI StdRegProv as the primary method for attempting to enumerate NTLM related registry key values and the Remote Registry winreg named pipe is a fallback if WMI does not work.
 
 ## [SMB Signing and Encryption](/SMB%20Protocol/README.md)
 
